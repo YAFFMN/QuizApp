@@ -1,0 +1,84 @@
+[
+    {
+        "question1": {
+        "text": "What is the purpose of the `box-sizing` property in CSS?",
+            "option1": "To set the font size",
+            "option2": "To set the background color",
+            "option3": "To include padding and border in the width and height of an element",
+            "option4": "To set the text alignment",
+        "answer": "option3"
+        },
+        "question2": {
+        "text": "What is the difference between `margin` and `padding` in CSS?",
+            "option1": "Margin is for inside the element, padding is for outside",
+            "option2": "Margin is for outside the element, padding is for inside",
+            "option3": "Margin is for horizontal spacing, padding is for vertical spacing",
+            "option4": "Margin is for vertical spacing, padding is for horizontal spacing",
+        "answer": "option2"
+        },
+        "question3": {
+        "text": "What is the purpose of the `float` property in CSS?",
+            "option1": "To set the font style",
+            "option2": "To set the background image",
+            "option3": "To make an element float to the left or right of its parent element",
+            "option4": "To set the text decoration",
+        "answer": "option3"
+        },
+        "question4": {
+        "text": "What is the purpose of the `display` property in CSS?",
+            "option1": "To set the font family",
+            "option2": "To set the background color",
+            "option3": "To control the layout of an element",
+            "option4": "To set the text alignment",
+        "answer": "option3"
+        },
+        "question5": {
+        "text": "What is the purpose of the `position` property in CSS?",
+            "option1": "To set the font size",
+            "option2": "To set the background image",
+            "option3": "To control the positioning of an element",
+            "option4": "To set the text decoration",
+        "answer": "option3"
+        },
+        "question6": {
+        "text": "What is the purpose of the `z-index` property in CSS?",
+            "option1": "To set the font style",
+            "option2": "To set the background color",
+            "option3": "To control the stacking order of elements",
+            "option4": "To set the text alignment",
+        "answer": "option3"
+        },
+        "question7": {
+        "text": "What is the purpose of the `media` query in CSS?",
+            "option1": "To set the font family",
+            "option2": "To set the background image",
+            "option3": "To apply different styles based on different devices or screen sizes",
+            "option4": "To set the text decoration",
+        "answer": "option3"
+        },
+        "question8": {
+        "text": "What is the purpose of the `transition` property in CSS?",
+            "option1": "To set the font size",
+            "option2": "To set the background color",
+            "option3": "To control the animation of an element's properties",
+            "option4": "To set the text alignment",
+        "answer": "option3"
+        },
+        "question9": {
+        "text": "What is the purpose of the `flexbox` layout mode in CSS?",
+            "option1": "To set the font family",
+            "option2": "To set the background image",
+            "option3": "To control the layout of elements in a flexible container",
+            "option4": "To set the text decoration",
+        "answer": "option3"
+        },
+        "question10": {
+        "text": "What is the purpose of the `grid` layout mode in CSS?",
+            "option1": "To set the font size",
+            "option2": "To set the background color",
+            "option3": "To control the layout of elements in a grid container",
+            "option4": "To set the text alignment",
+        "answer": "option3"
+        }
+    }
+]
