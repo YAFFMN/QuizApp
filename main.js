@@ -299,7 +299,6 @@ submitBtn.addEventListener("click", () => {
     bullets.remove();
     let h1 = document.getElementById("h1");
     h1.innerHTML = "Your Results";
-    // will be styled with css
     if (rightAnswers > count / 2 && rightAnswers < count) {
       theResults = `<span class="good results">Good</span>, ${rightAnswers} From ${count}`;
     } else if (rightAnswers === count) {
