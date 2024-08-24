@@ -1,1 +1,1 @@
-# QuizApp
+# Quiz App under the Supervision of STEM October CSC

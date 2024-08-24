@@ -1,0 +1,138 @@
+[
+    {
+        "question": "What is the correct way to define a variable in JavaScript?",
+        "option_1": "var variableName = value;",
+        "option_2": "variableName := value;",
+        "option_3": "variableName = value;",
+        "option_4": "let variableName value;",
+        "answer": "var variableName = value;"
+    },
+    {
+        "question": "How do you create a function in JavaScript?",
+        "option_1": "function functionName(parameters) { // body }",
+        "option_2": "def functionName(parameters) { // body }",
+        "option_3": "func functionName(parameters) { // body }",
+        "option_4": "functionName(parameters) { // body }",
+        "answer": "function functionName(parameters) { // body }"
+    },
+    {
+        "question": "What is the output of 'console.log(typeof 42)' in JavaScript?",
+        "option_1": "number",
+        "option_2": "42",
+        "option_3": "Error",
+        "option_4": "string",
+        "answer": "number"
+    },
+    {
+        "question": "How do you define a constant in JavaScript?",
+        "option_1": "const variableName = value;",
+        "option_2": "var variableName = value;",
+        "option_3": "let variableName = value;",
+        "option_4": "constant variableName = value;",
+        "answer": "const variableName = value;"
+    },
+    {
+        "question": "What is the purpose of the 'this' keyword in JavaScript?",
+        "option_1": "Refers to the object that is executing the current function",
+        "option_2": "Defines a new class",
+        "option_3": "Declares a variable",
+        "option_4": "Creates a new function",
+        "answer": "Refers to the object that is executing the current function"
+    },
+    {
+        "question": "How do you handle exceptions in JavaScript?",
+        "option_1": "Using try-catch blocks",
+        "option_2": "Using if-else statements",
+        "option_3": "Using switch-case statements",
+        "option_4": "Using error codes",
+        "answer": "Using try-catch blocks"
+    },
+    {
+        "question": "What does the 'Array.isArray()' method do in JavaScript?",
+        "option_1": "Checks if a value is an array",
+        "option_2": "Converts an array to a string",
+        "option_3": "Sorts the elements of an array",
+        "option_4": "Creates a new array",
+        "answer": "Checks if a value is an array"
+    },
+    {
+        "question": "How do you define a class in JavaScript?",
+        "option_1": "class ClassName { // body }",
+        "option_2": "function ClassName() { // body }",
+        "option_3": "var ClassName = function() { // body };",
+        "option_4": "define ClassName { // body }",
+        "answer": "class ClassName { // body }"
+    },
+    {
+        "question": "What is the output of 'console.log(5 == '5')' in JavaScript?",
+        "option_1": "true",
+        "option_2": "false",
+        "option_3": "5",
+        "option_4": "Error",
+        "answer": "true"
+    },
+    {
+        "question": "How do you create an object in JavaScript?",
+        "option_1": "let obj = { key: value };",
+        "option_2": "let obj = (key: value);",
+        "option_3": "let obj = [key: value];",
+        "option_4": "let obj = new Object(key: value);",
+        "answer": "let obj = { key: value };"
+    },
+    {
+        "question": "What does the 'map()' method do in JavaScript?",
+        "option_1": "Creates a new array with the results of calling a provided function on every element",
+        "option_2": "Maps the values of an array to a new array",
+        "option_3": "Returns the first element of an array",
+        "option_4": "Filters elements based on a condition",
+        "answer": "Creates a new array with the results of calling a provided function on every element"
+    },
+    {
+        "question": "How do you define a promise in JavaScript?",
+        "option_1": "new Promise((resolve, reject) => { // body })",
+        "option_2": "Promise(function(resolve, reject) { // body })",
+        "option_3": "async function() { // body }",
+        "option_4": "function Promise(resolve, reject) { // body }",
+        "answer": "new Promise((resolve, reject) => { // body })"
+    },
+    {
+        "question": "What is the purpose of the 'await' keyword in JavaScript?",
+        "option_1": "To wait for a promise to resolve",
+        "option_2": "To declare a function",
+        "option_3": "To initialize a variable",
+        "option_4": "To handle exceptions",
+        "answer": "To wait for a promise to resolve"
+    },
+    {
+        "question": "What is 'event delegation' in JavaScript?",
+        "option_1": "Attaching a single event handler to a parent element to manage events for its children",
+        "option_2": "Directly attaching event handlers to multiple child elements",
+        "option_3": "Delegating event handling to external libraries",
+        "option_4": "Using inline event handlers",
+        "answer": "Attaching a single event handler to a parent element to manage events for its children"
+    },
+    {
+        "question": "How do you convert a JSON string to a JavaScript object?",
+        "option_1": "JSON.parse(jsonString)",
+        "option_2": "JSON.stringify(jsonString)",
+        "option_3": "Object.toJSON(jsonString)",
+        "option_4": "eval(jsonString)",
+        "answer": "JSON.parse(jsonString)"
+    },
+    {
+        "question": "How do you remove the last element from an array in JavaScript?",
+        "option_1": "array.pop()",
+        "option_2": "array.shift()",
+        "option_3": "array.splice(-1, 1)",
+        "option_4": "array.remove()",
+        "answer": "array.pop()"
+    },
+    {
+        "question": "What does 'console.log(0.1 + 0.2 == 0.3)' return in JavaScript?",
+        "option_1": "false",
+        "option_2": "true",
+        "option_3": "Error",
+        "option_4": "undefined",
+        "answer": "false"
+    }
+]

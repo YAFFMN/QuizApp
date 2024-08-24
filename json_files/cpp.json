@@ -1,0 +1,138 @@
+[
+    {
+        "question": "What is the correct syntax for including a header file in C++?",
+        "option_1": "#include <header>",
+        "option_2": "#include 'header'",
+        "option_3": "#include header",
+        "option_4": "#include (header)",
+        "answer": "#include <header>"
+    },
+    {
+        "question": "How do you define a function in C++?",
+        "option_1": "type functionName(parameters) { // body }",
+        "option_2": "functionName(type parameters) { // body }",
+        "option_3": "type functionName(parameters) { // body }",
+        "option_4": "functionName(parameters) { // type body }",
+        "answer": "type functionName(parameters) { // body }"
+    },
+    {
+        "question": "What is the purpose of the 'public' keyword in a C++ class?",
+        "option_1": "To define methods that are accessible from outside the class",
+        "option_2": "To declare a private method",
+        "option_3": "To initialize class variables",
+        "option_4": "To define a class constructor",
+        "answer": "To define methods that are accessible from outside the class"
+    },
+    {
+        "question": "What is the use of the 'new' operator in C++?",
+        "option_1": "To allocate memory for a variable or object",
+        "option_2": "To release memory from a variable or object",
+        "option_3": "To define a constant value",
+        "option_4": "To include a header file",
+        "answer": "To allocate memory for a variable or object"
+    },
+    {
+        "question": "How do you create a pointer to an integer in C++?",
+        "option_1": "int *ptr;",
+        "option_2": "int ptr;",
+        "option_3": "pointer int;",
+        "option_4": "int &ptr;",
+        "answer": "int *ptr;"
+    },
+    {
+        "question": "What is the purpose of the 'return' statement in C++?",
+        "option_1": "To exit a function and return a value to the caller",
+        "option_2": "To initialize a variable",
+        "option_3": "To define a class",
+        "option_4": "To include a library",
+        "answer": "To exit a function and return a value to the caller"
+    },
+    {
+        "question": "What is the output of the following C++ code snippet: 'int x = 10; std::cout << x;?'",
+        "option_1": "10",
+        "option_2": "x",
+        "option_3": "Error",
+        "option_4": "std::cout",
+        "answer": "10"
+    },
+    {
+        "question": "What does the 'private' access specifier do in C++?",
+        "option_1": "Restricts access to members of a class to only within the class",
+        "option_2": "Allows access to members from outside the class",
+        "option_3": "Makes members accessible only to derived classes",
+        "option_4": "Defines constants in a class",
+        "answer": "Restricts access to members of a class to only within the class"
+    },
+    {
+        "question": "How do you define a constant value in C++?",
+        "option_1": "const int value = 10;",
+        "option_2": "int const value = 10;",
+        "option_3": "define value 10;",
+        "option_4": "constant int value = 10;",
+        "answer": "const int value = 10;"
+    },
+    {
+        "question": "What is the purpose of the 'virtual' keyword in C++?",
+        "option_1": "To enable polymorphism in derived classes",
+        "option_2": "To define a constant value",
+        "option_3": "To declare a static method",
+        "option_4": "To include a header file",
+        "answer": "To enable polymorphism in derived classes"
+    },
+    {
+        "question": "What is a 'constructor' in C++?",
+        "option_1": "A special method that initializes objects",
+        "option_2": "A function that performs calculations",
+        "option_3": "A variable that holds values",
+        "option_4": "A keyword for memory allocation",
+        "answer": "A special method that initializes objects"
+    },
+    {
+        "question": "How do you handle exceptions in C++?",
+        "option_1": "Using try-catch blocks",
+        "option_2": "Using if-else statements",
+        "option_3": "Using switch-case statements",
+        "option_4": "Using error codes",
+        "answer": "Using try-catch blocks"
+    },
+    {
+        "question": "What is the 'std::vector' in C++?",
+        "option_1": "A dynamic array that can change size",
+        "option_2": "A fixed-size array",
+        "option_3": "A type of pointer",
+        "option_4": "A class for file handling",
+        "answer": "A dynamic array that can change size"
+    },
+    {
+        "question": "What is a 'destructor' in C++?",
+        "option_1": "A special method that cleans up resources when an object is destroyed",
+        "option_2": "A method that initializes objects",
+        "option_3": "A function that performs calculations",
+        "option_4": "A keyword for creating constants",
+        "answer": "A special method that cleans up resources when an object is destroyed"
+    },
+    {
+        "question": "How do you declare a function that does not return a value in C++?",
+        "option_1": "void functionName() {}",
+        "option_2": "int functionName() {}",
+        "option_3": "functionName() {}",
+        "option_4": "return functionName() {}",
+        "answer": "void functionName() {}"
+    },
+    {
+        "question": "What is the use of the 'static' keyword in C++?",
+        "option_1": "To restrict the scope of a variable or method to the file or class",
+        "option_2": "To define a constant value",
+        "option_3": "To create a dynamic array",
+        "option_4": "To perform runtime checks",
+        "answer": "To restrict the scope of a variable or method to the file or class"
+    },
+    {
+        "question": "What is an 'inline' function in C++?",
+        "option_1": "A function whose code is inserted directly into the calling code to improve performance",
+        "option_2": "A function defined inside a class",
+        "option_3": "A function that is called recursively",
+        "option_4": "A function that handles errors",
+        "answer": "A function whose code is inserted directly into the calling code to improve performance"
+    }
+]

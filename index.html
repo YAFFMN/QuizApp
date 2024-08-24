@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz feauture</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- form to begin the quiz -->
+        <h1 id="h1">Test your self</h1>
+        <div id="myForm">
+            <input name="name" id="username" placeholder="Enter your Name">
+            <input id="submitBtn" type="button" value="Submit">
+        </div>
+        <div class="choosen-quiz hide">
+            <h2>Choose the category</h2>
+            <button class="STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED"
+                id="html">HTML</button>
+            <button class="STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED"
+                id="css">CSS</button>
+            <button class="STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED"
+                id="js">JS</button>
+            <button class="STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED"
+                id="java">Java</button>
+            <button class="STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED"
+                id="python">Python</button>
+            <button class="STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED"
+                id="vss">VSS</button>
+            <button class="STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED"
+                id="cpp">C++</button>
+            <button class="STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED"
+                id="c">C</button>
+        </div>
+        <!-- end form -->
+        <!-- all quiz content -->
+        <div class="quiz-app hide">
+            <div class="question-info" id="question-info">
+                <div class="category">
+                    category : <span>ML</span>
+                </div>
+                <div class="count" id="count">
+                    Question count : <span></span>
+                </div>
+            </div>
+            <!-- question area -->
+            <div class="question_area"></div>
+            <!-- answers area -->
+            <div class="answers_area "></div>
+            <!-- to submit the question -->
+            <button class="submit-button">Submit answer</button>
+            <!-- bullets -->
+            <div class="bullets">
+                <div class="spans">
+                </div>
+                <div class="countdown">
+
+                </div>
+            </div>
+            <div class="results"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

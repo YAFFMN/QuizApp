@@ -1,0 +1,114 @@
+[
+    {
+        "question": "How do you declare a variable in Python?",
+        "option_1": "variable_name = value",
+        "option_2": "var variable_name = value",
+        "option_3": "variable_name : value",
+        "option_4": "variable_name := value",
+        "answer": "variable_name = value"
+    },
+    {
+        "question": "What is the output of 'print(type(5))' in Python?",
+        "option_1": "<class 'int'>",
+        "option_2": "int",
+        "option_3": "5",
+        "option_4": "Error",
+        "answer": "<class 'int'>"
+    },
+    {
+        "question": "How do you define a function in Python?",
+        "option_1": "def function_name(parameters):",
+        "option_2": "function_name(parameters) {",
+        "option_3": "function_name(parameters) =",
+        "option_4": "function function_name(parameters):",
+        "answer": "def function_name(parameters):"
+    },
+    {
+        "question": "What is the purpose of the 'self' keyword in Python?",
+        "option_1": "To refer to the instance of the class",
+        "option_2": "To define a static method",
+        "option_3": "To create a new class",
+        "option_4": "To declare a global variable",
+        "answer": "To refer to the instance of the class"
+    },
+    {
+        "question": "How do you handle exceptions in Python?",
+        "option_1": "Using try-except blocks",
+        "option_2": "Using if-else statements",
+        "option_3": "Using switch-case statements",
+        "option_4": "Using error codes",
+        "answer": "Using try-except blocks"
+    },
+    {
+        "question": "How do you create a list in Python?",
+        "option_1": "list_name = [item1, item2]",
+        "option_2": "list_name = (item1, item2)",
+        "option_3": "list_name = {item1, item2}",
+        "option_4": "list_name = <item1, item2>",
+        "answer": "list_name = [item1, item2]"
+    },
+    {
+        "question": "What is the output of 'len([1, 2, 3])' in Python?",
+        "option_1": "3",
+        "option_2": "6",
+        "option_3": "Error",
+        "option_4": "None",
+        "answer": "3"
+    },
+    {
+        "question": "How do you import a module in Python?",
+        "option_1": "import module_name",
+        "option_2": "include module_name",
+        "option_3": "require module_name",
+        "option_4": "load module_name",
+        "answer": "import module_name"
+    },
+    {
+        "question": "What is the purpose of the 'return' statement in Python?",
+        "option_1": "To exit a function and return a value to the caller",
+        "option_2": "To define a new function",
+        "option_3": "To create a variable",
+        "option_4": "To include a module",
+        "answer": "To exit a function and return a value to the caller"
+    },
+    {
+        "question": "How do you define a class in Python?",
+        "option_1": "class ClassName:",
+        "option_2": "def ClassName:",
+        "option_3": "ClassName = class:",
+        "option_4": "create ClassName:",
+        "answer": "class ClassName:"
+    },
+    {
+        "question": "What does the 'pass' statement do in Python?",
+        "option_1": "It is a placeholder that does nothing",
+        "option_2": "It terminates the program",
+        "option_3": "It prints a message",
+        "option_4": "It defines a new function",
+        "answer": "It is a placeholder that does nothing"
+    },
+    {
+        "question": "What is a 'dictionary' in Python?",
+        "option_1": "A collection of key-value pairs",
+        "option_2": "A collection of ordered items",
+        "option_3": "A single value container",
+        "option_4": "A type of list",
+        "answer": "A collection of key-value pairs"
+    },
+    {
+        "question": "How do you access a value in a dictionary by key?",
+        "option_1": "dictionary_name[key]",
+        "option_2": "dictionary_name.key",
+        "option_3": "dictionary_name.get(key)",
+        "option_4": "dictionary_name[key].value",
+        "answer": "dictionary_name[key]"
+    },
+    {
+        "question": "What is the output of '3 * 1 ** 2' in Python?",
+        "option_1": "3",
+        "option_2": "9",
+        "option_3": "6",
+        "option_4": "1",
+        "answer": "3"
+    }
+]

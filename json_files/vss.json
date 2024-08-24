@@ -1,0 +1,122 @@
+[
+    {
+        "question": "What is Visual SourceSafe (VSS) used for?",
+        "option_1": "Source code management",
+        "option_2": "Database management",
+        "option_3": "Web development",
+        "option_4": "Network monitoring",
+        "answer": "Source code management"
+    },
+    {
+        "question": "How do you check in a file in VSS?",
+        "option_1": "Select 'Check In' from the context menu",
+        "option_2": "Drag and drop the file to the repository",
+        "option_3": "Use the command line `vss checkin`",
+        "option_4": "Press 'Ctrl + S'",
+        "answer": "Select 'Check In' from the context menu"
+    },
+    {
+        "question": "What does the 'Get Latest Version' command do in VSS?",
+        "option_1": "Downloads the latest version of the file from the repository",
+        "option_2": "Uploads the latest version of the file to the repository",
+        "option_3": "Deletes the latest version of the file",
+        "option_4": "Displays a list of recent changes",
+        "answer": "Downloads the latest version of the file from the repository"
+    },
+    {
+        "question": "What is a 'label' used for in VSS?",
+        "option_1": "To tag a specific version of a file or project",
+        "option_2": "To rename a file",
+        "option_3": "To delete a file",
+        "option_4": "To create a new branch",
+        "answer": "To tag a specific version of a file or project"
+    },
+    {
+        "question": "How can you compare two versions of a file in VSS?",
+        "option_1": "Use the 'Show Differences' option",
+        "option_2": "Use the 'Merge' tool",
+        "option_3": "Manually open both versions side by side",
+        "option_4": "Use the 'Check Out' command",
+        "answer": "Use the 'Show Differences' option"
+    },
+    {
+        "question": "What command is used to create a new project in VSS?",
+        "option_1": "New Project",
+        "option_2": "Create Repository",
+        "option_3": "Add New Project",
+        "option_4": "Create New",
+        "answer": "New Project"
+    },
+    {
+        "question": "What is the purpose of the 'History' command in VSS?",
+        "option_1": "To view the change history of a file",
+        "option_2": "To restore a deleted file",
+        "option_3": "To archive old files",
+        "option_4": "To update the repository",
+        "answer": "To view the change history of a file"
+    },
+    {
+        "question": "How do you create a branch in VSS?",
+        "option_1": "Use the 'Branch' command",
+        "option_2": "Duplicate the project folder",
+        "option_3": "Use the 'Copy' command",
+        "option_4": "Create a new label",
+        "answer": "Use the 'Branch' command"
+    },
+    {
+        "question": "What does the 'Check Out' command do in VSS?",
+        "option_1": "Locks the file for editing and downloads it",
+        "option_2": "Unlocks the file for others to edit",
+        "option_3": "Uploads a new version of the file",
+        "option_4": "Deletes the file from the repository",
+        "answer": "Locks the file for editing and downloads it"
+    },
+    {
+        "question": "What is the primary function of the 'Undo Check Out' command?",
+        "option_1": "To discard changes made to a file and restore the last checked-in version",
+        "option_2": "To commit changes to the repository",
+        "option_3": "To compare the current version with the latest version",
+        "option_4": "To merge changes from multiple versions",
+        "answer": "To discard changes made to a file and restore the last checked-in version"
+    },
+    {
+        "question": "How can you recover a file that was deleted in VSS?",
+        "option_1": "Use the 'Get Old' command",
+        "option_2": "Restore from the archive",
+        "option_3": "Use the 'Show Differences' command",
+        "option_4": "Retrieve from history",
+        "answer": "Restore from the archive"
+    },
+    {
+        "question": "What is the role of a 'project' in VSS?",
+        "option_1": "To group related files and folders",
+        "option_2": "To compile the source code",
+        "option_3": "To execute scripts",
+        "option_4": "To manage user permissions",
+        "answer": "To group related files and folders"
+    },
+    {
+        "question": "How do you delete a project in VSS?",
+        "option_1": "Use the 'Delete' command from the context menu",
+        "option_2": "Use the 'Remove' option",
+        "option_3": "Select 'Archive' and then delete",
+        "option_4": "Use the command line `vss delete`",
+        "answer": "Use the 'Delete' command from the context menu"
+    },
+    {
+        "question": "What does the 'Check In' command do in VSS?",
+        "option_1": "Uploads the file and makes it available for others to edit",
+        "option_2": "Locks the file for editing",
+        "option_3": "Deletes the file from the repository",
+        "option_4": "Unlocks the file for other users",
+        "answer": "Uploads the file and makes it available for others to edit"
+    },
+    {
+        "question": "What is the function of the 'Add Files' command in VSS?",
+        "option_1": "To include new files into the repository",
+        "option_2": "To move files to a different location",
+        "option_3": "To delete existing files",
+        "option_4": "To create a new branch",
+        "answer": "To include new files into the repository"
+    }
+]
