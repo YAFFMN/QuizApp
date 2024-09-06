@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(14,22,54) ;
+}
 *{
     margin: 0;
     padding: 0;
@@ -15,17 +18,55 @@
     transform: translate(50%,20%);
 }
 .container h1{
-    font-size: 35px;
+    font-family: serif;
+    font-size: 50px;
+    color: #ffffff;
 }
 #myForm{
     padding: 20px;
     margin: 10px;
 }
+#username{
+    background-color: #eff1fa;
+    border: 0px;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+    margin-right: 3px;
+    padding-left: 7px;
+}
+.STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED{
+    background-color: #d1d7f3;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: serif;
+    color: #152864;
+    border: 0px;
+    height: 100px;
+    width: 100px;
+    border-radius: 3px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+}
+.STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED img{
+    width: 65px; 
+    height: 80px;
+}
+.choosen-quiz h2{
+    color: #08202b;
+    margin-bottom: 20px;
+}
 .choosen-quiz{
     padding: 20px;
     margin: 10px;
+    animation: choqu;
+    animation-duration: 2s;
+    opacity:1 ;
 }
-
+@keyframes choqu {
+    0%{opacity: 0;}
+    100% {opacity: 1;}
+}
 .quiz-app .question_area{
     padding: 20px;
 }
@@ -61,8 +102,14 @@
     color: red;
 }
 #submitBtn{
-    width: 60px;
+    background-color: rgb(14,22,54);
+    color: #d1d7f3;
+    border: 0px;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
     text-align: center;
+    cursor: pointer;
 }
 
 .hide{
