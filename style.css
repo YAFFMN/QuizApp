@@ -1,11 +1,15 @@
 body{
-    background-color: rgb(14,22,54) ;
+    background-color: var(--background-color) ;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --background-color:rgb(14,22,54);
+    --main-color: #2346ae;
 }
 .container{
     height: 500px;
@@ -15,7 +19,7 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: #2346ae;
+    background-color: var(--main-color);
     transform: translate(50%,20%);
 }
 .container h1{
@@ -61,7 +65,7 @@ body{
     padding: 20px;
     margin: 10px;
     animation: choqu;
-    animation-duration: 2s;
+    animation-duration: 1s;
     opacity:1 ;
 }
 @keyframes choqu {
@@ -112,6 +116,30 @@ body{
     text-align: center;
     cursor: pointer;
 }
+.quiz-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.question-info{
+    font-size: 18px;
+    color: #fff;
+    background-color: #5975c9;
+    width: 500px;
+    padding: 10px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-info .category,
+.question-info .count{
+    padding: 10px;
+}
+
 
 .hide{
     display: none;

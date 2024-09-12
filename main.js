@@ -1,21 +1,3 @@
-/*    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
-
-    const firebaseConfig = {
-    apiKey: "AIzaSyDVSJgFVFg_LucTiCsV-yT8kjqIJjytutY",
-    authDomain: "quiz-98a34.firebaseapp.com",
-    databaseURL: "https://quiz-98a34-default-rtdb.firebaseio.com",
-    projectId: "quiz-98a34",
-    storageBucket: "quiz-98a34.appspot.com",
-    messagingSenderId: "679764665347",
-    appId: "1:679764665347:web:0d67b22b531eda36419a36"
-    };
-
-    const app = initializeApp(firebaseConfig);
-    import {getDatabase, ref, child, get, set, update, remove} from "https://www.gstatic.com/firebasejs/10.13.0/firebase-database.js";
-
-    const db = getDatabase;
-    */
 //constants & variables
 let username;
 const submitBtn = document.getElementById("submitBtn");
@@ -39,7 +21,7 @@ let countDownInterval;
 //first form
 submitBtn.addEventListener("click", () => {
   username = document.getElementById("username").value;
-  if (!/[A-Za-z]/ig.test(username)) {
+  if (!/[A-Za-z]/gi.test(username)) {
     alert("Please enter your username");
   } else {
     chquiz.classList.remove(`hide`);
@@ -58,7 +40,7 @@ submitBtn.addEventListener("click", () => {
     myRequest.onreadystatechange = function () {
       if (this.readyState === 4 && this.status === 200) {
         let questionObject = JSON.parse(this.responseText);
-        let questionCount = 3;
+        let questionCount = 5;
         //create bullets & set question number & category
         createBullets(questionCount);
         category.innerHTML = language.id;
@@ -73,7 +55,7 @@ submitBtn.addEventListener("click", () => {
         addData(randQuestion, questionCount);
 
         //countdown
-        countdown(300, questionCount);
+        countdown(3000, questionCount);
 
         //functioning the submit button
         quizSubmitButton.onclick = () => {
@@ -106,89 +88,6 @@ submitBtn.addEventListener("click", () => {
     quiz_app.classList.remove("hide");
   });
   ////////////////////
-  // css.addEventListener('click', () =>{
-  //     let myRequest = new XMLHttpRequest();
-  //     myRequest.onreadystatechange = function () {
-  //         if(this.readyState === 4 && this.status === 200){
-  //             let questionObject = JSON.parse(this.responseText);
-  //             console.log(questionObject);
-  //     }
-  // };
-  //     myRequest.open("GET", "json_files/css.json", true);
-  //     myRequest.send();
-  //     chquiz.classList.add('hide');
-  //     quiz_app.classList.remove('hide');
-  // })
-  // ////////////////////
-  // js.addEventListener('click', () =>{
-  //     let myRequest = new XMLHttpRequest();
-  //     myRequest.onreadystatechange = function () {
-  //         if(this.readyState === 4 && this.status === 200){
-  //             let questionObject = JSON.parse(this.responseText);
-  //             console.log(questionObject);
-  //     }
-  // };
-  //     myRequest.open("GET", "json_files/js.json", true);
-  //     myRequest.send();
-  //     chquiz.classList.add('hide');
-  //     quiz_app.classList.remove('hide');
-  // })
-  // ////////////////////
-  // java.addEventListener('click', () =>{
-  //     let myRequest = new XMLHttpRequest();
-  //     myRequest.onreadystatechange = function () {
-  //         if(this.readyState === 4 && this.status === 200){
-  //             let questionObject = JSON.parse(this.responseText);
-  //             console.log(questionObject);
-  //     }
-  // };
-  //     myRequest.open("GET", "json_files/java.json", true);
-  //     myRequest.send();
-  //     chquiz.classList.add('hide');
-  //     quiz_app.classList.remove('hide');
-  // })
-  // ////////////////////
-  // python.addEventListener('click', () =>{
-  //     let myRequest = new XMLHttpRequest();
-  //     myRequest.onreadystatechange = function () {
-  //         if(this.readyState === 4 && this.status === 200){
-  //             let questionObject = JSON.parse(this.responseText);
-  //             console.log(questionObject);
-  //     }
-  // };
-  //     myRequest.open("GET", "json_files/python.json", true);
-  //     myRequest.send();
-  //     chquiz.classList.add('hide');
-  //     quiz_app.classList.remove('hide');
-  // })
-  // ////////////////////
-  // cpp.addEventListener('click', () =>{
-  //     let myRequest = new XMLHttpRequest();
-  //     myRequest.onreadystatechange = function () {
-  //         if(this.readyState === 4 && this.status === 200){
-  //             let questionObject = JSON.parse(this.responseText);
-  //             console.log(questionObject);
-  //     }
-  // };
-  //     myRequest.open("GET", "json_files/cpp.json", true);
-  //     myRequest.send();
-  //     chquiz.classList.add('hide');
-  //     quiz_app.classList.remove('hide');
-  // })
-  // ////////////////////
-  // c.addEventListener('click', () =>{
-  //     let myRequest = new XMLHttpRequest();
-  //     myRequest.onreadystatechange = function () {
-  //         if(this.readyState === 4 && this.status === 200){
-  //             let questionObject = JSON.parse(this.responseText);
-  //             console.log(questionObject);
-  //     }
-  // };
-  //     myRequest.open("GET", "json_files/c.json", true);
-  //     myRequest.send();
-  //     chquiz.classList.add('hide');
-  //     quiz_app.classList.remove('hide');
-  // })
 
   function createBullets(num) {
     countSpan.innerHTML = num;
