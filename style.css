@@ -81,13 +81,13 @@ body{
     color: #00283e;
     padding: 15px 7px;
     width: 100%;
-    background-color: rgb(113, 191, 236) ;
+    background-image: linear-gradient(to top , rgb(113, 191, 236) , rgb(2, 98, 153) ); 
 }
 .quiz-app .answers_area{
     padding: 20px 15px;
     font-size: 20px;
     width: 100%;
-    background-image: linear-gradient(to bottom , rgb(113, 191, 236) , rgb(2, 98, 153) ); 
+    background-image: linear-gradient(to bottom , rgb(113, 191, 236) 50% , rgb(2, 98, 153) ); 
     text-align: left;
 }
 .submit-button{
