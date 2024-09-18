@@ -181,7 +181,7 @@ submitBtn.addEventListener("click", () => {
       if (rightAnswers > count / 2 && rightAnswers < count) {
         theResults = `<span class="good results">Good</span>, ${rightAnswers} From ${count}`;
       } else if (rightAnswers === count) {
-        theResults = `<span class="perfect results">Perfect</span>, All Answers Is Good`;
+        theResults = `<span class="perfect results">Perfect</span>, All Answers are Good`;
       } else {
         theResults = `<span class="bad results">Bad</span>, ${rightAnswers} From ${count}`;
       }
@@ -207,6 +207,7 @@ submitBtn.addEventListener("click", () => {
     }
     resultsContainer.innerHTML = theResults;
   }
+
   function countdown(duration, count) {
     if (currentIndex < count) {
       let minutes, seconds;
