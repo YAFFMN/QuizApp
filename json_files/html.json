@@ -78,7 +78,645 @@
         "option_3": "<img>",
         "option_4": "<a>",
         "answer": "<p>"
+    },
+    {
+        "question": "What is the tag used to create a footer in HTML?",
+        "option_1": "<bottom>",
+        "option_2": "<footer>",
+        "option_3": "<end>",
+        "option_4": "<foot>",
+        "answer": "<footer>"
+    },
+    {
+        "question": "What is the purpose of the `<div>` tag in HTML?",
+        "option_1": "To define a division or section",
+        "option_2": "To define a link",
+        "option_3": "To define a heading",
+        "option_4": "To define an image",
+        "answer": "To define a division or section"
+    },
+    {
+        "question": "What is the tag used to create a button in HTML?",
+        "option_1": "<btn>",
+        "option_2": "<button>",
+        "option_3": "<input>",
+        "option_4": "<click>",
+        "answer": "<button>"
+    },
+    {
+        "question": "What is the purpose of the `<span>` tag in HTML?",
+        "option_1": "To group inline elements",
+        "option_2": "To create a list",
+        "option_3": "To create a header",
+        "option_4": "To create a footer",
+        "answer": "To group inline elements"
+    },
+    {
+        "question": "What is the tag used to create an ordered list in HTML?",
+        "option_1": "<ul>",
+        "option_2": "<ol>",
+        "option_3": "<list>",
+        "option_4": "<item>",
+        "answer": "<ol>"
+    },
+    {
+        "question": "What is the tag used for an unordered list in HTML?",
+        "option_1": "<ul>",
+        "option_2": "<ol>",
+        "option_3": "<list>",
+        "option_4": "<item>",
+        "answer": "<ul>"
+    },
+    {
+        "question": "What is the purpose of the `<meta>` tag in HTML?",
+        "option_1": "To define metadata about the document",
+        "option_2": "To define a script",
+        "option_3": "To define an image",
+        "option_4": "To define a link",
+        "answer": "To define metadata about the document"
+    },
+    {
+        "question": "What tag is used to create a line break in HTML?",
+        "option_1": "<break>",
+        "option_2": "<br>",
+        "option_3": "<line>",
+        "option_4": "<hr>",
+        "answer": "<br>"
+    },
+    {
+        "question": "What is the tag used to create a horizontal line in HTML?",
+        "option_1": "<hr>",
+        "option_2": "<line>",
+        "option_3": "<hline>",
+        "option_4": "<break>",
+        "answer": "<hr>"
+    },
+    {
+        "question": "What is the purpose of the `<link>` tag in HTML?",
+        "option_1": "To define a link to an external resource",
+        "option_2": "To create a hyperlink",
+        "option_3": "To define an image",
+        "option_4": "To define a script",
+        "answer": "To define a link to an external resource"
+    },
+    {
+        "question": "What is the tag used to include an external JavaScript file in HTML?",
+        "option_1": "<script src=''>",
+        "option_2": "<js>",
+        "option_3": "<javascript>",
+        "option_4": "<link>",
+        "answer": "<script src=''>"
+    },
+    {
+        "question": "What is the purpose of the `<iframe>` tag in HTML?",
+        "option_1": "To create a frame within a page",
+        "option_2": "To include a video",
+        "option_3": "To define an image",
+        "option_4": "To define a link",
+        "answer": "To create a frame within a page"
+    },
+    {
+        "question": "What is the tag used to define a table in HTML?",
+        "option_1": "<table>",
+        "option_2": "<tab>",
+        "option_3": "<list>",
+        "option_4": "<data>",
+        "answer": "<table>"
+    },
+    {
+        "question": "What tag is used to define a table row in HTML?",
+        "option_1": "<tr>",
+        "option_2": "<td>",
+        "option_3": "<th>",
+        "option_4": "<table-row>",
+        "answer": "<tr>"
+    },
+    {
+        "question": "What tag is used to define a table header in HTML?",
+        "option_1": "<th>",
+        "option_2": "<tr>",
+        "option_3": "<td>",
+        "option_4": "<thead>",
+        "answer": "<th>"
+    },
+    {
+        "question": "What tag is used to define a table cell in HTML?",
+        "option_1": "<cell>",
+        "option_2": "<td>",
+        "option_3": "<th>",
+        "option_4": "<tr>",
+        "answer": "<td>"
+    },
+    {
+        "question": "What is the tag used to create a form in HTML?",
+        "option_1": "<form>",
+        "option_2": "<input>",
+        "option_3": "<fieldset>",
+        "option_4": "<section>",
+        "answer": "<form>"
+    },
+    {
+        "question": "What is the tag used to create an input field in HTML?",
+        "option_1": "<input>",
+        "option_2": "<textfield>",
+        "option_3": "<form>",
+        "option_4": "<field>",
+        "answer": "<input>"
+    },
+    {
+        "question": "What attribute is used to specify the action in a form?",
+        "option_1": "method",
+        "option_2": "action",
+        "option_3": "type",
+        "option_4": "target",
+        "answer": "action"
+    },
+    {
+        "question": "What is the tag used to create a radio button in HTML?",
+        "option_1": "<radio>",
+        "option_2": "<input type='radio'>",
+        "option_3": "<button>",
+        "option_4": "<option>",
+        "answer": "<input type='radio'>"
+    },
+    {
+        "question": "What is the purpose of the `<canvas>` tag in HTML?",
+        "option_1": "To create graphics on the fly",
+        "option_2": "To create a table",
+        "option_3": "To display images",
+        "option_4": "To create forms",
+        "answer": "To create graphics on the fly"
+    },
+    {
+        "question": "What tag is used to define a tooltip in HTML?",
+        "option_1": "<tooltip>",
+        "option_2": "<title>",
+        "option_3": "<info>",
+        "option_4": "<span>",
+        "answer": "<title>"
+    },
+    {
+        "question": "What is the purpose of the `<address>` tag in HTML?",
+        "option_1": "To define contact information",
+        "option_2": "To create a link",
+        "option_3": "To define an image",
+        "option_4": "To create a form",
+        "answer": "To define contact information"
+    },
+    {
+        "question": "What is the tag used to create an HTML comment?",
+        "option_1": "// comment",
+        "option_2": "<!-- comment -->",
+        "option_3": "<comment>",
+        "option_4": "// <comment>",
+        "answer": "<!-- comment -->"
+    },
+    {
+        "question": "What is the purpose of the `<blockquote>` tag in HTML?",
+        "option_1": "To define a quote",
+        "option_2": "To create a list",
+        "option_3": "To define an image",
+        "option_4": "To create a link",
+        "answer": "To define a quote"
+    },
+    {
+        "question": "What is the tag used to create a definition list in HTML?",
+        "option_1": "<dl>",
+        "option_2": "<def>",
+        "option_3": "<list>",
+        "option_4": "<dt>",
+        "answer": "<dl>"
+    },
+    {
+        "question": "What is the tag used to define a term in a definition list?",
+        "option_1": "<dt>",
+        "option_2": "<def>",
+        "option_3": "<term>",
+        "option_4": "<dl>",
+        "answer": "<dt>"
+    },
+    {
+        "question": "What is the tag used to define a description in a definition list?",
+        "option_1": "<dd>",
+        "option_2": "<description>",
+        "option_3": "<def>",
+        "option_4": "<dt>",
+        "answer": "<dd>"
+    },
+    {
+        "question": "What is the purpose of the `<noscript>` tag in HTML?",
+        "option_1": "To provide an alternative for non-JavaScript users",
+        "option_2": "To define a script",
+        "option_3": "To create a link",
+        "option_4": "To define metadata",
+        "answer": "To provide an alternative for non-JavaScript users"
+    },
+    {
+        "question": "What is the tag used to define a keyboard input in HTML?",
+        "option_1": "<key>",
+        "option_2": "<kbd>",
+        "option_3": "<input>",
+        "option_4": "<code>",
+        "answer": "<kbd>"
+    },
+    {
+        "question": "What is the tag used to define sample output in HTML?",
+        "option_1": "<output>",
+        "option_2": "<result>",
+        "option_3": "<code>",
+        "option_4": "<var>",
+        "answer": "<output>"
+    },
+    {
+        "question": "What is the tag used to define a variable in HTML?",
+        "option_1": "<variable>",
+        "option_2": "<var>",
+        "option_3": "<value>",
+        "option_4": "<output>",
+        "answer": "<var>"
+    },
+    {
+        "question": "What is the tag used to define a quotation in HTML?",
+        "option_1": "<q>",
+        "option_2": "<quote>",
+        "option_3": "<blockquote>",
+        "option_4": "<cite>",
+        "answer": "<q>"
+    },
+    {
+        "question": "What is the purpose of the `<cite>` tag in HTML?",
+        "option_1": "To define a citation",
+        "option_2": "To create a quote",
+        "option_3": "To define a link",
+        "option_4": "To create a list",
+        "answer": "To define a citation"
+    },
+    {
+        "question": "What tag is used to define a time in HTML?",
+        "option_1": "<time>",
+        "option_2": "<date>",
+        "option_3": "<datetime>",
+        "option_4": "<period>",
+        "answer": "<time>"
+    },
+    {
+        "question": "What is the purpose of the `<progress>` tag in HTML?",
+        "option_1": "To display a progress bar",
+        "option_2": "To create a form",
+        "option_3": "To define a script",
+        "option_4": "To create an image",
+        "answer": "To display a progress bar"
+    },
+    {
+        "question": "What is the tag used to define a meter in HTML?",
+        "option_1": "<meter>",
+        "option_2": "<progress>",
+        "option_3": "<bar>",
+        "option_4": "<gauge>",
+        "answer": "<meter>"
+    },
+    {
+        "question": "What is the tag used to define a keygen element in HTML?",
+        "option_1": "<keygen>",
+        "option_2": "<generate>",
+        "option_3": "<input>",
+        "option_4": "<form>",
+        "answer": "<keygen>"
+    },
+    {
+        "question": "What is the tag used to create a dialog box in HTML?",
+        "option_1": "<dialog>",
+        "option_2": "<box>",
+        "option_3": "<modal>",
+        "option_4": "<popup>",
+        "answer": "<dialog>"
+    },
+    {
+        "question": "What is the purpose of the `<summary>` tag in HTML?",
+        "option_1": "To define a summary of details",
+        "option_2": "To create a table",
+        "option_3": "To create a link",
+        "option_4": "To define a quote",
+        "answer": "To define a summary of details"
+    },
+    {
+        "question": "What is the tag used to define a details element in HTML?",
+        "option_1": "<details>",
+        "option_2": "<summary>",
+        "option_3": "<info>",
+        "option_4": "<content>",
+        "answer": "<details>"
+    },
+    {
+        "question": "What is the tag used to define a tooltip in HTML?",
+        "option_1": "<tooltip>",
+        "option_2": "<title>",
+        "option_3": "<hint>",
+        "option_4": "<tip>",
+        "answer": "<title>"
+    },
+    {
+        "question": "What is the purpose of the `<abbr>` tag in HTML?",
+        "option_1": "To define an abbreviation",
+        "option_2": "To create a link",
+        "option_3": "To define an image",
+        "option_4": "To create a list",
+        "answer": "To define an abbreviation"
+    },
+    {
+        "question": "What is the tag used to define a language in HTML?",
+        "option_1": "<lang>",
+        "option_2": "<language>",
+        "option_3": "<html lang=''>",
+        "option_4": "<meta charset=''>",
+        "answer": "<html lang=''>"
+    },
+    {
+        "question": "What is the tag used to define a section in HTML?",
+        "option_1": "<section>",
+        "option_2": "<div>",
+        "option_3": "<article>",
+        "option_4": "<group>",
+        "answer": "<section>"
+    },
+    {
+        "question": "What is the purpose of the `<article>` tag in HTML?",
+        "option_1": "To define a self-contained composition",
+        "option_2": "To create a list",
+        "option_3": "To create a link",
+        "option_4": "To define an image",
+        "answer": "To define a self-contained composition"
+    },
+    {
+        "question": "What is the tag used to define a navigation section in HTML?",
+        "option_1": "<nav>",
+        "option_2": "<link>",
+        "option_3": "<menu>",
+        "option_4": "<section>",
+        "answer": "<nav>"
+    },
+    {
+        "question": "What is the tag used to create an external link in HTML?",
+        "option_1": "<a href=''>",
+        "option_2": "<link>",
+        "option_3": "<url>",
+        "option_4": "<hyperlink>",
+        "answer": "<a href=''>"
+    },
+    {
+        "question": "What is the purpose of the `<meta charset=''>` tag in HTML?",
+        "option_1": "To define character encoding",
+        "option_2": "To define a script",
+        "option_3": "To create a link",
+        "option_4": "To define a style",
+        "answer": "To define character encoding"
+    },
+    {
+        "question": "What is the tag used to create a side navigation menu in HTML?",
+        "option_1": "<menu>",
+        "option_2": "<nav>",
+        "option_3": "<sidebar>",
+        "option_4": "<section>",
+        "answer": "<nav>"
+    },
+    {
+        "question": "What is the tag used to define a main content area in HTML?",
+        "option_1": "<main>",
+        "option_2": "<content>",
+        "option_3": "<section>",
+        "option_4": "<article>",
+        "answer": "<main>"
+    },
+    {
+        "question": "What is the purpose of the `<embed>` tag in HTML?",
+        "option_1": "To embed external content",
+        "option_2": "To create a table",
+        "option_3": "To define a script",
+        "option_4": "To create a list",
+        "answer": "To embed external content"
+    },
+    {
+        "question": "What is the tag used to create a video element in HTML?",
+        "option_1": "<video>",
+        "option_2": "<media>",
+        "option_3": "<movie>",
+        "option_4": "<film>",
+        "answer": "<video>"
+    },
+    {
+        "question": "What is the tag used to create an audio element in HTML?",
+        "option_1": "<audio>",
+        "option_2": "<sound>",
+        "option_3": "<media>",
+        "option_4": "<music>",
+        "answer": "<audio>"
+    },
+    {
+        "question": "What is the purpose of the `<source>` tag in HTML?",
+        "option_1": "To specify multiple media resources",
+        "option_2": "To create a link",
+        "option_3": "To define an image",
+        "option_4": "To create a list",
+        "answer": "To specify multiple media resources"
+    },
+    {
+        "question": "What is the tag used to define a video source in HTML?",
+        "option_1": "<video src=''>",
+        "option_2": "<source>",
+        "option_3": "<media>",
+        "option_4": "<movie>",
+        "answer": "<source>"
+    },
+    {
+        "question": "What is the tag used to define an audio source in HTML?",
+        "option_1": "<audio src=''>",
+        "option_2": "<source>",
+        "option_3": "<sound>",
+        "option_4": "<music>",
+        "answer": "<source>"
+    },
+    {
+        "question": "What is the purpose of the `<track>` tag in HTML?",
+        "option_1": "To specify text tracks for video",
+        "option_2": "To create a table",
+        "option_3": "To define a script",
+        "option_4": "To create a list",
+        "answer": "To specify text tracks for video"
+    },
+    {
+        "question": "What is the tag used to define a script in HTML?",
+        "option_1": "<script>",
+        "option_2": "<js>",
+        "option_3": "<code>",
+        "option_4": "<function>",
+        "answer": "<script>"
+    },
+    {
+        "question": "What is the tag used to create a custom input type in HTML?",
+        "option_1": "<input type=''>",
+        "option_2": "<custom>",
+        "option_3": "<input>",
+        "option_4": "<define>",
+        "answer": "<input type=''>"
+    },
+    {
+        "question": "What is the purpose of the `<noscript>` tag in HTML?",
+        "option_1": "To provide an alternative for non-JavaScript users",
+        "option_2": "To create a list",
+        "option_3": "To define a script",
+        "option_4": "To define metadata",
+        "answer": "To provide an alternative for non-JavaScript users"
+    },
+    {
+        "question": "What is the tag used to create a label for an input in HTML?",
+        "option_1": "<label>",
+        "option_2": "<input>",
+        "option_3": "<text>",
+        "option_4": "<tag>",
+        "answer": "<label>"
+    },
+    {
+        "question": "What is the purpose of the `for` attribute in a label tag?",
+        "option_1": "To associate the label with a specific input",
+        "option_2": "To define styles",
+        "option_3": "To create a link",
+        "option_4": "To define a script",
+        "answer": "To associate the label with a specific input"
+    },
+    {
+        "question": "What is the tag used to define a file upload input in HTML?",
+        "option_1": "<input type='file'>",
+        "option_2": "<upload>",
+        "option_3": "<file>",
+        "option_4": "<input type='upload'>",
+        "answer": "<input type='file'>"
+    },
+    {
+        "question": "What is the tag used to create a password input in HTML?",
+        "option_1": "<input type='text'>",
+        "option_2": "<input type='password'>",
+        "option_3": "<password>",
+        "option_4": "<input type='hidden'>",
+        "answer": "<input type='password'>"
+    },
+    {
+        "question": "What is the tag used to define a checkbox input in HTML?",
+        "option_1": "<checkbox>",
+        "option_2": "<input type='checkbox'>",
+        "option_3": "<check>",
+        "option_4": "<input>",
+        "answer": "<input type='checkbox'>"
+    },
+    {
+        "question": "What is the tag used to create a search input in HTML?",
+        "option_1": "<input type='search'>",
+        "option_2": "<search>",
+        "option_3": "<input>",
+        "option_4": "<find>",
+        "answer": "<input type='search'>"
+    },
+    {
+        "question": "What is the tag used to create a color input in HTML?",
+        "option_1": "<input type='color'>",
+        "option_2": "<color>",
+        "option_3": "<input>",
+        "option_4": "<palette>",
+        "answer": "<input type='color'>"
+    },
+    {
+        "question": "What is the tag used to create a range slider in HTML?",
+        "option_1": "<input type='range'>",
+        "option_2": "<slider>",
+        "option_3": "<range>",
+        "option_4": "<input>",
+        "answer": "<input type='range'>"
+    },
+    {
+        "question": "What is the purpose of the `disabled` attribute in HTML?",
+        "option_1": "To disable an input element",
+        "option_2": "To make an element visible",
+        "option_3": "To enable a script",
+        "option_4": "To create a link",
+        "answer": "To disable an input element"
+    },
+    {
+        "question": "What is the purpose of the `readonly` attribute in HTML?",
+        "option_1": "To prevent user input in a field",
+        "option_2": "To make an element visible",
+        "option_3": "To enable a script",
+        "option_4": "To create a link",
+        "answer": "To prevent user input in a field"
+    },
+    {
+        "question": "What is the purpose of the `value` attribute in an input element?",
+        "option_1": "To define the initial value of the input",
+        "option_2": "To create a link",
+        "option_3": "To define a script",
+        "option_4": "To define styles",
+        "answer": "To define the initial value of the input"
+    },
+    {
+        "question": "What is the tag used to create an option in a dropdown list?",
+        "option_1": "<option>",
+        "option_2": "<select>",
+        "option_3": "<list>",
+        "option_4": "<dropdown>",
+        "answer": "<option>"
+    },
+    {
+        "question": "What is the purpose of the `selected` attribute in an option element?",
+        "option_1": "To specify the default selected option",
+        "option_2": "To create a link",
+        "option_3": "To define a script",
+        "option_4": "To disable an option",
+        "answer": "To specify the default selected option"
+    },
+    {
+        "question": "What is the tag used to create a dropdown list in HTML?",
+        "option_1": "<dropdown>",
+        "option_2": "<list>",
+        "option_3": "<select>",
+        "option_4": "<input>",
+        "answer": "<select>"
+    },
+    {
+        "question": "What is the purpose of the `multiple` attribute in a select element?",
+        "option_1": "To allow multiple selections",
+        "option_2": "To create a link",
+        "option_3": "To define a script",
+        "option_4": "To disable a selection",
+        "answer": "To allow multiple selections"
+    },
+    {
+        "question": "What is the tag used to create a button in HTML?",
+        "option_1": "<button>",
+        "option_2": "<input type='button'>",
+        "option_3": "<action>",
+        "option_4": "<click>",
+        "answer": "<button>"
+    },
+    {
+        "question": "What is the purpose of the `type` attribute in a button element?",
+        "option_1": "To specify the button's function",
+        "option_2": "To define styles",
+        "option_3": "To create a link",
+        "option_4": "To define a script",
+        "answer": "To specify the button's function"
+    },
+    {
+        "question": "What is the tag used to create a reset button in HTML?",
+        "option_1": "<reset>",
+        "option_2": "<input type='reset'>",
+        "option_3": "<button>",
+        "option_4": "<action>",
+        "answer": "<input type='reset'>"
+    },
+    {
+        "question": "What is the tag used to create a submit button in HTML?",
+        "option_1": "<submit>",
+        "option_2": "<input type='submit'>",
+        "option_3": "<button>",
+        "option_4": "<action>",
+        "answer": "<input type='submit'>"
     }
 ]
-
-

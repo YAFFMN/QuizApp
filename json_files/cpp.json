@@ -1,138 +1,650 @@
 [
     {
-        "question": "What is the correct syntax for including a header file in C++?",
+        "question": "What is the correct syntax to create a class in C++?",
+        "option_1": "class ClassName { // body };",
+        "option_2": "class ClassName; // body",
+        "option_3": "ClassName class { // body };",
+        "option_4": "class ClassName: // body;",
+        "answer": "class ClassName { // body };"
+    },
+    {
+        "question": "What is encapsulation in C++?",
+        "option_1": "Bundling data and methods that operate on that data.",
+        "option_2": "Using inheritance to extend classes.",
+        "option_3": "The ability to redefine functions.",
+        "option_4": "A way to store multiple values.",
+        "answer": "Bundling data and methods that operate on that data."
+    },
+    {
+        "question": "Which of the following is a valid constructor?",
+        "option_1": "ClassName() {}",
+        "option_2": "void ClassName() {}",
+        "option_3": "int ClassName() {}",
+        "option_4": "ClassName {}",
+        "answer": "ClassName() {}"
+    },
+    {
+        "question": "What is inheritance in C++?",
+        "option_1": "The mechanism of acquiring properties of a class.",
+        "option_2": "A way to define a function.",
+        "option_3": "The process of creating a new class from an existing class.",
+        "option_4": "Both 1 and 3.",
+        "answer": "Both 1 and 3."
+    },
+    {
+        "question": "What does the 'virtual' keyword signify in a C++ class?",
+        "option_1": "It allows for polymorphism.",
+        "option_2": "It prevents inheritance.",
+        "option_3": "It defines a constant.",
+        "option_4": "It creates a static method.",
+        "answer": "It allows for polymorphism."
+    },
+    {
+        "question": "How do you create a destructor in C++?",
+        "option_1": "~ClassName() {}",
+        "option_2": "ClassName() {}",
+        "option_3": "void ~ClassName() {}",
+        "option_4": "ClassName::~() {}",
+        "answer": "~ClassName() {}"
+    },
+    {
+        "question": "What is the purpose of the 'this' pointer?",
+        "option_1": "To refer to the calling object.",
+        "option_2": "To create new instances.",
+        "option_3": "To point to the base class.",
+        "option_4": "To access static members.",
+        "answer": "To refer to the calling object."
+    },
+    {
+        "question": "What is a pure virtual function?",
+        "option_1": "A function declared with no definition.",
+        "option_2": "A function that cannot be overridden.",
+        "option_3": "A function that is defined in a derived class.",
+        "option_4": "A function that is static.",
+        "answer": "A function declared with no definition."
+    },
+    {
+        "question": "Which of the following is not a valid access specifier?",
+        "option_1": "public",
+        "option_2": "private",
+        "option_3": "protected",
+        "option_4": "hidden",
+        "answer": "hidden"
+    },
+    {
+        "question": "What is a static member in C++?",
+        "option_1": "A member that belongs to the class rather than any instance.",
+        "option_2": "A member that cannot be accessed outside the class.",
+        "option_3": "A member that is initialized only once.",
+        "option_4": "Both 1 and 3.",
+        "answer": "Both 1 and 3."
+    },
+    {
+        "question": "How do you define an inline function?",
+        "option_1": "inline returnType functionName() {}",
+        "option_2": "returnType inline functionName() {}",
+        "option_3": "functionName() { inline; }",
+        "option_4": "inline functionName() {}",
+        "answer": "inline returnType functionName() {}"
+    },
+    {
+        "question": "What is the output of 'std::cout << 5 + 3;'?",
+        "option_1": "8",
+        "option_2": "53",
+        "option_3": "Error",
+        "option_4": "5 + 3",
+        "answer": "8"
+    },
+    {
+        "question": "What is a template in C++?",
+        "option_1": "A blueprint for creating functions or classes.",
+        "option_2": "A way to declare constants.",
+        "option_3": "A method to handle exceptions.",
+        "option_4": "A way to include libraries.",
+        "answer": "A blueprint for creating functions or classes."
+    },
+    {
+        "question": "What does the 'friend' keyword do?",
+        "option_1": "Allows access to private members of a class.",
+        "option_2": "Defines a new class.",
+        "option_3": "Creates a constant value.",
+        "option_4": "Declares an inline function.",
+        "answer": "Allows access to private members of a class."
+    },
+    {
+        "question": "How do you create an array of objects in C++?",
+        "option_1": "ClassName objects[size];",
+        "option_2": "ClassName objects();",
+        "option_3": "ClassName[] objects;",
+        "option_4": "objects ClassName[size];",
+        "answer": "ClassName objects[size];"
+    },
+    {
+        "question": "What is the role of the 'const' keyword?",
+        "option_1": "To define read-only variables.",
+        "option_2": "To declare functions.",
+        "option_3": "To allocate memory.",
+        "option_4": "To create classes.",
+        "answer": "To define read-only variables."
+    },
+    {
+        "question": "What is polymorphism in C++?",
+        "option_1": "The ability to call derived class methods using base class references.",
+        "option_2": "The ability to create multiple classes.",
+        "option_3": "The ability to overload operators.",
+        "option_4": "The ability to create inline functions.",
+        "answer": "The ability to call derived class methods using base class references."
+    },
+    {
+        "question": "What does 'new' do in C++?",
+        "option_1": "Allocates memory for an object.",
+        "option_2": "Releases memory for an object.",
+        "option_3": "Defines a new variable.",
+        "option_4": "Creates a constant.",
+        "answer": "Allocates memory for an object."
+    },
+    {
+        "question": "What is the difference between 'struct' and 'class' in C++?",
+        "option_1": "Struct members are public by default, class members are private.",
+        "option_2": "Classes cannot have member functions.",
+        "option_3": "Structs cannot have constructors.",
+        "option_4": "There is no difference.",
+        "answer": "Struct members are public by default, class members are private."
+    },
+    {
+        "question": "What is a namespace in C++?",
+        "option_1": "A way to organize code and avoid name conflicts.",
+        "option_2": "A method to define constants.",
+        "option_3": "A type of function.",
+        "option_4": "A way to include libraries.",
+        "answer": "A way to organize code and avoid name conflicts."
+    },
+    {
+        "question": "What is the syntax for creating a virtual destructor?",
+        "option_1": "virtual ~ClassName() {}",
+        "option_2": "~virtual ClassName() {}",
+        "option_3": "void ~ClassName() {}",
+        "option_4": "ClassName::~() {}",
+        "answer": "virtual ~ClassName() {}"
+    },
+    {
+        "question": "Which of the following can be used to define a default argument in C++?",
+        "option_1": "functionName(int a = 0);",
+        "option_2": "functionName(int a); // a = 0;",
+        "option_3": "functionName(int a) { a = 0; }",
+        "option_4": "functionName(int a, 0);",
+        "answer": "functionName(int a = 0);"
+    },
+    {
+        "question": "What does the 'static_cast' keyword do?",
+        "option_1": "Safely converts one type to another.",
+        "option_2": "Defines a static variable.",
+        "option_3": "Allocates memory for a variable.",
+        "option_4": "Creates an inline function.",
+        "answer": "Safely converts one type to another."
+    },
+    {
+        "question": "How do you declare a reference variable?",
+        "option_1": "int &ref = var;",
+        "option_2": "int ref = &var;",
+        "option_3": "int *ref = var;",
+        "option_4": "ref int = var;",
+        "answer": "int &ref = var;"
+    },
+    {
+        "question": "What is an abstract class?",
+        "option_1": "A class that cannot be instantiated.",
+        "option_2": "A class with only static methods.",
+        "option_3": "A class with only private members.",
+        "option_4": "A class that can be instantiated.",
+        "answer": "A class that cannot be instantiated."
+    },
+    {
+        "question": "Which of the following is true about function overloading?",
+        "option_1": "Functions can have the same name with different parameters.",
+        "option_2": "Functions can have the same name with the same parameters.",
+        "option_3": "Only constructors can be overloaded.",
+        "option_4": "Functions must have different names.",
+        "answer": "Functions can have the same name with different parameters."
+    },
+    {
+        "question": "What is a lambda expression?",
+        "option_1": "An anonymous function that can capture variables.",
+        "option_2": "A type of macro.",
+        "option_3": "A keyword for creating classes.",
+        "option_4": "A way to declare constants.",
+        "answer": "An anonymous function that can capture variables."
+    },
+    {
+        "question": "What is a copy constructor?",
+        "option_1": "A constructor that creates a copy of an object.",
+        "option_2": "A constructor that initializes a base class.",
+        "option_3": "A method that copies values.",
+        "option_4": "A constructor that cannot be overridden.",
+        "answer": "A constructor that creates a copy of an object."
+    },
+    {
+        "question": "Which of the following is the correct way to include a header file?",
         "option_1": "#include <header>",
-        "option_2": "#include 'header'",
-        "option_3": "#include header",
-        "option_4": "#include (header)",
+        "option_2": "#include header",
+        "option_3": "#header",
+        "option_4": "#include {header}",
         "answer": "#include <header>"
     },
     {
-        "question": "How do you define a function in C++?",
-        "option_1": "type functionName(parameters) { // body }",
-        "option_2": "functionName(type parameters) { // body }",
-        "option_3": "type functionName(parameters) { // body }",
-        "option_4": "functionName(parameters) { // type body }",
-        "answer": "type functionName(parameters) { // body }"
+        "question": "What is the purpose of the 'sizeof' operator?",
+        "option_1": "To determine the size of a variable or data type.",
+        "option_2": "To allocate memory.",
+        "option_3": "To compare values.",
+        "option_4": "To define a constant.",
+        "answer": "To determine the size of a variable or data type."
     },
     {
-        "question": "What is the purpose of the 'public' keyword in a C++ class?",
-        "option_1": "To define methods that are accessible from outside the class",
-        "option_2": "To declare a private method",
-        "option_3": "To initialize class variables",
-        "option_4": "To define a class constructor",
-        "answer": "To define methods that are accessible from outside the class"
+        "question": "What is an exception in C++?",
+        "option_1": "An error that can be handled with try-catch.",
+        "option_2": "A type of function.",
+        "option_3": "A method to allocate memory.",
+        "option_4": "A variable type.",
+        "answer": "An error that can be handled with try-catch."
     },
     {
-        "question": "What is the use of the 'new' operator in C++?",
-        "option_1": "To allocate memory for a variable or object",
-        "option_2": "To release memory from a variable or object",
-        "option_3": "To define a constant value",
-        "option_4": "To include a header file",
-        "answer": "To allocate memory for a variable or object"
+        "question": "What does the 'throw' keyword do?",
+        "option_1": "Throws an exception.",
+        "option_2": "Defines a constant.",
+        "option_3": "Allocates memory.",
+        "option_4": "Creates a new variable.",
+        "answer": "Throws an exception."
     },
     {
-        "question": "How do you create a pointer to an integer in C++?",
-        "option_1": "int *ptr;",
-        "option_2": "int ptr;",
-        "option_3": "pointer int;",
-        "option_4": "int &ptr;",
-        "answer": "int *ptr;"
+        "question": "Which of the following is not a standard container in C++?",
+        "option_1": "vector",
+        "option_2": "list",
+        "option_3": "map",
+        "option_4": "arrayList",
+        "answer": "arrayList"
     },
     {
-        "question": "What is the purpose of the 'return' statement in C++?",
-        "option_1": "To exit a function and return a value to the caller",
-        "option_2": "To initialize a variable",
-        "option_3": "To define a class",
-        "option_4": "To include a library",
-        "answer": "To exit a function and return a value to the caller"
+        "question": "What is the purpose of the 'override' keyword?",
+        "option_1": "To indicate that a method is intended to override a virtual method.",
+        "option_2": "To define a constant value.",
+        "option_3": "To create a destructor.",
+        "option_4": "To declare a reference.",
+        "answer": "To indicate that a method is intended to override a virtual method."
     },
     {
-        "question": "What is the output of the following C++ code snippet: 'int x = 10; std::cout << x;?'",
-        "option_1": "10",
-        "option_2": "x",
+        "question": "What is the syntax for declaring a constant expression?",
+        "option_1": "const int x = 10;",
+        "option_2": "int const x = 10;",
+        "option_3": "const int x;",
+        "option_4": "define x 10;",
+        "answer": "const int x = 10;"
+    },
+    {
+        "question": "What is the role of the 'static' keyword in a class?",
+        "option_1": "It restricts the variable to the class scope.",
+        "option_2": "It makes the variable accessible to all instances.",
+        "option_3": "It allows multiple instances of a class.",
+        "option_4": "It defines a constant value.",
+        "answer": "It restricts the variable to the class scope."
+    },
+    {
+        "question": "What is a 'smart pointer'?",
+        "option_1": "A pointer that automatically manages memory.",
+        "option_2": "A pointer that cannot be changed.",
+        "option_3": "A type of macro.",
+        "option_4": "A variable type.",
+        "answer": "A pointer that automatically manages memory."
+    },
+    {
+        "question": "What does the 'std::unique_ptr' do?",
+        "option_1": "Manages a single object through a pointer.",
+        "option_2": "Creates an array of objects.",
+        "option_3": "Defines a constant value.",
+        "option_4": "Allocates memory for multiple objects.",
+        "answer": "Manages a single object through a pointer."
+    },
+    {
+        "question": "What is the purpose of the 'std::shared_ptr'?",
+        "option_1": "Allows multiple pointers to own the same resource.",
+        "option_2": "Defines a constant value.",
+        "option_3": "Creates an inline function.",
+        "option_4": "Allocates memory.",
+        "answer": "Allows multiple pointers to own the same resource."
+    },
+    {
+        "question": "What is a default constructor?",
+        "option_1": "A constructor that takes no arguments.",
+        "option_2": "A constructor that initializes with default values.",
+        "option_3": "A constructor with multiple parameters.",
+        "option_4": "A constructor that cannot be overridden.",
+        "answer": "A constructor that takes no arguments."
+    },
+    {
+        "question": "Which of the following is a valid destructor?",
+        "option_1": "~ClassName() {}",
+        "option_2": "ClassName() ~{}",
+        "option_3": "void ClassName() {}",
+        "option_4": "ClassName::~ {}",
+        "answer": "~ClassName() {}"
+    },
+    {
+        "question": "What is a member initializer list?",
+        "option_1": "A list used to initialize member variables.",
+        "option_2": "A way to define constants.",
+        "option_3": "A list of function parameters.",
+        "option_4": "A way to create arrays.",
+        "answer": "A list used to initialize member variables."
+    },
+    {
+        "question": "How do you declare a constant member variable?",
+        "option_1": "const int x;",
+        "option_2": "int const x;",
+        "option_3": "const int x = 10;",
+        "option_4": "Both 1 and 3.",
+        "answer": "Both 1 and 3."
+    },
+    {
+        "question": "What does the 'delete' operator do?",
+        "option_1": "Releases memory allocated by 'new'.",
+        "option_2": "Allocates memory.",
+        "option_3": "Defines a constant value.",
+        "option_4": "Creates a new variable.",
+        "answer": "Releases memory allocated by 'new'."
+    },
+    {
+        "question": "What is the role of the 'sizeof' operator?",
+        "option_1": "To get the size of a data type or object.",
+        "option_2": "To allocate memory.",
+        "option_3": "To compare values.",
+        "option_4": "To define a constant.",
+        "answer": "To get the size of a data type or object."
+    },
+    {
+        "question": "What is a multi-dimensional array?",
+        "option_1": "An array of arrays.",
+        "option_2": "An array that can hold multiple data types.",
+        "option_3": "An array that only holds one type of data.",
+        "option_4": "An array with only one dimension.",
+        "answer": "An array of arrays."
+    },
+    {
+        "question": "What does 'nullptr' represent?",
+        "option_1": "A null pointer.",
+        "option_2": "A variable type.",
+        "option_3": "An uninitialized variable.",
+        "option_4": "A constant value.",
+        "answer": "A null pointer."
+    },
+    {
+        "question": "What is a virtual base class?",
+        "option_1": "A base class that prevents multiple instances in inheritance.",
+        "option_2": "A class that cannot be inherited.",
+        "option_3": "A class that defines constants.",
+        "option_4": "A type of pointer.",
+        "answer": "A base class that prevents multiple instances in inheritance."
+    },
+    {
+        "question": "What is the purpose of the 'using' directive?",
+        "option_1": "To simplify access to members of a namespace.",
+        "option_2": "To define constants.",
+        "option_3": "To declare variables.",
+        "option_4": "To allocate memory.",
+        "answer": "To simplify access to members of a namespace."
+    },
+    {
+        "question": "What does 'dynamic_cast' do?",
+        "option_1": "Safely casts pointers and references across an inheritance hierarchy.",
+        "option_2": "Defines a static variable.",
+        "option_3": "Allocates memory for a variable.",
+        "option_4": "Creates an inline function.",
+        "answer": "Safely casts pointers and references across an inheritance hierarchy."
+    },
+    {
+        "question": "What is a function template?",
+        "option_1": "A blueprint for creating functions that can operate on any data type.",
+        "option_2": "A type of macro.",
+        "option_3": "A keyword for creating classes.",
+        "option_4": "A way to declare constants.",
+        "answer": "A blueprint for creating functions that can operate on any data type."
+    },
+    {
+        "question": "What is the 'decltype' keyword used for?",
+        "option_1": "To query the type of an expression.",
+        "option_2": "To declare variables.",
+        "option_3": "To define constants.",
+        "option_4": "To create classes.",
+        "answer": "To query the type of an expression."
+    },
+    {
+        "question": "What is the syntax for declaring a pointer to a function?",
+        "option_1": "returnType (*pointerName)(parameterTypes);",
+        "option_2": "pointerType pointerName; (parameterTypes)",
+        "option_3": "functionType pointerName;",
+        "option_4": "pointerType (*pointerName) = functionName;",
+        "answer": "returnType (*pointerName)(parameterTypes);"
+    },
+    {
+        "question": "What is the significance of the 'mutable' keyword?",
+        "option_1": "It allows a member of a class to be modified even if the class instance is const.",
+        "option_2": "It defines a constant value.",
+        "option_3": "It creates a static method.",
+        "option_4": "It restricts access to a member.",
+        "answer": "It allows a member of a class to be modified even if the class instance is const."
+    },
+    {
+        "question": "How do you declare a multi-dimensional array in C++?",
+        "option_1": "int arr[x][y];",
+        "option_2": "int arr[x, y];",
+        "option_3": "int arr(x)(y);",
+        "option_4": "arr int[x][y];",
+        "answer": "int arr[x][y];"
+    },
+    {
+        "question": "What is an enumeration in C++?",
+        "option_1": "A user-defined type consisting of a set of named integral constants.",
+        "option_2": "A type of class.",
+        "option_3": "A method for declaring constants.",
+        "option_4": "A way to define pointers.",
+        "answer": "A user-defined type consisting of a set of named integral constants."
+    },
+    {
+        "question": "What is the role of the 'volatile' keyword?",
+        "option_1": "It tells the compiler that the value may change at any time.",
+        "option_2": "It restricts access to a member.",
+        "option_3": "It defines a constant value.",
+        "option_4": "It creates a static method.",
+        "answer": "It tells the compiler that the value may change at any time."
+    },
+    {
+        "question": "What does 'sizeof(int)' return?",
+        "option_1": "The size of an integer in bytes.",
+        "option_2": "The number of integers in an array.",
+        "option_3": "The maximum value of an integer.",
+        "option_4": "The minimum value of an integer.",
+        "answer": "The size of an integer in bytes."
+    },
+    {
+        "question": "What is the output of 'std::cout << (1 == 1);'?",
+        "option_1": "1",
+        "option_2": "true",
         "option_3": "Error",
-        "option_4": "std::cout",
-        "answer": "10"
+        "option_4": "0",
+        "answer": "1"
     },
     {
-        "question": "What does the 'private' access specifier do in C++?",
-        "option_1": "Restricts access to members of a class to only within the class",
-        "option_2": "Allows access to members from outside the class",
-        "option_3": "Makes members accessible only to derived classes",
-        "option_4": "Defines constants in a class",
-        "answer": "Restricts access to members of a class to only within the class"
+        "question": "What does 'std::unique_ptr' manage?",
+        "option_1": "Single ownership of a dynamically allocated object.",
+        "option_2": "Shared ownership of a dynamically allocated object.",
+        "option_3": "A static array.",
+        "option_4": "Memory allocated on the stack.",
+        "answer": "Single ownership of a dynamically allocated object."
     },
     {
-        "question": "How do you define a constant value in C++?",
-        "option_1": "const int value = 10;",
-        "option_2": "int const value = 10;",
-        "option_3": "define value 10;",
-        "option_4": "constant int value = 10;",
-        "answer": "const int value = 10;"
+        "question": "What is the primary purpose of a constructor?",
+        "option_1": "To initialize an object.",
+        "option_2": "To create a constant value.",
+        "option_3": "To release memory.",
+        "option_4": "To define a static method.",
+        "answer": "To initialize an object."
     },
     {
-        "question": "What is the purpose of the 'virtual' keyword in C++?",
-        "option_1": "To enable polymorphism in derived classes",
-        "option_2": "To define a constant value",
-        "option_3": "To declare a static method",
-        "option_4": "To include a header file",
-        "answer": "To enable polymorphism in derived classes"
+        "question": "What is the role of 'std::move'?",
+        "option_1": "Transfers ownership of resources.",
+        "option_2": "Allocates memory.",
+        "option_3": "Defines a constant value.",
+        "option_4": "Creates a new variable.",
+        "answer": "Transfers ownership of resources."
     },
     {
-        "question": "What is a 'constructor' in C++?",
-        "option_1": "A special method that initializes objects",
-        "option_2": "A function that performs calculations",
-        "option_3": "A variable that holds values",
-        "option_4": "A keyword for memory allocation",
-        "answer": "A special method that initializes objects"
+        "question": "What does the 'override' specifier indicate?",
+        "option_1": "That a method is intended to override a base class method.",
+        "option_2": "That a method cannot be overridden.",
+        "option_3": "That a method is static.",
+        "option_4": "That a method is pure virtual.",
+        "answer": "That a method is intended to override a base class method."
     },
     {
-        "question": "How do you handle exceptions in C++?",
-        "option_1": "Using try-catch blocks",
-        "option_2": "Using if-else statements",
-        "option_3": "Using switch-case statements",
-        "option_4": "Using error codes",
-        "answer": "Using try-catch blocks"
+        "question": "What is a C++11 feature for initializing variables?",
+        "option_1": "Uniform initialization with curly braces.",
+        "option_2": "Initialization lists.",
+        "option_3": "Static initialization.",
+        "option_4": "Dynamic initialization.",
+        "answer": "Uniform initialization with curly braces."
     },
     {
-        "question": "What is the 'std::vector' in C++?",
-        "option_1": "A dynamic array that can change size",
-        "option_2": "A fixed-size array",
-        "option_3": "A type of pointer",
-        "option_4": "A class for file handling",
-        "answer": "A dynamic array that can change size"
+        "question": "What is the purpose of the 'explicit' keyword?",
+        "option_1": "To prevent implicit conversions.",
+        "option_2": "To create a constant.",
+        "option_3": "To define a static method.",
+        "option_4": "To create inline functions.",
+        "answer": "To prevent implicit conversions."
     },
     {
-        "question": "What is a 'destructor' in C++?",
-        "option_1": "A special method that cleans up resources when an object is destroyed",
-        "option_2": "A method that initializes objects",
-        "option_3": "A function that performs calculations",
-        "option_4": "A keyword for creating constants",
-        "answer": "A special method that cleans up resources when an object is destroyed"
+        "question": "What does the 'template<typename T>' syntax represent?",
+        "option_1": "A template that can work with any data type.",
+        "option_2": "A specific data type.",
+        "option_3": "A keyword for creating classes.",
+        "option_4": "A way to define constants.",
+        "answer": "A template that can work with any data type."
     },
     {
-        "question": "How do you declare a function that does not return a value in C++?",
-        "option_1": "void functionName() {}",
-        "option_2": "int functionName() {}",
-        "option_3": "functionName() {}",
-        "option_4": "return functionName() {}",
-        "answer": "void functionName() {}"
+        "question": "What does the 'new[]' operator do?",
+        "option_1": "Allocates an array in dynamic memory.",
+        "option_2": "Creates a new variable.",
+        "option_3": "Releases memory for a variable.",
+        "option_4": "Defines a constant value.",
+        "answer": "Allocates an array in dynamic memory."
     },
     {
-        "question": "What is the use of the 'static' keyword in C++?",
-        "option_1": "To restrict the scope of a variable or method to the file or class",
-        "option_2": "To define a constant value",
-        "option_3": "To create a dynamic array",
-        "option_4": "To perform runtime checks",
-        "answer": "To restrict the scope of a variable or method to the file or class"
+        "question": "How do you access base class members in a derived class?",
+        "option_1": "Using scope resolution operator (::).",
+        "option_2": "Using the base class name directly.",
+        "option_3": "You cannot access them.",
+        "option_4": "Using a friend function.",
+        "answer": "Using scope resolution operator (::)."
     },
     {
-        "question": "What is an 'inline' function in C++?",
-        "option_1": "A function whose code is inserted directly into the calling code to improve performance",
-        "option_2": "A function defined inside a class",
-        "option_3": "A function that is called recursively",
-        "option_4": "A function that handles errors",
-        "answer": "A function whose code is inserted directly into the calling code to improve performance"
+        "question": "What does the 'static' keyword do in a function?",
+        "option_1": "Preserves the value of a variable between function calls.",
+        "option_2": "Creates a static variable.",
+        "option_3": "Restricts access to the variable.",
+        "option_4": "Defines a constant value.",
+        "answer": "Preserves the value of a variable between function calls."
+    },
+    {
+        "question": "What does 'nullptr' represent in C++?",
+        "option_1": "A null pointer.",
+        "option_2": "A type of class.",
+        "option_3": "An uninitialized variable.",
+        "option_4": "A constant value.",
+        "answer": "A null pointer."
+    },
+    {
+        "question": "What does the 'friend' function allow?",
+        "option_1": "Access to private members of a class.",
+        "option_2": "To create constants.",
+        "option_3": "To define an inline function.",
+        "option_4": "To declare variables.",
+        "answer": "Access to private members of a class."
+    },
+    {
+        "question": "What does the 'volatile' keyword indicate?",
+        "option_1": "The value may change unexpectedly.",
+        "option_2": "It defines a constant.",
+        "option_3": "It restricts access to a member.",
+        "option_4": "It creates a static method.",
+        "answer": "The value may change unexpectedly."
+    },
+    {
+        "question": "What is a pure virtual function?",
+        "option_1": "A function with no implementation in the base class.",
+        "option_2": "A function that cannot be overridden.",
+        "option_3": "A function with a default implementation.",
+        "option_4": "A function that cannot be declared.",
+        "answer": "A function with no implementation in the base class."
+    },
+    {
+        "question": "What is the primary use of 'std::vector'?",
+        "option_1": "Dynamic array that can resize.",
+        "option_2": "Static array.",
+        "option_3": "A map-like structure.",
+        "option_4": "A type of pointer.",
+        "answer": "Dynamic array that can resize."
+    },
+    {
+        "question": "What is the result of the expression '5 / 2' in C++?",
+        "option_1": "2.5",
+        "option_2": "2",
+        "option_3": "Error",
+        "option_4": "5",
+        "answer": "2"
+    },
+    {
+        "question": "What does 'std::list' represent?",
+        "option_1": "A doubly linked list.",
+        "option_2": "A static array.",
+        "option_3": "A map-like structure.",
+        "option_4": "A single linked list.",
+        "answer": "A doubly linked list."
+    },
+    {
+        "question": "What is a namespace in C++?",
+        "option_1": "A declarative region for identifying and grouping entities.",
+        "option_2": "A type of variable.",
+        "option_3": "A type of function.",
+        "option_4": "A method for defining constants.",
+        "answer": "A declarative region for identifying and grouping entities."
+    },
+    {
+        "question": "What is the purpose of 'const_cast'?",
+        "option_1": "To cast away constness from a variable.",
+        "option_2": "To allocate memory.",
+        "option_3": "To define a constant value.",
+        "option_4": "To create a static method.",
+        "answer": "To cast away constness from a variable."
+    },
+    {
+        "question": "What does 'std::map' provide?",
+        "option_1": "A collection of key-value pairs.",
+        "option_2": "A dynamic array.",
+        "option_3": "A stack structure.",
+        "option_4": "A linked list.",
+        "answer": "A collection of key-value pairs."
+    },
+    {
+        "question": "What is the role of the 'static_cast' operator?",
+        "option_1": "To perform compile-time type conversion.",
+        "option_2": "To allocate memory.",
+        "option_3": "To define a constant value.",
+        "option_4": "To declare a variable.",
+        "answer": "To perform compile-time type conversion."
+    },
+    {
+        "question": "What is the default access level for class members?",
+        "option_1": "private.",
+        "option_2": "public.",
+        "option_3": "protected.",
+        "option_4": "friend.",
+        "answer": "private."
     }
 ]

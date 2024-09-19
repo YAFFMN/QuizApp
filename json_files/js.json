@@ -1,138 +1,602 @@
 [
     {
-        "question": "What is the correct way to define a variable in JavaScript?",
-        "option_1": "var variableName = value;",
-        "option_2": "variableName := value;",
-        "option_3": "variableName = value;",
-        "option_4": "let variableName value;",
-        "answer": "var variableName = value;"
+        "question": "What is the correct way to declare a variable in JavaScript?",
+        "option_1": "var x;",
+        "option_2": "declare x;",
+        "option_3": "variable x;",
+        "option_4": "let x;",
+        "answer": "var x;"
+    },
+    {
+        "question": "What is the output of 'console.log(typeof null);'?",
+        "option_1": "'object'",
+        "option_2": "'null'",
+        "option_3": "'undefined'",
+        "option_4": "'boolean'",
+        "answer": "'object'"
+    },
+    {
+        "question": "Which method is used to convert a JSON string into a JavaScript object?",
+        "option_1": "JSON.parse()",
+        "option_2": "JSON.stringify()",
+        "option_3": "JSON.toObject()",
+        "option_4": "JSON.convert()",
+        "answer": "JSON.parse()"
+    },
+    {
+        "question": "What is the purpose of the 'this' keyword?",
+        "option_1": "To refer to the current object.",
+        "option_2": "To define a function.",
+        "option_3": "To create a new object.",
+        "option_4": "To declare a variable.",
+        "answer": "To refer to the current object."
+    },
+    {
+        "question": "What does the '=== operator' check for?",
+        "option_1": "Both value and type equality.",
+        "option_2": "Only value equality.",
+        "option_3": "Only type equality.",
+        "option_4": "None of the above.",
+        "answer": "Both value and type equality."
     },
     {
         "question": "How do you create a function in JavaScript?",
-        "option_1": "function functionName(parameters) { // body }",
-        "option_2": "def functionName(parameters) { // body }",
-        "option_3": "func functionName(parameters) { // body }",
-        "option_4": "functionName(parameters) { // body }",
-        "answer": "function functionName(parameters) { // body }"
+        "option_1": "function myFunction() {}",
+        "option_2": "create myFunction() {}",
+        "option_3": "function: myFunction() {}",
+        "option_4": "def myFunction() {}",
+        "answer": "function myFunction() {}"
     },
     {
-        "question": "What is the output of 'console.log(typeof 42)' in JavaScript?",
-        "option_1": "number",
-        "option_2": "42",
-        "option_3": "Error",
-        "option_4": "string",
-        "answer": "number"
+        "question": "What is an IIFE?",
+        "option_1": "Immediately Invoked Function Expression.",
+        "option_2": "Individual Indexed Function Expression.",
+        "option_3": "Internal Function Invocation Expression.",
+        "option_4": "Internal Immediate Function Execution.",
+        "answer": "Immediately Invoked Function Expression."
     },
     {
-        "question": "How do you define a constant in JavaScript?",
-        "option_1": "const variableName = value;",
-        "option_2": "var variableName = value;",
-        "option_3": "let variableName = value;",
-        "option_4": "constant variableName = value;",
-        "answer": "const variableName = value;"
+        "question": "What does 'NaN' stand for?",
+        "option_1": "Not a Number.",
+        "option_2": "Not applicable.",
+        "option_3": "Null and Undefined.",
+        "option_4": "Not an Object.",
+        "answer": "Not a Number."
     },
     {
-        "question": "What is the purpose of the 'this' keyword in JavaScript?",
-        "option_1": "Refers to the object that is executing the current function",
-        "option_2": "Defines a new class",
-        "option_3": "Declares a variable",
-        "option_4": "Creates a new function",
-        "answer": "Refers to the object that is executing the current function"
+        "question": "What will 'console.log(0.1 + 0.2 === 0.3)' return?",
+        "option_1": "false",
+        "option_2": "true",
+        "option_3": "undefined",
+        "option_4": "NaN",
+        "answer": "false"
     },
     {
-        "question": "How do you handle exceptions in JavaScript?",
-        "option_1": "Using try-catch blocks",
-        "option_2": "Using if-else statements",
-        "option_3": "Using switch-case statements",
-        "option_4": "Using error codes",
-        "answer": "Using try-catch blocks"
+        "question": "Which event occurs when the user clicks on an HTML element?",
+        "option_1": "onclick",
+        "option_2": "onchange",
+        "option_3": "onmouseover",
+        "option_4": "onload",
+        "answer": "onclick"
     },
     {
-        "question": "What does the 'Array.isArray()' method do in JavaScript?",
-        "option_1": "Checks if a value is an array",
-        "option_2": "Converts an array to a string",
-        "option_3": "Sorts the elements of an array",
-        "option_4": "Creates a new array",
-        "answer": "Checks if a value is an array"
+        "question": "What is 'undefined' in JavaScript?",
+        "option_1": "A variable that has been declared but not assigned a value.",
+        "option_2": "A data type.",
+        "option_3": "An error type.",
+        "option_4": "A reserved keyword.",
+        "answer": "A variable that has been declared but not assigned a value."
     },
     {
-        "question": "How do you define a class in JavaScript?",
-        "option_1": "class ClassName { // body }",
-        "option_2": "function ClassName() { // body }",
-        "option_3": "var ClassName = function() { // body };",
-        "option_4": "define ClassName { // body }",
-        "answer": "class ClassName { // body }"
+        "question": "What is the purpose of the 'let' keyword?",
+        "option_1": "To declare a block-scoped variable.",
+        "option_2": "To declare a global variable.",
+        "option_3": "To define a constant.",
+        "option_4": "To declare a function.",
+        "answer": "To declare a block-scoped variable."
     },
     {
-        "question": "What is the output of 'console.log(5 == '5')' in JavaScript?",
+        "question": "What does 'JSON.stringify()' do?",
+        "option_1": "Converts a JavaScript object into a JSON string.",
+        "option_2": "Parses a JSON string into a JavaScript object.",
+        "option_3": "Converts an object into a string.",
+        "option_4": "None of the above.",
+        "answer": "Converts a JavaScript object into a JSON string."
+    },
+    {
+        "question": "What is the purpose of 'async/await'?",
+        "option_1": "To handle asynchronous operations more easily.",
+        "option_2": "To create synchronous code.",
+        "option_3": "To declare global variables.",
+        "option_4": "To define functions.",
+        "answer": "To handle asynchronous operations more easily."
+    },
+    {
+        "question": "How do you create an array in JavaScript?",
+        "option_1": "var arr = [];",
+        "option_2": "var arr = ();",
+        "option_3": "var arr = {};",
+        "option_4": "var arr = < >;",
+        "answer": "var arr = []; "
+    },
+    {
+        "question": "What will 'typeof NaN' return?",
+        "option_1": "'number'",
+        "option_2": "'NaN'",
+        "option_3": "'undefined'",
+        "option_4": "'object'",
+        "answer": "'number'"
+    },
+    {
+        "question": "What is 'closure' in JavaScript?",
+        "option_1": "A function that retains access to its lexical scope.",
+        "option_2": "A block of code that executes after a function.",
+        "option_3": "A function that runs in a global context.",
+        "option_4": "A method for handling errors.",
+        "answer": "A function that retains access to its lexical scope."
+    },
+    {
+        "question": "How do you add an event listener to an element?",
+        "option_1": "element.addEventListener('event', function);",
+        "option_2": "element.on('event', function);",
+        "option_3": "element.add('event', function);",
+        "option_4": "element.attachEvent('event', function);",
+        "answer": "element.addEventListener('event', function);"
+    },
+    {
+        "question": "What is the output of 'console.log(1 == '1');'?",
         "option_1": "true",
         "option_2": "false",
-        "option_3": "5",
-        "option_4": "Error",
+        "option_3": "undefined",
+        "option_4": "TypeError",
         "answer": "true"
     },
     {
-        "question": "How do you create an object in JavaScript?",
-        "option_1": "let obj = { key: value };",
-        "option_2": "let obj = (key: value);",
-        "option_3": "let obj = [key: value];",
-        "option_4": "let obj = new Object(key: value);",
-        "answer": "let obj = { key: value };"
+        "question": "What is the use of 'map()' method in JavaScript?",
+        "option_1": "To create a new array by applying a function to each element.",
+        "option_2": "To filter elements from an array.",
+        "option_3": "To reduce an array to a single value.",
+        "option_4": "To sort an array.",
+        "answer": "To create a new array by applying a function to each element."
     },
     {
-        "question": "What does the 'map()' method do in JavaScript?",
-        "option_1": "Creates a new array with the results of calling a provided function on every element",
-        "option_2": "Maps the values of an array to a new array",
-        "option_3": "Returns the first element of an array",
-        "option_4": "Filters elements based on a condition",
-        "answer": "Creates a new array with the results of calling a provided function on every element"
+        "question": "What is a 'Promise' in JavaScript?",
+        "option_1": "An object that represents the eventual completion (or failure) of an asynchronous operation.",
+        "option_2": "A function that returns a value.",
+        "option_3": "A way to declare variables.",
+        "option_4": "An event handler.",
+        "answer": "An object that represents the eventual completion (or failure) of an asynchronous operation."
     },
     {
-        "question": "How do you define a promise in JavaScript?",
-        "option_1": "new Promise((resolve, reject) => { // body })",
-        "option_2": "Promise(function(resolve, reject) { // body })",
-        "option_3": "async function() { // body }",
-        "option_4": "function Promise(resolve, reject) { // body }",
-        "answer": "new Promise((resolve, reject) => { // body })"
+        "question": "How do you access the first element of an array?",
+        "option_1": "arr[0];",
+        "option_2": "arr.first;",
+        "option_3": "arr[1];",
+        "option_4": "arr.firstElement;",
+        "answer": "arr[0];"
     },
     {
-        "question": "What is the purpose of the 'await' keyword in JavaScript?",
-        "option_1": "To wait for a promise to resolve",
-        "option_2": "To declare a function",
-        "option_3": "To initialize a variable",
-        "option_4": "To handle exceptions",
-        "answer": "To wait for a promise to resolve"
+        "question": "What does the 'filter()' method do?",
+        "option_1": "Creates a new array with all elements that pass the test implemented by the provided function.",
+        "option_2": "Applies a function to each element in the array.",
+        "option_3": "Returns the first element of the array.",
+        "option_4": "Joins two arrays.",
+        "answer": "Creates a new array with all elements that pass the test implemented by the provided function."
     },
     {
-        "question": "What is 'event delegation' in JavaScript?",
-        "option_1": "Attaching a single event handler to a parent element to manage events for its children",
-        "option_2": "Directly attaching event handlers to multiple child elements",
-        "option_3": "Delegating event handling to external libraries",
-        "option_4": "Using inline event handlers",
-        "answer": "Attaching a single event handler to a parent element to manage events for its children"
+        "question": "What is the use of 'reduce()' method?",
+        "option_1": "Executes a reducer function on each element of the array, resulting in a single output value.",
+        "option_2": "Creates a new array by applying a function to each element.",
+        "option_3": "Filters the elements of an array.",
+        "option_4": "Sorts an array.",
+        "answer": "Executes a reducer function on each element of the array, resulting in a single output value."
     },
     {
-        "question": "How do you convert a JSON string to a JavaScript object?",
-        "option_1": "JSON.parse(jsonString)",
-        "option_2": "JSON.stringify(jsonString)",
-        "option_3": "Object.toJSON(jsonString)",
-        "option_4": "eval(jsonString)",
-        "answer": "JSON.parse(jsonString)"
+        "question": "What is the purpose of the 'debugger' statement?",
+        "option_1": "To pause code execution and start debugging.",
+        "option_2": "To define a function.",
+        "option_3": "To declare a variable.",
+        "option_4": "To handle exceptions.",
+        "answer": "To pause code execution and start debugging."
     },
     {
-        "question": "How do you remove the last element from an array in JavaScript?",
-        "option_1": "array.pop()",
-        "option_2": "array.shift()",
-        "option_3": "array.splice(-1, 1)",
-        "option_4": "array.remove()",
-        "answer": "array.pop()"
+        "question": "What will 'console.log(2 + '2');' output?",
+        "option_1": "'22'",
+        "option_2": "4",
+        "option_3": "undefined",
+        "option_4": "TypeError",
+        "answer": "'22'"
     },
     {
-        "question": "What does 'console.log(0.1 + 0.2 == 0.3)' return in JavaScript?",
+        "question": "How do you declare an object in JavaScript?",
+        "option_1": "var obj = {};",
+        "option_2": "var obj = ();",
+        "option_3": "var obj = [];",
+        "option_4": "var obj = < >;",
+        "answer": "var obj = {};"
+    },
+    {
+        "question": "What is 'event delegation'?",
+        "option_1": "A technique that allows a single event listener to manage events for multiple elements.",
+        "option_2": "A method of passing events between objects.",
+        "option_3": "A way to stop event propagation.",
+        "option_4": "A way to handle exceptions.",
+        "answer": "A technique that allows a single event listener to manage events for multiple elements."
+    },
+    {
+        "question": "What is the difference between 'null' and 'undefined'?",
+        "option_1": "'null' is an assignment value, while 'undefined' indicates a variable that has not been assigned.",
+        "option_2": "Both are the same.",
+        "option_3": "'null' is a type, while 'undefined' is not.",
+        "option_4": "'undefined' can be assigned, while 'null' cannot.",
+        "answer": "'null' is an assignment value, while 'undefined' indicates a variable that has not been assigned."
+    },
+    {
+        "question": "What will 'console.log([1, 2] == [1, 2]);' return?",
         "option_1": "false",
         "option_2": "true",
-        "option_3": "Error",
+        "option_3": "undefined",
+        "option_4": "TypeError",
+        "answer": "false"
+    },
+    {
+        "question": "What does 'Math.random()' return?",
+        "option_1": "A random number between 0 (inclusive) and 1 (exclusive).",
+        "option_2": "A random integer.",
+        "option_3": "A fixed number.",
+        "option_4": "An array of random numbers.",
+        "answer": "A random number between 0 (inclusive) and 1 (exclusive)."
+    },
+    {
+        "question": "What is the use of 'setTimeout()'?",
+        "option_1": "To execute a function after a specified number of milliseconds.",
+        "option_2": "To create a delay in code execution.",
+        "option_3": "To handle events.",
+        "option_4": "To declare variables.",
+        "answer": "To execute a function after a specified number of milliseconds."
+    },
+    {
+        "question": "How do you remove an item from an array?",
+        "option_1": "array.splice(index, 1);",
+        "option_2": "array.remove(index);",
+        "option_3": "array.delete(index);",
+        "option_4": "array.pop(index);",
+        "answer": "array.splice(index, 1);"
+    },
+    {
+        "question": "What is the purpose of 'localStorage'?",
+        "option_1": "To store data in the web browser with no expiration date.",
+        "option_2": "To handle cookies.",
+        "option_3": "To store data temporarily.",
+        "option_4": "To handle user sessions.",
+        "answer": "To store data in the web browser with no expiration date."
+    },
+    {
+        "question": "What is 'hoisting'?",
+        "option_1": "A JavaScript mechanism where variables and functions are moved to the top of their containing scope.",
+        "option_2": "A way to handle errors.",
+        "option_3": "A method to optimize performance.",
+        "option_4": "A way to create closures.",
+        "answer": "A JavaScript mechanism where variables and functions are moved to the top of their containing scope."
+    },
+    {
+        "question": "How do you create a new JavaScript object?",
+        "option_1": "var obj = new Object();",
+        "option_2": "var obj = {};",
+        "option_3": "var obj = new Object;",
+        "option_4": "var obj = create Object();",
+        "answer": "var obj = new Object();"
+    },
+    {
+        "question": "What will 'console.log([] + []);' output?",
+        "option_1": "''",
+        "option_2": "'undefined'",
+        "option_3": "'null'",
+        "option_4": "'0'",
+        "answer": "''"
+    },
+    {
+        "question": "What is the 'bind()' method used for?",
+        "option_1": "To create a new function with a specific 'this' value.",
+        "option_2": "To attach events to elements.",
+        "option_3": "To convert strings to numbers.",
+        "option_4": "To define a function.",
+        "answer": "To create a new function with a specific 'this' value."
+    },
+    {
+        "question": "What is a 'callback' function?",
+        "option_1": "A function passed into another function as an argument.",
+        "option_2": "A function that is called automatically.",
+        "option_3": "A function that is executed only once.",
+        "option_4": "A function that returns a value.",
+        "answer": "A function passed into another function as an argument."
+    },
+    {
+        "question": "What does 'slice()' method do?",
+        "option_1": "Extracts a section of an array and returns it as a new array.",
+        "option_2": "Removes the last element from an array.",
+        "option_3": "Adds new items to an array.",
+        "option_4": "Sorts the elements of an array.",
+        "answer": "Extracts a section of an array and returns it as a new array."
+    },
+    {
+        "question": "What is 'async' function?",
+        "option_1": "A function that returns a promise.",
+        "option_2": "A synchronous function.",
+        "option_3": "A function that handles events.",
+        "option_4": "None of the above.",
+        "answer": "A function that returns a promise."
+    },
+    {
+        "question": "What is a 'module' in JavaScript?",
+        "option_1": "A reusable piece of code encapsulated in a file.",
+        "option_2": "A function that exports data.",
+        "option_3": "An object containing properties.",
+        "option_4": "A method for handling events.",
+        "answer": "A reusable piece of code encapsulated in a file."
+    },
+    {
+        "question": "What does 'console.log(1 + '1');' output?",
+        "option_1": "'11'",
+        "option_2": "2",
+        "option_3": "'1'",
         "option_4": "undefined",
+        "answer": "'11'"
+    },
+    {
+        "question": "What does the 'forEach()' method do?",
+        "option_1": "Executes a provided function once for each array element.",
+        "option_2": "Creates a new array.",
+        "option_3": "Sorts an array.",
+        "option_4": "Filters an array.",
+        "answer": "Executes a provided function once for each array element."
+    },
+    {
+        "question": "What is the purpose of the 'constructor' in a class?",
+        "option_1": "To initialize the object.",
+        "option_2": "To create new methods.",
+        "option_3": "To define properties.",
+        "option_4": "To destroy the object.",
+        "answer": "To initialize the object."
+    },
+    {
+        "question": "What is 'event bubbling'?",
+        "option_1": "A mechanism where events propagate from the target element up to the root.",
+        "option_2": "A way to stop events from propagating.",
+        "option_3": "A method for handling errors.",
+        "option_4": "A way to trigger events.",
+        "answer": "A mechanism where events propagate from the target element up to the root."
+    },
+    {
+        "question": "What is the output of 'console.log(2 + 2 * 2);'?",
+        "option_1": "6",
+        "option_2": "8",
+        "option_3": "4",
+        "option_4": "10",
+        "answer": "6"
+    },
+    {
+        "question": "How do you declare a constant variable?",
+        "option_1": "const x = 10;",
+        "option_2": "let x = 10;",
+        "option_3": "var x = 10;",
+        "option_4": "define x = 10;",
+        "answer": "const x = 10;"
+    },
+    {
+        "question": "What will 'console.log(5 - '3');' return?",
+        "option_1": "2",
+        "option_2": "undefined",
+        "option_3": "'53'",
+        "option_4": "TypeError",
+        "answer": "2"
+    },
+    {
+        "question": "What is a 'setInterval()' function?",
+        "option_1": "Executes a specified function at set intervals.",
+        "option_2": "Pauses code execution.",
+        "option_3": "Handles events.",
+        "option_4": "Declares variables.",
+        "answer": "Executes a specified function at set intervals."
+    },
+    {
+        "question": "How do you check if a variable is an array?",
+        "option_1": "Array.isArray(variable);",
+        "option_2": "variable instanceof Array;",
+        "option_3": "typeof variable === 'array';",
+        "option_4": "None of the above.",
+        "answer": "Array.isArray(variable);"
+    },
+    {
+        "question": "What is the purpose of 'splice()' method?",
+        "option_1": "To change the contents of an array by removing or replacing existing elements.",
+        "option_2": "To add elements to the end of an array.",
+        "option_3": "To sort the elements of an array.",
+        "option_4": "To create a new array.",
+        "answer": "To change the contents of an array by removing or replacing existing elements."
+    },
+    {
+        "question": "What does 'length' property do?",
+        "option_1": "Returns the number of elements in an array.",
+        "option_2": "Defines the size of an array.",
+        "option_3": "Adds elements to an array.",
+        "option_4": "Removes elements from an array.",
+        "answer": "Returns the number of elements in an array."
+    },
+    {
+        "question": "What is a 'strict mode' in JavaScript?",
+        "option_1": "A way to opt in to a restricted variant of JavaScript.",
+        "option_2": "A method for debugging.",
+        "option_3": "A way to declare variables.",
+        "option_4": "None of the above.",
+        "answer": "A way to opt in to a restricted variant of JavaScript."
+    },
+    {
+        "question": "How do you create a new promise?",
+        "option_1": "let myPromise = new Promise(function(resolve, reject) {});",
+        "option_2": "let myPromise = Promise(function(resolve, reject) {});",
+        "option_3": "let myPromise = new Promise();",
+        "option_4": "let myPromise = Promise();",
+        "answer": "let myPromise = new Promise(function(resolve, reject) {});"
+    },
+    {
+        "question": "What does 'console.log(5 === '5');' return?",
+        "option_1": "false",
+        "option_2": "true",
+        "option_3": "undefined",
+        "option_4": "NaN",
+        "answer": "false"
+    },
+    {
+        "question": "What is the purpose of 'window.onload'?",
+        "option_1": "To execute code after the entire page has loaded.",
+        "option_2": "To load external scripts.",
+        "option_3": "To define global variables.",
+        "option_4": "To handle events.",
+        "answer": "To execute code after the entire page has loaded."
+    },
+    {
+        "question": "What is the output of 'console.log(!!'');'?",
+        "option_1": "false",
+        "option_2": "true",
+        "option_3": "undefined",
+        "option_4": "TypeError",
+        "answer": "false"
+    },
+    {
+        "question": "How do you create a new array with values from an existing array?",
+        "option_1": "var newArray = oldArray.slice();",
+        "option_2": "var newArray = oldArray.copy();",
+        "option_3": "var newArray = oldArray.clone();",
+        "option_4": "var newArray = oldArray.extract();",
+        "answer": "var newArray = oldArray.slice();"
+    },
+    {
+        "question": "What does 'toString()' method do?",
+        "option_1": "Converts and returns the value of an object to a string.",
+        "option_2": "Converts a string to a number.",
+        "option_3": "Returns the type of the variable.",
+        "option_4": "None of the above.",
+        "answer": "Converts and returns the value of an object to a string."
+    },
+    {
+        "question": "What is the purpose of 'try/catch'?",
+        "option_1": "To handle exceptions and errors in code.",
+        "option_2": "To declare variables.",
+        "option_3": "To define functions.",
+        "option_4": "To loop through arrays.",
+        "answer": "To handle exceptions and errors in code."
+    },
+    {
+        "question": "What will 'console.log(5 === 5);' output?",
+        "option_1": "true",
+        "option_2": "false",
+        "option_3": "undefined",
+        "option_4": "TypeError",
+        "answer": "true"
+    },
+    {
+        "question": "What is the purpose of 'Math.floor()'?",
+        "option_1": "To round a number down to the nearest integer.",
+        "option_2": "To round a number up.",
+        "option_3": "To generate random numbers.",
+        "option_4": "To convert strings to numbers.",
+        "answer": "To round a number down to the nearest integer."
+    },
+    {
+        "question": "How do you check if an object has a specific property?",
+        "option_1": "'property' in obj;",
+        "option_2": "obj.hasOwnProperty('property');",
+        "option_3": "obj.propertyExists('property');",
+        "option_4": "obj.includes('property');",
+        "answer": "'property' in obj;"
+    },
+    {
+        "question": "What does 'Math.pow(x, y)' do?",
+        "option_1": "Returns x raised to the power of y.",
+        "option_2": "Calculates the square root of x.",
+        "option_3": "Returns the logarithm of x.",
+        "option_4": "Calculates the absolute value of x.",
+        "answer": "Returns x raised to the power of y."
+    },
+    {
+        "question": "What will 'console.log(typeof [1, 2, 3]);' return?",
+        "option_1": "'object'",
+        "option_2": "'array'",
+        "option_3": "'number'",
+        "option_4": "'undefined'",
+        "answer": "'object'"
+    },
+    {
+        "question": "What is the output of 'console.log(3 + 4 + '5');'?",
+        "option_1": "'75'",
+        "option_2": "12",
+        "option_3": "'8'",
+        "option_4": "'45'",
+        "answer": "'75'"
+    },
+    {
+        "question": "How do you stop an interval set with 'setInterval()'?",
+        "option_1": "clearInterval(intervalID);",
+        "option_2": "stopInterval(intervalID);",
+        "option_3": "clearTimeout(intervalID);",
+        "option_4": "cancelInterval(intervalID);",
+        "answer": "clearInterval(intervalID);"
+    },
+    {
+        "question": "What is the purpose of 'window.location'?",
+        "option_1": "To get or set the current URL of the browser.",
+        "option_2": "To declare variables.",
+        "option_3": "To define functions.",
+        "option_4": "To handle events.",
+        "answer": "To get or set the current URL of the browser."
+    },
+    {
+        "question": "What does 'Array.from()' do?",
+        "option_1": "Creates a new array instance from an array-like or iterable object.",
+        "option_2": "Adds elements to an array.",
+        "option_3": "Removes elements from an array.",
+        "option_4": "Sorts the elements of an array.",
+        "answer": "Creates a new array instance from an array-like or iterable object."
+    },
+    {
+        "question": "What is the output of 'console.log('1' + 1);'?",
+        "option_1": "'11'",
+        "option_2": "'2'",
+        "option_3": "'undefined'",
+        "option_4": "'NaN'",
+        "answer": "'11'"
+    },
+    {
+        "question": "How do you convert a string to a number in JavaScript?",
+        "option_1": "parseInt(string);",
+        "option_2": "toNumber(string);",
+        "option_3": "Number(string);",
+        "option_4": "convert(string);",
+        "answer": "parseInt(string);"
+    },
+    {
+        "question": "What is the purpose of the 'includes()' method?",
+        "option_1": "Checks if an array contains a certain element.",
+        "option_2": "Adds elements to an array.",
+        "option_3": "Removes elements from an array.",
+        "option_4": "Sorts the elements of an array.",
+        "answer": "Checks if an array contains a certain element."
+    },
+    {
+        "question": "What is the purpose of 'JSON.stringify()'?",
+        "option_1": "Converts a JavaScript object into a JSON string.",
+        "option_2": "Parses a JSON string into a JavaScript object.",
+        "option_3": "Validates JSON data.",
+        "option_4": "None of the above.",
+        "answer": "Converts a JavaScript object into a JSON string."
+    },
+    {
+        "question": "What will 'console.log(!!undefined);' return?",
+        "option_1": "true",
+        "option_2": "false",
+        "option_3": "undefined",
+        "option_4": "TypeError",
         "answer": "false"
     }
 ]

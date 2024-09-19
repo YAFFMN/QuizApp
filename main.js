@@ -40,7 +40,7 @@ submitBtn.addEventListener("click", () => {
     myRequest.onreadystatechange = function () {
       if (this.readyState === 4 && this.status === 200) {
         let questionObject = JSON.parse(this.responseText);
-        let questionCount = 5;
+        let questionCount = 20;
         //create bullets & set question number & category
         createBullets(questionCount);
         category.innerHTML = language.id;
@@ -55,7 +55,7 @@ submitBtn.addEventListener("click", () => {
         addData(randQuestion, questionCount);
 
         //countdown
-        countdown(3000, questionCount);
+        countdown(1800, questionCount);
 
         //functioning the submit button
         quizSubmitButton.onclick = () => {

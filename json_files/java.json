@@ -1,193 +1,610 @@
 [
     {
-        "question": "How do you define a class in Java?",
-        "option_1": "class ClassName { // body }",
-        "option_2": "public ClassName() { // body }",
-        "option_3": "class ClassName() { // body }",
-        "option_4": "def ClassName { // body }",
-        "answer": "class ClassName { // body }"
+        "question": "What is the main entry point of a Java application?",
+        "option_1": "public static void main(String[] args)",
+        "option_2": "void main(String[] args)",
+        "option_3": "public void main()",
+        "option_4": "static void main(String args)",
+        "answer": "public static void main(String[] args)"
     },
     {
-        "question": "What is the purpose of the 'public' keyword in Java?",
-        "option_1": "To specify that a class or method is accessible from other classes",
-        "option_2": "To define a constant value",
-        "option_3": "To handle exceptions",
-        "option_4": "To create a new thread",
-        "answer": "To specify that a class or method is accessible from other classes"
+        "question": "What keyword is used to define a class in Java?",
+        "option_1": "class",
+        "option_2": "def",
+        "option_3": "object",
+        "option_4": "new",
+        "answer": "class"
     },
     {
-        "question": "How do you define a method that does not return a value in Java?",
-        "option_1": "void methodName() { // body }",
-        "option_2": "methodName() { // body }",
-        "option_3": "public methodName() { // body }",
-        "option_4": "return methodName() { // body }",
-        "answer": "void methodName() { // body }"
+        "question": "What is the default value of a boolean variable in Java?",
+        "option_1": "false",
+        "option_2": "true",
+        "option_3": "null",
+        "option_4": "0",
+        "answer": "false"
     },
     {
-        "question": "What is the output of 'System.out.println(10 + 20 + \"30\")' in Java?",
-        "option_1": "3030",
-        "option_2": "1030",
-        "option_3": "Error",
-        "option_4": "1030",
-        "answer": "3030"
+        "question": "Which of the following is not a valid Java data type?",
+        "option_1": "int",
+        "option_2": "float",
+        "option_3": "decimal",
+        "option_4": "char",
+        "answer": "decimal"
     },
     {
         "question": "How do you create an array in Java?",
-        "option_1": "type[] arrayName = new type[size];",
-        "option_2": "type arrayName = new type[size];",
-        "option_3": "arrayName = new type[size];",
-        "option_4": "type[] arrayName = size;",
-        "answer": "type[] arrayName = new type[size];"
+        "option_1": "int[] arr = new int[5];",
+        "option_2": "int arr = new int[5];",
+        "option_3": "int arr[];",
+        "option_4": "arr int[];",
+        "answer": "int[] arr = new int[5];"
     },
     {
-        "question": "What is the purpose of the 'static' keyword in Java?",
-        "option_1": "To define class-level methods and variables",
-        "option_2": "To handle exceptions",
-        "option_3": "To create an instance of a class",
-        "option_4": "To create an abstract class",
-        "answer": "To define class-level methods and variables"
+        "question": "What is the purpose of the 'final' keyword?",
+        "option_1": "To declare constants.",
+        "option_2": "To allow inheritance.",
+        "option_3": "To create a new object.",
+        "option_4": "To define an interface.",
+        "answer": "To declare constants."
+    },
+    {
+        "question": "What does the 'this' keyword refer to?",
+        "option_1": "The current instance of a class.",
+        "option_2": "The parent class.",
+        "option_3": "The main method.",
+        "option_4": "The main class.",
+        "answer": "The current instance of a class."
+    },
+    {
+        "question": "What is a constructor in Java?",
+        "option_1": "A special method for initializing objects.",
+        "option_2": "A method that performs calculations.",
+        "option_3": "A type of variable.",
+        "option_4": "A keyword for memory allocation.",
+        "answer": "A special method for initializing objects."
+    },
+    {
+        "question": "Which of the following keywords is used to inherit a class?",
+        "option_1": "extends",
+        "option_2": "inherits",
+        "option_3": "implements",
+        "option_4": "includes",
+        "answer": "extends"
+    },
+    {
+        "question": "What is the purpose of the 'super' keyword?",
+        "option_1": "To refer to the parent class.",
+        "option_2": "To define a constant.",
+        "option_3": "To create an object.",
+        "option_4": "To call a static method.",
+        "answer": "To refer to the parent class."
+    },
+    {
+        "question": "What is polymorphism in Java?",
+        "option_1": "The ability of a method to do different things based on the object.",
+        "option_2": "The ability to create multiple objects.",
+        "option_3": "The ability to define new data types.",
+        "option_4": "The ability to inherit properties.",
+        "answer": "The ability of a method to do different things based on the object."
+    },
+    {
+        "question": "What is the purpose of an interface in Java?",
+        "option_1": "To define a contract for classes.",
+        "option_2": "To create an abstract class.",
+        "option_3": "To allow multiple inheritance.",
+        "option_4": "To implement data types.",
+        "answer": "To define a contract for classes."
+    },
+    {
+        "question": "What is the default access modifier for class members?",
+        "option_1": "package-private",
+        "option_2": "private",
+        "option_3": "protected",
+        "option_4": "public",
+        "answer": "package-private"
+    },
+    {
+        "question": "What is the keyword used to create an abstract class?",
+        "option_1": "abstract",
+        "option_2": "interface",
+        "option_3": "class",
+        "option_4": "void",
+        "answer": "abstract"
     },
     {
         "question": "How do you handle exceptions in Java?",
-        "option_1": "Using try-catch blocks",
-        "option_2": "Using if-else statements",
-        "option_3": "Using switch-case statements",
-        "option_4": "Using error codes",
-        "answer": "Using try-catch blocks"
+        "option_1": "Using try-catch blocks.",
+        "option_2": "Using if-else statements.",
+        "option_3": "Using switch-case statements.",
+        "option_4": "Using error codes.",
+        "answer": "Using try-catch blocks."
     },
     {
-        "question": "What is the purpose of the 'this' keyword in Java?",
-        "option_1": "To refer to the current instance of the class",
-        "option_2": "To define a new class",
-        "option_3": "To initialize a variable",
-        "option_4": "To create a static method",
-        "answer": "To refer to the current instance of the class"
+        "question": "What is the purpose of the 'finally' block?",
+        "option_1": "To execute code after try-catch, regardless of an exception.",
+        "option_2": "To handle exceptions.",
+        "option_3": "To define a class.",
+        "option_4": "To declare a variable.",
+        "answer": "To execute code after try-catch, regardless of an exception."
     },
     {
-        "question": "How do you define a constructor in Java?",
-        "option_1": "public ClassName() { // body }",
-        "option_2": "public void ClassName() { // body }",
-        "option_3": "ClassName() { // body }",
-        "option_4": "static ClassName() { // body }",
-        "answer": "public ClassName() { // body }"
+        "question": "What is a 'static' method in Java?",
+        "option_1": "A method that belongs to the class rather than an instance.",
+        "option_2": "A method that cannot be overridden.",
+        "option_3": "A method that can only return values.",
+        "option_4": "A method that must be defined in the same class.",
+        "answer": "A method that belongs to the class rather than an instance."
     },
     {
-        "question": "What is the output of 'System.out.println(\"Hello\".length())' in Java?",
-        "option_1": "5",
-        "option_2": "Hello",
-        "option_3": "Error",
-        "option_4": "Hello.length",
-        "answer": "5"
-    },{
-        "question": "How do you define an interface in Java?",
-        "option_1": "interface InterfaceName { // methods }",
-        "option_2": "class InterfaceName { // methods }",
-        "option_3": "public InterfaceName { // methods }",
-        "option_4": "abstract class InterfaceName { // methods }",
-        "answer": "interface InterfaceName { // methods }"
+        "question": "What does the 'instanceof' keyword do?",
+        "option_1": "Tests whether an object is an instance of a specific class.",
+        "option_2": "Creates an instance of a class.",
+        "option_3": "Declares a new variable.",
+        "option_4": "Defines a constant.",
+        "answer": "Tests whether an object is an instance of a specific class."
     },
     {
-        "question": "What does the 'super' keyword do in Java?",
-        "option_1": "Refers to the superclass of the current object",
-        "option_2": "Defines a static method",
-        "option_3": "Creates a new instance of a class",
-        "option_4": "Handles exceptions",
-        "answer": "Refers to the superclass of the current object"
+        "question": "What is the purpose of the 'synchronized' keyword?",
+        "option_1": "To control access to a block of code by multiple threads.",
+        "option_2": "To declare a constant.",
+        "option_3": "To define a method.",
+        "option_4": "To create a static method.",
+        "answer": "To control access to a block of code by multiple threads."
     },
     {
-        "question": "What is the output of 'System.out.println(5 / 2)' in Java?",
-        "option_1": "2",
-        "option_2": "2.5",
-        "option_3": "Error",
-        "option_4": "2.0",
-        "answer": "2"
+        "question": "What is an ArrayList?",
+        "option_1": "A resizable array implementation of the List interface.",
+        "option_2": "A fixed-size array.",
+        "option_3": "A type of map.",
+        "option_4": "A class for file handling.",
+        "answer": "A resizable array implementation of the List interface."
     },
     {
-        "question": "How do you declare a package in Java?",
-        "option_1": "package packageName;",
-        "option_2": "import packageName;",
-        "option_3": "define packageName;",
-        "option_4": "namespace packageName;",
-        "answer": "package packageName;"
+        "question": "What is the purpose of the 'toString()' method?",
+        "option_1": "To return a string representation of an object.",
+        "option_2": "To create a new object.",
+        "option_3": "To initialize a variable.",
+        "option_4": "To declare a class.",
+        "answer": "To return a string representation of an object."
     },
     {
-        "question": "What is the difference between '== 'and '.equals()' in Java?",
-        "option_1": "'==' checks for reference equality, '.equals()' checks for value equality",
-        "option_2": "'==' checks for value equality, '.equals()' checks for reference equality",
-        "option_3": "There is no difference",
-        "option_4": "'==' is used for primitive types, '.equals()' is used for objects",
-        "answer": "'==' checks for reference equality, '.equals()' checks for value equality"
+        "question": "What is the difference between '== 'and '.equals()'?",
+        "option_1": "'==' compares references, '.equals()' compares values.",
+        "option_2": "'==' compares values, '.equals()' compares references.",
+        "option_3": "They are the same.",
+        "option_4": "'==' is used for primitives only.",
+        "answer": "'==' compares references, '.equals()' compares values."
     },
     {
-        "question": "How do you make a class abstract in Java?",
-        "option_1": "By using the 'abstract' keyword",
-        "option_2": "By using the 'static' keyword",
-        "option_3": "By using the 'final' keyword",
-        "option_4": "By using the 'synchronized' keyword",
-        "answer": "By using the 'abstract' keyword"
+        "question": "What is method overloading?",
+        "option_1": "Defining multiple methods with the same name but different parameters.",
+        "option_2": "Defining a method in a subclass.",
+        "option_3": "Creating an abstract method.",
+        "option_4": "Overriding a method.",
+        "answer": "Defining multiple methods with the same name but different parameters."
     },
     {
-        "question": "What is the output of 'System.out.println(\"Java\".substring(1, 3))'?",
-        "option_1": "av",
-        "option_2": "Java",
-        "option_3": "Ja",
-        "option_4": "Error",
-        "answer": "av"
+        "question": "What is a 'getter' and 'setter'?",
+        "option_1": "Methods for accessing and modifying private variables.",
+        "option_2": "Methods for defining constants.",
+        "option_3": "Methods for creating new classes.",
+        "option_4": "Methods for handling exceptions.",
+        "answer": "Methods for accessing and modifying private variables."
+    },
+    {
+        "question": "What is a 'throw' statement used for?",
+        "option_1": "To explicitly throw an exception.",
+        "option_2": "To define a method.",
+        "option_3": "To create a loop.",
+        "option_4": "To declare a class.",
+        "answer": "To explicitly throw an exception."
+    },
+    {
+        "question": "What is a lambda expression in Java?",
+        "option_1": "A concise way to represent an anonymous function.",
+        "option_2": "A method for creating an array.",
+        "option_3": "A keyword for defining interfaces.",
+        "option_4": "A type of variable.",
+        "answer": "A concise way to represent an anonymous function."
+    },
+    {
+        "question": "What is the purpose of the 'volatile' keyword?",
+        "option_1": "To indicate that a variable may be changed by multiple threads.",
+        "option_2": "To declare a constant.",
+        "option_3": "To define a method.",
+        "option_4": "To create an object.",
+        "answer": "To indicate that a variable may be changed by multiple threads."
+    },
+    {
+        "question": "What is 'Garbage Collection' in Java?",
+        "option_1": "Automatic memory management.",
+        "option_2": "Manual memory allocation.",
+        "option_3": "Defining a constant.",
+        "option_4": "Creating a static method.",
+        "answer": "Automatic memory management."
+    },
+    {
+        "question": "What is an Enum in Java?",
+        "option_1": "A special data type for defining a collection of constants.",
+        "option_2": "A method for creating arrays.",
+        "option_3": "A type of variable.",
+        "option_4": "A class for handling exceptions.",
+        "answer": "A special data type for defining a collection of constants."
     },
     {
         "question": "How do you create a thread in Java?",
-        "option_1": "By extending the Thread class or implementing the Runnable interface",
-        "option_2": "By using the Thread.create() method",
-        "option_3": "By using the startThread() method",
-        "option_4": "By defining a thread method in a class",
-        "answer": "By extending the Thread class or implementing the Runnable interface"
+        "option_1": "By extending the Thread class or implementing the Runnable interface.",
+        "option_2": "By creating a new class.",
+        "option_3": "By using the main method.",
+        "option_4": "By defining a method.",
+        "answer": "By extending the Thread class or implementing the Runnable interface."
     },
     {
-        "question": "What does the 'final' keyword signify in Java?",
-        "option_1": "It defines constants, prevents method overriding, and inheritance",
-        "option_2": "It defines a static method",
-        "option_3": "It specifies abstract methods",
-        "option_4": "It is used to create new instances",
-        "answer": "It defines constants, prevents method overriding, and inheritance"
+        "question": "What is a 'StackOverflowError'?",
+        "option_1": "An error that occurs when the stack memory is exhausted.",
+        "option_2": "An error related to null references.",
+        "option_3": "An error when creating arrays.",
+        "option_4": "An error related to input/output.",
+        "answer": "An error that occurs when the stack memory is exhausted."
     },
     {
-        "question": "How do you perform type casting in Java?",
-        "option_1": "By using parentheses, e.g., (type)value",
-        "option_2": "By using the cast() method",
-        "option_3": "By using the convert() method",
-        "option_4": "By using the as keyword",
-        "answer": "By using parentheses, e.g., (type)value"
+        "question": "What is a 'Checked Exception'?",
+        "option_1": "An exception that must be declared or handled.",
+        "option_2": "An exception that cannot be caught.",
+        "option_3": "An exception that occurs at runtime.",
+        "option_4": "An exception that is thrown by the JVM.",
+        "answer": "An exception that must be declared or handled."
     },
     {
-        "question": "What is an 'enum' in Java?",
-        "option_1": "A special class used to define a set of constants",
-        "option_2": "A data type that can hold any value",
-        "option_3": "A method to handle exceptions",
-        "option_4": "A way to define abstract methods",
-        "answer": "A special class used to define a set of constants"
+        "question": "What is the use of the 'throws' keyword?",
+        "option_1": "To declare exceptions that a method may throw.",
+        "option_2": "To create an object.",
+        "option_3": "To define a method.",
+        "option_4": "To declare a variable.",
+        "answer": "To declare exceptions that a method may throw."
     },
     {
-        "question": "How do you concatenate strings in Java?",
-        "option_1": "Using the '+' operator",
-        "option_2": "Using the append() method",
-        "option_3": "Using the concat() method",
-        "option_4": "Using the join() method",
-        "answer": "Using the '+' operator"
+        "question": "What is the purpose of the 'abstract' keyword?",
+        "option_1": "To declare a class that cannot be instantiated.",
+        "option_2": "To define a constant.",
+        "option_3": "To create a new object.",
+        "option_4": "To define a method.",
+        "answer": "To declare a class that cannot be instantiated."
     },
     {
-        "question": "What does the 'super()' call do in a constructor?",
-        "option_1": "It invokes the constructor of the superclass",
-        "option_2": "It defines a new method",
-        "option_3": "It creates a new instance of the class",
-        "option_4": "It initializes a variable",
-        "answer": "It invokes the constructor of the superclass"
+        "question": "What is the Java Collections Framework?",
+        "option_1": "A set of classes and interfaces for data manipulation.",
+        "option_2": "A method for creating arrays.",
+        "option_3": "A keyword for defining constants.",
+        "option_4": "A type of variable.",
+        "answer": "A set of classes and interfaces for data manipulation."
     },
     {
-        "question": "What is the output of 'System.out.println(10 % 3)' in Java?",
-        "option_1": "1",
-        "option_2": "3",
-        "option_3": "10",
-        "option_4": "Error",
-        "answer": "1"
+        "question": "What is a 'Map' in Java?",
+        "option_1": "An object that maps keys to values.",
+        "option_2": "A collection of arrays.",
+        "option_3": "A type of loop.",
+        "option_4": "A method for handling exceptions.",
+        "answer": "An object that maps keys to values."
+    },
+    {
+        "question": "What is the purpose of the 'hashCode()' method?",
+        "option_1": "To return a hash code value for the object.",
+        "option_2": "To create a new object.",
+        "option_3": "To define a constant.",
+        "option_4": "To declare a variable.",
+        "answer": "To return a hash code value for the object."
+    },
+    {
+        "question": "What is a 'StringBuilder'?",
+        "option_1": "A mutable sequence of characters.",
+        "option_2": "An immutable sequence of characters.",
+        "option_3": "A class for file handling.",
+        "option_4": "A type of variable.",
+        "answer": "A mutable sequence of characters."
+    },
+    {
+        "question": "What is the purpose of the 'List' interface?",
+        "option_1": "To represent an ordered collection of elements.",
+        "option_2": "To create a static array.",
+        "option_3": "To define a map.",
+        "option_4": "To create a set.",
+        "answer": "To represent an ordered collection of elements."
+    },
+    {
+        "question": "What does 'super()' do in a constructor?",
+        "option_1": "Calls the constructor of the parent class.",
+        "option_2": "Creates a new object.",
+        "option_3": "Defines a method.",
+        "option_4": "Declares a variable.",
+        "answer": "Calls the constructor of the parent class."
+    },
+    {
+        "question": "What is the purpose of the 'return' statement?",
+        "option_1": "To exit a method and optionally return a value.",
+        "option_2": "To declare a method.",
+        "option_3": "To create an object.",
+        "option_4": "To define a variable.",
+        "answer": "To exit a method and optionally return a value."
+    },
+    {
+        "question": "What does the 'try' block do?",
+        "option_1": "Contains code that may throw an exception.",
+        "option_2": "Creates a new object.",
+        "option_3": "Defines a method.",
+        "option_4": "Declares a variable.",
+        "answer": "Contains code that may throw an exception."
+    },
+    {
+        "question": "What is the use of 'Runnable' interface?",
+        "option_1": "To define a task for a thread.",
+        "option_2": "To create a new object.",
+        "option_3": "To declare a method.",
+        "option_4": "To handle exceptions.",
+        "answer": "To define a task for a thread."
+    },
+    {
+        "question": "What is the 'Math' class in Java?",
+        "option_1": "A class that contains methods for performing mathematical operations.",
+        "option_2": "A class for file handling.",
+        "option_3": "A class for data structures.",
+        "option_4": "A class for networking.",
+        "answer": "A class that contains methods for performing mathematical operations."
+    },
+    {
+        "question": "What is the difference between 'ArrayList' and 'LinkedList'?",
+        "option_1": "ArrayList is backed by an array, LinkedList by a doubly linked list.",
+        "option_2": "ArrayList is a fixed-size array, LinkedList is resizable.",
+        "option_3": "They are the same.",
+        "option_4": "ArrayList is slower than LinkedList.",
+        "answer": "ArrayList is backed by an array, LinkedList by a doubly linked list."
+    },
+    {
+        "question": "What is an 'abstract method'?",
+        "option_1": "A method that does not have a body and must be implemented in a subclass.",
+        "option_2": "A method that cannot be overridden.",
+        "option_3": "A method with a default implementation.",
+        "option_4": "A method that must be declared final.",
+        "answer": "A method that does not have a body and must be implemented in a subclass."
+    },
+    {
+        "question": "What is 'Java Virtual Machine (JVM)'?",
+        "option_1": "An engine that executes Java bytecode.",
+        "option_2": "A tool for compiling Java code.",
+        "option_3": "A type of database.",
+        "option_4": "An IDE for Java.",
+        "answer": "An engine that executes Java bytecode."
+    },
+    {
+        "question": "What does 'JAR' stand for?",
+        "option_1": "Java ARchive",
+        "option_2": "Java Application Resource",
+        "option_3": "Java Archive Resource",
+        "option_4": "Java Application Resource",
+        "answer": "Java ARchive"
+    },
+    {
+        "question": "What is 'JavaFX'?",
+        "option_1": "A framework for building rich client applications.",
+        "option_2": "A type of database.",
+        "option_3": "A library for data structures.",
+        "option_4": "An IDE for Java.",
+        "answer": "A framework for building rich client applications."
+    },
+    {
+        "question": "What does the 'default' keyword do in an interface?",
+        "option_1": "Allows a method to have a default implementation.",
+        "option_2": "Defines a constant.",
+        "option_3": "Creates a new object.",
+        "option_4": "Declares a variable.",
+        "answer": "Allows a method to have a default implementation."
+    },
+    {
+        "question": "What is the purpose of the 'assert' keyword?",
+        "option_1": "To create an assertion, which is a debugging tool.",
+        "option_2": "To declare a variable.",
+        "option_3": "To define a class.",
+        "option_4": "To create a new object.",
+        "answer": "To create an assertion, which is a debugging tool."
+    },
+    {
+        "question": "What is the purpose of the 'instanceof' operator?",
+        "option_1": "To test if an object is an instance of a specified class.",
+        "option_2": "To create a new instance.",
+        "option_3": "To declare a variable.",
+        "option_4": "To define a method.",
+        "answer": "To test if an object is an instance of a specified class."
+    },
+    {
+        "question": "What is the difference between 'StringBuilder' and 'StringBuffer'?",
+        "option_1": "StringBuilder is not synchronized, StringBuffer is synchronized.",
+        "option_2": "StringBuilder is immutable, StringBuffer is mutable.",
+        "option_3": "They are the same.",
+        "option_4": "StringBuilder is for network communication.",
+        "answer": "StringBuilder is not synchronized, StringBuffer is synchronized."
+    },
+    {
+        "question": "What is a 'Serializable' interface?",
+        "option_1": "An interface that enables object serialization.",
+        "option_2": "An interface for handling exceptions.",
+        "option_3": "An interface for defining constants.",
+        "option_4": "An interface for file handling.",
+        "answer": "An interface that enables object serialization."
+    },
+    {
+        "question": "What is the purpose of the 'main' method in Java?",
+        "option_1": "It is the entry point of any Java application.",
+        "option_2": "It creates new objects.",
+        "option_3": "It handles exceptions.",
+        "option_4": "It defines a class.",
+        "answer": "It is the entry point of any Java application."
+    },
+    {
+        "question": "What is a 'Java package'?",
+        "option_1": "A namespace for organizing classes and interfaces.",
+        "option_2": "A type of variable.",
+        "option_3": "A method for handling exceptions.",
+        "option_4": "A class for file handling.",
+        "answer": "A namespace for organizing classes and interfaces."
+    },
+    {
+        "question": "What is a 'static import'?",
+        "option_1": "An import that allows static members to be accessed directly.",
+        "option_2": "An import that restricts access to classes.",
+        "option_3": "An import that defines constants.",
+        "option_4": "An import that handles exceptions.",
+        "answer": "An import that allows static members to be accessed directly."
+    },
+    {
+        "question": "What is the purpose of the 'volatile' modifier?",
+        "option_1": "To indicate that a variable may be changed by multiple threads.",
+        "option_2": "To define a constant.",
+        "option_3": "To create a new object.",
+        "option_4": "To declare a method.",
+        "answer": "To indicate that a variable may be changed by multiple threads."
+    },
+    {
+        "question": "What is 'Java 2D'?",
+        "option_1": "A set of classes for advanced 2D graphics.",
+        "option_2": "A type of database.",
+        "option_3": "A method for handling exceptions.",
+        "option_4": "A framework for web applications.",
+        "answer": "A set of classes for advanced 2D graphics."
+    },
+    {
+        "question": "What is 'Java Servlet'?",
+        "option_1": "A Java program that runs on a server.",
+        "option_2": "A type of database.",
+        "option_3": "A method for handling exceptions.",
+        "option_4": "A class for file handling.",
+        "answer": "A Java program that runs on a server."
+    },
+    {
+        "question": "What does the 'new' keyword do in Java?",
+        "option_1": "Allocates memory for an object.",
+        "option_2": "Declares a variable.",
+        "option_3": "Defines a constant.",
+        "option_4": "Creates a new class.",
+        "answer": "Allocates memory for an object."
+    },
+    {
+        "question": "What is the purpose of the 'import' statement?",
+        "option_1": "To bring other classes or packages into visibility.",
+        "option_2": "To create a new object.",
+        "option_3": "To handle exceptions.",
+        "option_4": "To declare a variable.",
+        "answer": "To bring other classes or packages into visibility."
+    },
+    {
+        "question": "What is the purpose of the 'default' method in an interface?",
+        "option_1": "To provide a default implementation.",
+        "option_2": "To define constants.",
+        "option_3": "To create a new object.",
+        "option_4": "To declare a variable.",
+        "answer": "To provide a default implementation."
+    },
+    {
+        "question": "What is 'Java Reflection'?",
+        "option_1": "A mechanism to inspect and manipulate classes at runtime.",
+        "option_2": "A method for handling exceptions.",
+        "option_3": "A type of database.",
+        "option_4": "A framework for web applications.",
+        "answer": "A mechanism to inspect and manipulate classes at runtime."
+    },
+    {
+        "question": "What is a 'proxy' in Java?",
+        "option_1": "An object that acts as a substitute for another.",
+        "option_2": "A type of variable.",
+        "option_3": "A method for handling exceptions.",
+        "option_4": "A class for file handling.",
+        "answer": "An object that acts as a substitute for another."
+    },
+    {
+        "question": "What is the use of the 'break' statement?",
+        "option_1": "To exit a loop or switch statement.",
+        "option_2": "To create a new object.",
+        "option_3": "To define a method.",
+        "option_4": "To declare a variable.",
+        "answer": "To exit a loop or switch statement."
+    },
+    {
+        "question": "What is the purpose of the 'continue' statement?",
+        "option_1": "To skip the current iteration of a loop.",
+        "option_2": "To create a new object.",
+        "option_3": "To define a method.",
+        "option_4": "To declare a variable.",
+        "answer": "To skip the current iteration of a loop."
+    },
+    {
+        "question": "What is a 'switch' statement used for?",
+        "option_1": "To execute one block of code among multiple options.",
+        "option_2": "To create a new object.",
+        "option_3": "To define a method.",
+        "option_4": "To declare a variable.",
+        "answer": "To execute one block of code among multiple options."
+    },
+    {
+        "question": "What does the 'charAt()' method do?",
+        "option_1": "Returns the character at a specified index in a string.",
+        "option_2": "Creates a new string.",
+        "option_3": "Defines a method.",
+        "option_4": "Declares a variable.",
+        "answer": "Returns the character at a specified index in a string."
+    },
+    {
+        "question": "What is the purpose of the 'length()' method?",
+        "option_1": "Returns the length of a string.",
+        "option_2": "Creates a new string.",
+        "option_3": "Defines a method.",
+        "option_4": "Declares a variable.",
+        "answer": "Returns the length of a string."
+    },
+    {
+        "question": "What does the 'concat()' method do?",
+        "option_1": "Concatenates two strings.",
+        "option_2": "Creates a new object.",
+        "option_3": "Defines a method.",
+        "option_4": "Declares a variable.",
+        "answer": "Concatenates two strings."
+    },
+    {
+        "question": "What is the purpose of the 'substring()' method?",
+        "option_1": "Extracts a portion of a string.",
+        "option_2": "Creates a new string.",
+        "option_3": "Defines a method.",
+        "option_4": "Declares a variable.",
+        "answer": "Extracts a portion of a string."
+    },
+    {
+        "question": "What is the 'static' keyword used for?",
+        "option_1": "To define class-level methods and variables.",
+        "option_2": "To create new objects.",
+        "option_3": "To declare a variable.",
+        "option_4": "To handle exceptions.",
+        "answer": "To define class-level methods and variables."
+    },
+    {
+        "question": "What is 'JUnit'?",
+        "option_1": "A framework for unit testing in Java.",
+        "option_2": "A method for handling exceptions.",
+        "option_3": "A type of database.",
+        "option_4": "A library for data structures.",
+        "answer": "A framework for unit testing in Java."
+    },
+    {
+        "question": "What is a 'HashMap'?",
+        "option_1": "A collection that maps keys to values.",
+        "option_2": "A type of variable.",
+        "option_3": "A method for handling exceptions.",
+        "option_4": "A class for file handling.",
+        "answer": "A collection that maps keys to values."
+    },
+    {
+        "question": "What is 'Java Stream API'?",
+        "option_1": "A framework for processing sequences of elements.",
+        "option_2": "A method for handling exceptions.",
+        "option_3": "A type of database.",
+        "option_4": "A library for data structures.",
+        "answer": "A framework for processing sequences of elements."
     }
 ]

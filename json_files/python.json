@@ -1,59 +1,203 @@
 [
     {
-        "question": "How do you declare a variable in Python?",
-        "option_1": "variable_name = value",
-        "option_2": "var variable_name = value",
-        "option_3": "variable_name : value",
-        "option_4": "variable_name := value",
-        "answer": "variable_name = value"
+        "question": "What is the correct way to define a function in Python?",
+        "option_1": "def function_name():",
+        "option_2": "function function_name():",
+        "option_3": "define function_name():",
+        "option_4": "function_name() = def:",
+        "answer": "def function_name():"
     },
     {
-        "question": "What is the output of 'print(type(5))' in Python?",
-        "option_1": "<class 'int'>",
-        "option_2": "int",
-        "option_3": "5",
+        "question": "What will 'print(type([]))' output?",
+        "option_1": "<class 'list'>",
+        "option_2": "<class 'array'>",
+        "option_3": "<class 'dict'>",
+        "option_4": "<class 'set'>",
+        "answer": "<class 'list'>"
+    },
+    {
+        "question": "How do you create a variable that is a list in Python?",
+        "option_1": "my_list = []",
+        "option_2": "my_list = {}",
+        "option_3": "my_list = ()",
+        "option_4": "my_list = list()",
+        "answer": "my_list = []"
+    },
+    {
+        "question": "What is the purpose of the 'len()' function?",
+        "option_1": "Returns the number of items in an object.",
+        "option_2": "Converts an object to a list.",
+        "option_3": "Creates a new list.",
+        "option_4": "None of the above.",
+        "answer": "Returns the number of items in an object."
+    },
+    {
+        "question": "What will 'print(3 * 2 ** 2)' output?",
+        "option_1": "12",
+        "option_2": "8",
+        "option_3": "6",
+        "option_4": "9",
+        "answer": "12"
+    },
+    {
+        "question": "What is the purpose of the 'def' keyword?",
+        "option_1": "To define a function.",
+        "option_2": "To declare a variable.",
+        "option_3": "To create a loop.",
+        "option_4": "To import a module.",
+        "answer": "To define a function."
+    },
+    {
+        "question": "How do you access the first element of a list?",
+        "option_1": "my_list[0]",
+        "option_2": "my_list[1]",
+        "option_3": "my_list.first()",
+        "option_4": "my_list(0)",
+        "answer": "my_list[0]"
+    },
+    {
+        "question": "What is a dictionary in Python?",
+        "option_1": "A collection of key-value pairs.",
+        "option_2": "An ordered list of elements.",
+        "option_3": "A type of variable.",
+        "option_4": "A mathematical function.",
+        "answer": "A collection of key-value pairs."
+    },
+    {
+        "question": "What does the 'if __name__ == \"__main__\":' statement do?",
+        "option_1": "Checks if the script is being run directly.",
+        "option_2": "Imports a module.",
+        "option_3": "Defines a function.",
+        "option_4": "Creates a class.",
+        "answer": "Checks if the script is being run directly."
+    },
+    {
+        "question": "How do you create a class in Python?",
+        "option_1": "class MyClass:",
+        "option_2": "MyClass class:",
+        "option_3": "def MyClass():",
+        "option_4": "create MyClass:",
+        "answer": "class MyClass:"
+    },
+    {
+        "question": "What does the 'pass' statement do?",
+        "option_1": "Does nothing; a placeholder.",
+        "option_2": "Exits a function.",
+        "option_3": "Creates a loop.",
+        "option_4": "Defines a variable.",
+        "answer": "Does nothing; a placeholder."
+    },
+    {
+        "question": "What will 'print(5 > 3)' output?",
+        "option_1": "True",
+        "option_2": "False",
+        "option_3": "None",
         "option_4": "Error",
-        "answer": "<class 'int'>"
+        "answer": "True"
     },
     {
-        "question": "How do you define a function in Python?",
-        "option_1": "def function_name(parameters):",
-        "option_2": "function_name(parameters) {",
-        "option_3": "function_name(parameters) =",
-        "option_4": "function function_name(parameters):",
-        "answer": "def function_name(parameters):"
-    },
-    {
-        "question": "What is the purpose of the 'self' keyword in Python?",
-        "option_1": "To refer to the instance of the class",
-        "option_2": "To define a static method",
-        "option_3": "To create a new class",
-        "option_4": "To declare a global variable",
-        "answer": "To refer to the instance of the class"
+        "question": "What is the purpose of the 'return' statement?",
+        "option_1": "To exit a function and return a value.",
+        "option_2": "To define a variable.",
+        "option_3": "To create a loop.",
+        "option_4": "To handle exceptions.",
+        "answer": "To exit a function and return a value."
     },
     {
         "question": "How do you handle exceptions in Python?",
-        "option_1": "Using try-except blocks",
-        "option_2": "Using if-else statements",
-        "option_3": "Using switch-case statements",
-        "option_4": "Using error codes",
-        "answer": "Using try-except blocks"
+        "option_1": "Using try-except blocks.",
+        "option_2": "Using if-else statements.",
+        "option_3": "Using error codes.",
+        "option_4": "Using switch-case statements.",
+        "answer": "Using try-except blocks."
     },
     {
-        "question": "How do you create a list in Python?",
-        "option_1": "list_name = [item1, item2]",
-        "option_2": "list_name = (item1, item2)",
-        "option_3": "list_name = {item1, item2}",
-        "option_4": "list_name = <item1, item2>",
-        "answer": "list_name = [item1, item2]"
+        "question": "What will 'print(list(range(5)))' output?",
+        "option_1": "[0, 1, 2, 3, 4]",
+        "option_2": "[1, 2, 3, 4, 5]",
+        "option_3": "5",
+        "option_4": "[0, 1, 2, 3, 5]",
+        "answer": "[0, 1, 2, 3, 4]"
     },
     {
-        "question": "What is the output of 'len([1, 2, 3])' in Python?",
-        "option_1": "3",
-        "option_2": "6",
+        "question": "What is a lambda function?",
+        "option_1": "An anonymous function defined with 'lambda' keyword.",
+        "option_2": "A function that takes no arguments.",
+        "option_3": "A type of class.",
+        "option_4": "A built-in function.",
+        "answer": "An anonymous function defined with 'lambda' keyword."
+    },
+    {
+        "question": "What will 'print(0.1 + 0.2 == 0.3)' return?",
+        "option_1": "False",
+        "option_2": "True",
         "option_3": "Error",
         "option_4": "None",
-        "answer": "3"
+        "answer": "False"
+    },
+    {
+        "question": "What is list comprehension?",
+        "option_1": "A concise way to create lists.",
+        "option_2": "A method for sorting lists.",
+        "option_3": "A way to define functions.",
+        "option_4": "None of the above.",
+        "answer": "A concise way to create lists."
+    },
+    {
+        "question": "What does the 'in' keyword do?",
+        "option_1": "Checks if a value exists in a collection.",
+        "option_2": "Defines a loop.",
+        "option_3": "Creates a function.",
+        "option_4": "None of the above.",
+        "answer": "Checks if a value exists in a collection."
+    },
+    {
+        "question": "What is the output of 'print(1 == 1 and 2 == 2)'?",
+        "option_1": "True",
+        "option_2": "False",
+        "option_3": "None",
+        "option_4": "Error",
+        "answer": "True"
+    },
+    {
+        "question": "How do you read a file in Python?",
+        "option_1": "open('filename.txt', 'r')",
+        "option_2": "read('filename.txt')",
+        "option_3": "get('filename.txt')",
+        "option_4": "open_file('filename.txt')",
+        "answer": "open('filename.txt', 'r')"
+    },
+    {
+        "question": "What is the output of 'print('Hello' + 'World')'?",
+        "option_1": "'HelloWorld'",
+        "option_2": "'Hello World'",
+        "option_3": "'Hello, World!'",
+        "option_4": "Error",
+        "answer": "'HelloWorld'"
+    },
+    {
+        "question": "How do you create a virtual environment?",
+        "option_1": "python -m venv myenv",
+        "option_2": "create venv myenv",
+        "option_3": "env myenv",
+        "option_4": "python create venv myenv",
+        "answer": "python -m venv myenv"
+    },
+    {
+        "question": "What is the purpose of 'self' in a class method?",
+        "option_1": "Refers to the instance of the class.",
+        "option_2": "Defines the class.",
+        "option_3": "Creates a new object.",
+        "option_4": "None of the above.",
+        "answer": "Refers to the instance of the class."
+    },
+    {
+        "question": "What is the output of 'print(5 // 2)'?",
+        "option_1": "2",
+        "option_2": "2.5",
+        "option_3": "3",
+        "option_4": "Error",
+        "answer": "2"
     },
     {
         "question": "How do you import a module in Python?",
@@ -64,51 +208,427 @@
         "answer": "import module_name"
     },
     {
-        "question": "What is the purpose of the 'return' statement in Python?",
-        "option_1": "To exit a function and return a value to the caller",
-        "option_2": "To define a new function",
-        "option_3": "To create a variable",
-        "option_4": "To include a module",
-        "answer": "To exit a function and return a value to the caller"
+        "question": "What is the purpose of the 'with' statement?",
+        "option_1": "To simplify exception handling.",
+        "option_2": "To manage resources.",
+        "option_3": "To define a function.",
+        "option_4": "To create a loop.",
+        "answer": "To manage resources."
     },
     {
-        "question": "How do you define a class in Python?",
-        "option_1": "class ClassName:",
-        "option_2": "def ClassName:",
-        "option_3": "ClassName = class:",
-        "option_4": "create ClassName:",
-        "answer": "class ClassName:"
+        "question": "What does 'strip()' do in Python?",
+        "option_1": "Removes whitespace from both ends of a string.",
+        "option_2": "Converts a string to uppercase.",
+        "option_3": "Finds the length of a string.",
+        "option_4": "None of the above.",
+        "answer": "Removes whitespace from both ends of a string."
     },
     {
-        "question": "What does the 'pass' statement do in Python?",
-        "option_1": "It is a placeholder that does nothing",
-        "option_2": "It terminates the program",
-        "option_3": "It prints a message",
-        "option_4": "It defines a new function",
-        "answer": "It is a placeholder that does nothing"
+        "question": "What is the output of 'print([1, 2, 3] + [4, 5])'?",
+        "option_1": "[1, 2, 3, 4, 5]",
+        "option_2": "[5, 4, 3, 2, 1]",
+        "option_3": "Error",
+        "option_4": "[1, 2, 3, [4, 5]]",
+        "answer": "[1, 2, 3, 4, 5]"
     },
     {
-        "question": "What is a 'dictionary' in Python?",
-        "option_1": "A collection of key-value pairs",
-        "option_2": "A collection of ordered items",
-        "option_3": "A single value container",
-        "option_4": "A type of list",
-        "answer": "A collection of key-value pairs"
+        "question": "What will 'print({1, 2, 2})' output?",
+        "option_1": "{1, 2}",
+        "option_2": "{1, 2, 2}",
+        "option_3": "Error",
+        "option_4": "[1, 2]",
+        "answer": "{1, 2}"
     },
     {
-        "question": "How do you access a value in a dictionary by key?",
-        "option_1": "dictionary_name[key]",
-        "option_2": "dictionary_name.key",
-        "option_3": "dictionary_name.get(key)",
-        "option_4": "dictionary_name[key].value",
-        "answer": "dictionary_name[key]"
+        "question": "What does the 'map()' function do?",
+        "option_1": "Applies a function to all items in an iterable.",
+        "option_2": "Creates a list from an iterable.",
+        "option_3": "Filters items in an iterable.",
+        "option_4": "None of the above.",
+        "answer": "Applies a function to all items in an iterable."
     },
     {
-        "question": "What is the output of '3 * 1 ** 2' in Python?",
+        "question": "What is the output of 'print(bool(0))'?",
+        "option_1": "False",
+        "option_2": "True",
+        "option_3": "None",
+        "option_4": "Error",
+        "answer": "False"
+    },
+    {
+        "question": "What does 'enumerate()' do in Python?",
+        "option_1": "Adds a counter to an iterable.",
+        "option_2": "Creates a new list.",
+        "option_3": "Filters items in a list.",
+        "option_4": "None of the above.",
+        "answer": "Adds a counter to an iterable."
+    },
+    {
+        "question": "How do you write a comment in Python?",
+        "option_1": "# This is a comment",
+        "option_2": "// This is a comment",
+        "option_3": "<!-- This is a comment -->",
+        "option_4": "' This is a comment",
+        "answer": "# This is a comment"
+    },
+    {
+        "question": "What will 'print(list('abc'))' output?",
+        "option_1": "['a', 'b', 'c']",
+        "option_2": "'abc'",
+        "option_3": "['abc']",
+        "option_4": "Error",
+        "answer": "['a', 'b', 'c']"
+    },
+    {
+        "question": "What is the output of 'print(2 * [1, 2])'?",
+        "option_1": "[1, 2, 1, 2]",
+        "option_2": "[2, 4]",
+        "option_3": "[1, 2]",
+        "option_4": "Error",
+        "answer": "[1, 2, 1, 2]"
+    },
+    {
+        "question": "What does 'sorted()' do?",
+        "option_1": "Returns a sorted list from the items in an iterable.",
+        "option_2": "Creates a new list.",
+        "option_3": "Filters items in a list.",
+        "option_4": "None of the above.",
+        "answer": "Returns a sorted list from the items in an iterable."
+    },
+    {
+        "question": "What is a tuple in Python?",
+        "option_1": "An immutable ordered collection.",
+        "option_2": "A mutable ordered collection.",
+        "option_3": "A type of variable.",
+        "option_4": "None of the above.",
+        "answer": "An immutable ordered collection."
+    },
+    {
+        "question": "What does the 'continue' statement do?",
+        "option_1": "Skips the current iteration and continues to the next.",
+        "option_2": "Exits a loop.",
+        "option_3": "Ends a program.",
+        "option_4": "None of the above.",
+        "answer": "Skips the current iteration and continues to the next."
+    },
+    {
+        "question": "What is the output of 'print('a' in 'abc')'?",
+        "option_1": "True",
+        "option_2": "False",
+        "option_3": "Error",
+        "option_4": "None",
+        "answer": "True"
+    },
+    {
+        "question": "What does the 'open()' function do?",
+        "option_1": "Opens a file and returns a file object.",
+        "option_2": "Creates a new file.",
+        "option_3": "Closes a file.",
+        "option_4": "None of the above.",
+        "answer": "Opens a file and returns a file object."
+    },
+    {
+        "question": "How do you convert a string to an integer?",
+        "option_1": "int('string')",
+        "option_2": "str('string')",
+        "option_3": "convert('string')",
+        "option_4": "integer('string')",
+        "answer": "int('string')"
+    },
+    {
+        "question": "What does 'pop()' do in a list?",
+        "option_1": "Removes and returns the last item.",
+        "option_2": "Adds an item to the end.",
+        "option_3": "Finds the length of the list.",
+        "option_4": "None of the above.",
+        "answer": "Removes and returns the last item."
+    },
+    {
+        "question": "What is the output of 'print(set([1, 2, 2]))'?",
+        "option_1": "{1, 2}",
+        "option_2": "[1, 2]",
+        "option_3": "Error",
+        "option_4": "[1, 2, 2]",
+        "answer": "{1, 2}"
+    },
+    {
+        "question": "How do you find the maximum value in a list?",
+        "option_1": "max(my_list)",
+        "option_2": "max_value(my_list)",
+        "option_3": "my_list.max()",
+        "option_4": "None of the above.",
+        "answer": "max(my_list)"
+    },
+    {
+        "question": "What does 'join()' do?",
+        "option_1": "Joins elements of an iterable into a string.",
+        "option_2": "Splits a string into a list.",
+        "option_3": "Creates a new list.",
+        "option_4": "None of the above.",
+        "answer": "Joins elements of an iterable into a string."
+    },
+    {
+        "question": "What is the output of 'print(len([1, 2, 3]))'?",
         "option_1": "3",
-        "option_2": "9",
-        "option_3": "6",
-        "option_4": "1",
+        "option_2": "2",
+        "option_3": "Error",
+        "option_4": "None",
         "answer": "3"
+    },
+    {
+        "question": "How do you create a new list from another list?",
+        "option_1": "new_list = old_list.copy()",
+        "option_2": "new_list = old_list.",
+        "option_3": "new_list = old_list.new()",
+        "option_4": "new_list = old_list.clone()",
+        "answer": "new_list = old_list.copy()"
+    },
+    {
+        "question": "What does the 'filter()' function do?",
+        "option_1": "Filters items from an iterable.",
+        "option_2": "Creates a new list.",
+        "option_3": "Sorts a list.",
+        "option_4": "None of the above.",
+        "answer": "Filters items from an iterable."
+    },
+    {
+        "question": "What will 'print(5 % 2)' output?",
+        "option_1": "1",
+        "option_2": "2",
+        "option_3": "0",
+        "option_4": "Error",
+        "answer": "1"
+    },
+    {
+        "question": "How do you create a set in Python?",
+        "option_1": "my_set = set()",
+        "option_2": "my_set = []",
+        "option_3": "my_set = {}",
+        "option_4": "my_set = ()",
+        "answer": "my_set = set()"
+    },
+    {
+        "question": "What is the output of 'print('Hello'.upper())'?",
+        "option_1": "'HELLO'",
+        "option_2": "'Hello'",
+        "option_3": "'hello'",
+        "option_4": "Error",
+        "answer": "'HELLO'"
+    },
+    {
+        "question": "What does the 'enumerate()' function return?",
+        "option_1": "A counter with the iterable.",
+        "option_2": "A sorted iterable.",
+        "option_3": "An error.",
+        "option_4": "None of the above.",
+        "answer": "A counter with the iterable."
+    },
+    {
+        "question": "What is the output of 'print('abc'.find('b'))'?",
+        "option_1": "1",
+        "option_2": "0",
+        "option_3": "-1",
+        "option_4": "Error",
+        "answer": "1"
+    },
+    {
+        "question": "What does 'all()' do?",
+        "option_1": "Returns True if all elements are true.",
+        "option_2": "Creates a new list.",
+        "option_3": "Filters a list.",
+        "option_4": "None of the above.",
+        "answer": "Returns True if all elements are true."
+    },
+    {
+        "question": "What is the output of 'print(isinstance(5, int))'?",
+        "option_1": "True",
+        "option_2": "False",
+        "option_3": "None",
+        "option_4": "Error",
+        "answer": "True"
+    },
+    {
+        "question": "How do you create a copy of a dictionary?",
+        "option_1": "new_dict = old_dict.copy()",
+        "option_2": "new_dict = old_dict.",
+        "option_3": "new_dict = old_dict.new()",
+        "option_4": "new_dict = old_dict.clone()",
+        "answer": "new_dict = old_dict.copy()"
+    },
+    {
+        "question": "What does 'setdefault()' do in a dictionary?",
+        "option_1": "Returns the value if the key exists, otherwise sets it.",
+        "option_2": "Creates a new dictionary.",
+        "option_3": "Deletes a key.",
+        "option_4": "None of the above.",
+        "answer": "Returns the value if the key exists, otherwise sets it."
+    },
+    {
+        "question": "What is the output of 'print([i for i in range(5)])'?",
+        "option_1": "[0, 1, 2, 3, 4]",
+        "option_2": "[1, 2, 3, 4, 5]",
+        "option_3": "[0, 1, 2, 3, 5]",
+        "option_4": "Error",
+        "answer": "[0, 1, 2, 3, 4]"
+    },
+    {
+        "question": "What does 'next()' do?",
+        "option_1": "Retrieves the next item from an iterator.",
+        "option_2": "Creates a new list.",
+        "option_3": "Filters a list.",
+        "option_4": "None of the above.",
+        "answer": "Retrieves the next item from an iterator."
+    },
+    {
+        "question": "What is the output of 'print('Python'.replace('P', 'J'))'?",
+        "option_1": "'Jython'",
+        "option_2": "'Python'",
+        "option_3": "'Pythons'",
+        "option_4": "Error",
+        "answer": "'Jython'"
+    },
+    {
+        "question": "What does the 'break' statement do?",
+        "option_1": "Exits a loop.",
+        "option_2": "Ends a function.",
+        "option_3": "Defines a variable.",
+        "option_4": "None of the above.",
+        "answer": "Exits a loop."
+    },
+    {
+        "question": "What is the output of 'print(1 in [1, 2, 3])'?",
+        "option_1": "True",
+        "option_2": "False",
+        "option_3": "None",
+        "option_4": "Error",
+        "answer": "True"
+    },
+    {
+        "question": "How do you get the keys of a dictionary?",
+        "option_1": "my_dict.keys()",
+        "option_2": "my_dict.get_keys()",
+        "option_3": "my_dict.all_keys()",
+        "option_4": "None of the above.",
+        "answer": "my_dict.keys()"
+    },
+    {
+        "question": "What does 'isdigit()' do?",
+        "option_1": "Checks if a string is a digit.",
+        "option_2": "Converts a string to an integer.",
+        "option_3": "None of the above.",
+        "option_4": "Creates a list.",
+        "answer": "Checks if a string is a digit."
+    },
+    {
+        "question": "What is the output of 'print((1, 2) + (3, 4))'?",
+        "option_1": "(1, 2, 3, 4)",
+        "option_2": "(1, 2)",
+        "option_3": "Error",
+        "option_4": "None of the above.",
+        "answer": "(1, 2, 3, 4)"
+    },
+    {
+        "question": "How do you get the last item of a list?",
+        "option_1": "my_list[-1]",
+        "option_2": "my_list.last()",
+        "option_3": "my_list[len(my_list) - 1]",
+        "option_4": "None of the above.",
+        "answer": "my_list[-1]"
+    },
+    {
+        "question": "What does 'slice' do in Python?",
+        "option_1": "Extracts a part of a list or string.",
+        "option_2": "Sorts a list.",
+        "option_3": "Filters a list.",
+        "option_4": "None of the above.",
+        "answer": "Extracts a part of a list or string."
+    },
+    {
+        "question": "What is the output of 'print([1, 2, 3] * 2)'?",
+        "option_1": "[1, 2, 3, 1, 2, 3]",
+        "option_2": "[2, 4, 6]",
+        "option_3": "[1, 2, 3]",
+        "option_4": "Error",
+        "answer": "[1, 2, 3, 1, 2, 3]"
+    },
+    {
+        "question": "What is the output of 'print({1: 'a', 2: 'b'}[1])'?",
+        "option_1": "'a'",
+        "option_2": "'b'",
+        "option_3": "Error",
+        "option_4": "None",
+        "answer": "'a'"
+    },
+    {
+        "question": "How do you create a string from a list of characters?",
+        "option_1": "''.join(my_list)",
+        "option_2": "my_list.join()",
+        "option_3": "string(my_list)",
+        "option_4": "None of the above.",
+        "answer": "''.join(my_list)"
+    },
+    {
+        "question": "What does the 'any()' function do?",
+        "option_1": "Returns True if any element is true.",
+        "option_2": "Creates a new list.",
+        "option_3": "Filters a list.",
+        "option_4": "None of the above.",
+        "answer": "Returns True if any element is true."
+    },
+    {
+        "question": "What is the output of 'print(3.14)'?",
+        "option_1": "3.14",
+        "option_2": "Error",
+        "option_3": "None",
+        "option_4": "3",
+        "answer": "3.14"
+    },
+    {
+        "question": "How do you access a value in a dictionary?",
+        "option_1": "my_dict[key]",
+        "option_2": "my_dict.key",
+        "option_3": "my_dict.get(key)",
+        "option_4": "None of the above.",
+        "answer": "my_dict[key]"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_1": "8",
+        "option_2": "6",
+        "option_3": "9",
+        "option_4": "Error",
+        "answer": "8"
+    },
+    {
+        "question": "How do you check the length of a string?",
+        "option_1": "len(my_string)",
+        "option_2": "my_string.length()",
+        "option_3": "length(my_string)",
+        "option_4": "None of the above.",
+        "answer": "len(my_string)"
+    },
+    {
+        "question": "What does 'append()' do in a list?",
+        "option_1": "Adds an item to the end.",
+        "option_2": "Removes an item.",
+        "option_3": "Finds the index of an item.",
+        "option_4": "None of the above.",
+        "answer": "Adds an item to the end."
+    },
+    {
+        "question": "What is the output of 'print('Hello World'.split())'?",
+        "option_1": "['Hello', 'World']",
+        "option_2": "'Hello World'",
+        "option_3": "Error",
+        "option_4": "['Hello World']",
+        "answer": "['Hello', 'World']"
+    },
+    {
+        "question": "What is the output of 'print({}.fromkeys([1, 2], 'x'))'?",
+        "option_1": "{1: 'x', 2: 'x'}",
+        "option_2": "Error",
+        "option_3": "None",
+        "option_4": "{1: 'x'}",
+        "answer": "{1: 'x', 2: 'x'}"
     }
 ]

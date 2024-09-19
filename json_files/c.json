@@ -1,258 +1,666 @@
 [
     {
-        "question": "What is the correct way to include a standard library header file in C?",
-        "option_1": "#include <header.h>",
-        "option_2": "#include 'header.h'",
-        "option_3": "#include header.h",
-        "option_4": "#include (header.h)",
-        "answer": "#include <header.h>"
+        "question": "Which keyword is used to define a variable in C?",
+        "option_1": "var",
+        "option_2": "let",
+        "option_3": "int",
+        "option_4": "define",
+        "answer": "int"
     },
     {
-        "question": "How do you declare a function in C?",
-        "option_1": "returnType functionName(parameters) { // body }",
-        "option_2": "functionName(returnType parameters) { // body }",
-        "option_3": "returnType functionName { // body }",
-        "option_4": "functionName(parameters) { // returnType }",
-        "answer": "returnType functionName(parameters) { // body }"
+        "question": "Which function is used to print output to the console in C?",
+        "option_1": "printf()",
+        "option_2": "cout()",
+        "option_3": "echo()",
+        "option_4": "print()",
+        "answer": "printf()"
     },
     {
-        "question": "What is the purpose of the 'void' keyword in C?",
-        "option_1": "To specify that a function does not return a value",
-        "option_2": "To define a constant value",
-        "option_3": "To create a new data type",
-        "option_4": "To handle exceptions",
-        "answer": "To specify that a function does not return a value"
+        "question": "What is the correct syntax for a single-line comment in C?",
+        "option_1": "// This is a comment",
+        "option_2": "/* This is a comment */",
+        "option_3": "# This is a comment",
+        "option_4": "-- This is a comment",
+        "answer": "// This is a comment"
     },
     {
-        "question": "How do you declare a pointer to an integer in C?",
+        "question": "Which of the following is the correct way to declare an array in C?",
+        "option_1": "int arr[] = {1, 2, 3};",
+        "option_2": "array arr = {1, 2, 3};",
+        "option_3": "int[] arr = {1, 2, 3};",
+        "option_4": "list arr = {1, 2, 3};",
+        "answer": "int arr[] = {1, 2, 3};"
+    },
+    {
+        "question": "Which of the following data types is used to store characters in C?",
+        "option_1": "char",
+        "option_2": "string",
+        "option_3": "int",
+        "option_4": "float",
+        "answer": "char"
+    },
+    {
+        "question": "What is the size of the 'int' data type in C?",
+        "option_1": "4 bytes",
+        "option_2": "2 bytes",
+        "option_3": "8 bytes",
+        "option_4": "1 byte",
+        "answer": "4 bytes"
+    },
+    {
+        "question": "Which operator is used to access the address of a variable in C?",
+        "option_1": "&",
+        "option_2": "*",
+        "option_3": "#",
+        "option_4": "%",
+        "answer": "&"
+    },
+    {
+        "question": "Which function is used to read input from the user in C?",
+        "option_1": "scanf()",
+        "option_2": "input()",
+        "option_3": "cin()",
+        "option_4": "get()",
+        "answer": "scanf()"
+    },
+    {
+        "question": "Which keyword is used to define a constant in C?",
+        "option_1": "const",
+        "option_2": "final",
+        "option_3": "define",
+        "option_4": "static",
+        "answer": "const"
+    },
+    {
+        "question": "Which of the following is the correct syntax for a function declaration in C?",
+        "option_1": "int functionName(int arg);",
+        "option_2": "function int functionName(int arg);",
+        "option_3": "int functionName[arg];",
+        "option_4": "func int functionName(int arg);",
+        "answer": "int functionName(int arg);"
+    },
+    {
+        "question": "Which keyword is used to exit a loop prematurely in C?",
+        "option_1": "break",
+        "option_2": "exit",
+        "option_3": "return",
+        "option_4": "stop",
+        "answer": "break"
+    },
+    {
+        "question": "Which operator is used for logical AND in C?",
+        "option_1": "&&",
+        "option_2": "||",
+        "option_3": "&",
+        "option_4": "|",
+        "answer": "&&"
+    },
+    {
+        "question": "Which of the following is a valid header file in C?",
+        "option_1": "<stdio.h>",
+        "option_2": "<iostream>",
+        "option_3": "<file.h>",
+        "option_4": "<system.h>",
+        "answer": "<stdio.h>"
+    },
+    {
+        "question": "Which function is used to terminate the program in C?",
+        "option_1": "exit()",
+        "option_2": "terminate()",
+        "option_3": "stop()",
+        "option_4": "quit()",
+        "answer": "exit()"
+    },
+    {
+        "question": "What is the return type of the 'main' function in C?",
+        "option_1": "int",
+        "option_2": "void",
+        "option_3": "main",
+        "option_4": "char",
+        "answer": "int"
+    },
+    {
+        "question": "What is the purpose of the 'return' statement in C?",
+        "option_1": "It exits a function and returns a value.",
+        "option_2": "It repeats a loop.",
+        "option_3": "It pauses the program.",
+        "option_4": "It declares a variable.",
+        "answer": "It exits a function and returns a value."
+    },
+    {
+        "question": "Which format specifier is used to print an integer in C?",
+        "option_1": "%d",
+        "option_2": "%f",
+        "option_3": "%s",
+        "option_4": "%c",
+        "answer": "%d"
+    },
+    {
+        "question": "Which of the following is the correct way to declare a pointer in C?",
         "option_1": "int *ptr;",
-        "option_2": "int ptr;",
-        "option_3": "pointer int;",
-        "option_4": "int &ptr;",
+        "option_2": "int ptr*;",
+        "option_3": "ptr int*;",
+        "option_4": "int ptr;",
         "answer": "int *ptr;"
     },
     {
-        "question": "What is the purpose of the 'printf' function in C?",
-        "option_1": "To output formatted text to the console",
-        "option_2": "To read input from the console",
-        "option_3": "To create a new file",
-        "option_4": "To perform mathematical calculations",
-        "answer": "To output formatted text to the console"
+        "question": "What is the output of 'sizeof(char)' in C?",
+        "option_1": "1 byte",
+        "option_2": "2 bytes",
+        "option_3": "4 bytes",
+        "option_4": "8 bytes",
+        "answer": "1 byte"
     },
     {
-        "question": "What does the 'scanf' function do in C?",
-        "option_1": "Reads formatted input from the console",
-        "option_2": "Writes formatted output to the console",
-        "option_3": "Opens a file",
-        "option_4": "Allocates memory",
-        "answer": "Reads formatted input from the console"
+        "question": "Which keyword is used to define a structure in C?",
+        "option_1": "struct",
+        "option_2": "class",
+        "option_3": "enum",
+        "option_4": "typedef",
+        "answer": "struct"
     },
     {
-        "question": "What is the purpose of the 'return' statement in C?",
-        "option_1": "To exit a function and return a value to the caller",
-        "option_2": "To initialize a variable",
-        "option_3": "To include a header file",
-        "option_4": "To define a new function",
-        "answer": "To exit a function and return a value to the caller"
+        "question": "Which of the following is the correct way to allocate memory dynamically in C?",
+        "option_1": "malloc()",
+        "option_2": "new()",
+        "option_3": "allocate()",
+        "option_4": "malloc()",
+        "answer": "malloc()"
     },
     {
-        "question": "How do you create a constant value in C?",
-        "option_1": "const int value = 10;",
-        "option_2": "int const value = 10;",
-        "option_3": "#define value 10",
-        "option_4": "constant int value = 10;",
-        "answer": "const int value = 10;"
+        "question": "What is the correct way to free dynamically allocated memory in C?",
+        "option_1": "free()",
+        "option_2": "delete()",
+        "option_3": "release()",
+        "option_4": "clear()",
+        "answer": "free()"
     },
     {
-        "question": "What does the 'sizeof' operator do in C?",
-        "option_1": "Returns the size of a data type or variable in bytes",
-        "option_2": "Allocates memory",
-        "option_3": "Returns the length of a string",
-        "option_4": "Declares a new variable",
-        "answer": "Returns the size of a data type or variable in bytes"
+        "question": "What is the correct syntax for a 'for' loop in C?",
+        "option_1": "for (initialization; condition; increment)",
+        "option_2": "for (intialization increment condition)",
+        "option_3": "for {condition; initialization; increment}",
+        "option_4": "for loop (initialization; condition; increment)",
+        "answer": "for (initialization; condition; increment)"
     },
     {
-        "question": "How do you define a multi-dimensional array in C?",
-        "option_1": "type arrayName[dimension1][dimension2];",
-        "option_2": "type arrayName(dimension1, dimension2);",
-        "option_3": "type arrayName[dimension1, dimension2];",
-        "option_4": "type arrayName<dimension1, dimension2>;",
-        "answer": "type arrayName[dimension1][dimension2];"
+        "question": "Which operator is used to dereference a pointer in C?",
+        "option_1": "*",
+        "option_2": "&",
+        "option_3": "#",
+        "option_4": "->",
+        "answer": "*"
     },
     {
-        "question": "What is the output of the following C code snippet: 'int x = 5; printf('%d', x);'?",
-        "option_1": "5",
-        "option_2": "x",
+        "question": "What does 'EOF' represent in C?",
+        "option_1": "End of File",
+        "option_2": "Error of Function",
+        "option_3": "Element Out of Frame",
+        "option_4": "Exit on Fail",
+        "answer": "End of File"
+    },
+    {
+        "question": "Which keyword is used to create an alias for a data type in C?",
+        "option_1": "typedef",
+        "option_2": "alias",
+        "option_3": "enum",
+        "option_4": "struct",
+        "answer": "typedef"
+    },
+    {
+        "question": "What is the value of the logical expression '1 && 0' in C?",
+        "option_1": "0",
+        "option_2": "1",
+        "option_3": "True",
+        "option_4": "False",
+        "answer": "0"
+    },
+    {
+        "question": "What is the correct format specifier for a character in C?",
+        "option_1": "%c",
+        "option_2": "%d",
+        "option_3": "%f",
+        "option_4": "%s",
+        "answer": "%c"
+    },
+    {
+        "question": "Which library function is used to compare two strings in C?",
+        "option_1": "strcmp()",
+        "option_2": "strlen()",
+        "option_3": "strcat()",
+        "option_4": "strcpy()",
+        "answer": "strcmp()"
+    },
+    {
+        "question": "Which keyword is used to skip the current iteration of a loop in C?",
+        "option_1": "continue",
+        "option_2": "break",
+        "option_3": "return",
+        "option_4": "exit",
+        "answer": "continue"
+    },
+    {
+        "question": "What is the purpose of the 'sizeof' operator in C?",
+        "option_1": "To get the size of a data type or variable",
+        "option_2": "To perform arithmetic operations",
+        "option_3": "To define constants",
+        "option_4": "To allocate memory",
+        "answer": "To get the size of a data type or variable"
+    },
+    {
+        "question": "Which of the following is the correct syntax for a 'while' loop in C?",
+        "option_1": "while (condition) { // code }",
+        "option_2": "while {condition} // code",
+        "option_3": "while (condition) // code",
+        "option_4": "while [condition] { // code }",
+        "answer": "while (condition) { // code }"
+    },
+    {
+        "question": "What is the output of 'printf(\"%d\", 5 + 3);' in C?",
+        "option_1": "8",
+        "option_2": "5 + 3",
         "option_3": "Error",
-        "option_4": "printf",
+        "option_4": "8.0",
+        "answer": "8"
+    },
+    {
+        "question": "What is the role of the 'main' function in C?",
+        "option_1": "It is the entry point of a C program.",
+        "option_2": "It defines a class.",
+        "option_3": "It creates a loop.",
+        "option_4": "It manages memory.",
+        "answer": "It is the entry point of a C program."
+    },
+    {
+        "question": "What is the output of the following code: 'int a = 5; printf(\"%d\", a++);'?",
+        "option_1": "5",
+        "option_2": "6",
+        "option_3": "Error",
+        "option_4": "a++",
         "answer": "5"
     },
     {
-        "question": "How do you declare an array of 10 integers in C?",
-        "option_1": "int arr[10];",
-        "option_2": "int arr(10);",
-        "option_3": "int arr = [10];",
-        "option_4": "int arr<10>;",
-        "answer": "int arr[10];"
+        "question": "What is a 'null pointer' in C?",
+        "option_1": "A pointer that points to nothing.",
+        "option_2": "A pointer that points to an integer.",
+        "option_3": "A pointer that points to a string.",
+        "option_4": "A pointer that points to a function.",
+        "answer": "A pointer that points to nothing."
     },
     {
-        "question": "What is a 'struct' in C?",
-        "option_1": "A user-defined data type that groups related variables",
-        "option_2": "A built-in data type for integers",
-        "option_3": "A type of loop",
-        "option_4": "A function for memory allocation",
-        "answer": "A user-defined data type that groups related variables"
+        "question": "Which function is used to get the length of a string in C?",
+        "option_1": "strlen()",
+        "option_2": "strlength()",
+        "option_3": "length()",
+        "option_4": "getlength()",
+        "answer": "strlen()"
     },
     {
-        "question": "How do you allocate memory dynamically in C?",
-        "option_1": "Using malloc()",
-        "option_2": "Using free()",
-        "option_3": "Using sizeof()",
-        "option_4": "Using realloc()",
-        "answer": "Using malloc()"
+        "question": "What is the purpose of the 'break' statement in C?",
+        "option_1": "To exit from a loop or switch statement.",
+        "option_2": "To skip the current iteration.",
+        "option_3": "To define a function.",
+        "option_4": "To pause execution.",
+        "answer": "To exit from a loop or switch statement."
     },
     {
-        "question": "What is the purpose of the 'free()' function in C?",
-        "option_1": "To deallocate previously allocated memory",
-        "option_2": "To allocate memory",
-        "option_3": "To define a constant",
-        "option_4": "To initialize a variable",
-        "answer": "To deallocate previously allocated memory"
+        "question": "Which of the following is a correct way to declare a structure variable?",
+        "option_1": "struct Person p;",
+        "option_2": "Person p;",
+        "option_3": "struct p;",
+        "option_4": "var Person p;",
+        "answer": "struct Person p;"
     },
     {
-        "question": "What does the 'strcmp()' function do in C?",
-        "option_1": "Compares two strings",
-        "option_2": "Concatenates two strings",
-        "option_3": "Copies one string to another",
-        "option_4": "Finds the length of a string",
-        "answer": "Compares two strings"
+        "question": "Which of the following is the correct syntax for a switch statement?",
+        "option_1": "switch (expression) { case value: // code }",
+        "option_2": "switch expression { case value: // code }",
+        "option_3": "switch (expression) case value: // code",
+        "option_4": "switch { expression case value: // code }",
+        "answer": "switch (expression) { case value: // code }"
     },
     {
-        "question": "How do you handle errors in C?",
-        "option_1": "By checking return values and using perror()",
-        "option_2": "By using try-catch blocks",
-        "option_3": "By using error codes",
-        "option_4": "By using assertions",
-        "answer": "By checking return values and using perror()"
+        "question": "What does the 'return 0;' statement signify in the main function?",
+        "option_1": "The program terminated successfully.",
+        "option_2": "The program failed.",
+        "option_3": "It indicates an error.",
+        "option_4": "It restarts the program.",
+        "answer": "The program terminated successfully."
     },
     {
-        "question": "What does the 'printf' function do in C?",
-        "option_1": "Outputs text to the console",
-        "option_2": "Reads input from the console",
-        "option_3": "Allocates memory",
-        "option_4": "Defines a variable",
-        "answer": "Outputs text to the console"
+        "question": "Which of the following is used to allocate memory for an array of integers?",
+        "option_1": "malloc(sizeof(int) * n)",
+        "option_2": "new int[n]",
+        "option_3": "alloc(int, n)",
+        "option_4": "create(int, n)",
+        "answer": "malloc(sizeof(int) * n)"
     },
     {
-        "question": "How do you declare a variable in C?",
-        "option_1": "type variableName;",
-        "option_2": "variableName type;",
-        "option_3": "var type variableName;",
-        "option_4": "type var variableName;",
-        "answer": "type variableName;"
+        "question": "Which operator is used to get the remainder of a division in C?",
+        "option_1": "%",
+        "option_2": "/",
+        "option_3": "//",
+        "option_4": "^",
+        "answer": "%"
     },
     {
-        "question": "What is the purpose of the 'return' statement in C?",
-        "option_1": "To exit from a function and optionally return a value",
-        "option_2": "To create a new function",
-        "option_3": "To print a message to the console",
-        "option_4": "To define a new variable",
-        "answer": "To exit from a function and optionally return a value"
+        "question": "What does the 'continue' statement do in a loop?",
+        "option_1": "Skips the current iteration.",
+        "option_2": "Exits the loop.",
+        "option_3": "Restarts the loop.",
+        "option_4": "Pauses the loop.",
+        "answer": "Skips the current iteration."
     },
     {
-        "question": "How do you create a comment in C?",
-        "option_1": "// This is a single line comment",
-        "option_2": "/* This is a multi-line comment */",
-        "option_3": "/* This is a single line comment */",
-        "option_4": "// This is a multi-line comment",
-        "answer": "// This is a single line comment"
+        "question": "Which of the following functions is used to concatenate two strings in C?",
+        "option_1": "strcat()",
+        "option_2": "strjoin()",
+        "option_3": "concat()",
+        "option_4": "append()",
+        "answer": "strcat()"
     },
     {
-        "question": "What is the output of 'printf(\"%d\", 10 + 20);' in C?",
-        "option_1": "30",
-        "option_2": "1020",
+        "question": "Which statement correctly initializes a pointer to an integer?",
+        "option_1": "int *ptr = &var;",
+        "option_2": "int ptr = var;",
+        "option_3": "int *ptr = var;",
+        "option_4": "ptr int = &var;",
+        "answer": "int *ptr = &var;"
+    },
+    {
+        "question": "Which of the following is the correct way to define a union in C?",
+        "option_1": "union Name { int a; float b; };",
+        "option_2": "struct Name { int a; float b; };",
+        "option_3": "union Name { int a; float b; }[];",
+        "option_4": "union Name; int a; float b;",
+        "answer": "union Name { int a; float b; };"
+    },
+    {
+        "question": "What is the output of 'printf(\"%d\", 10 / 3);' in C?",
+        "option_1": "3",
+        "option_2": "3.333",
         "option_3": "Error",
-        "option_4": "10 + 20",
-        "answer": "30"
+        "option_4": "10",
+        "answer": "3"
     },
     {
-        "question": "How do you declare an array in C?",
-        "option_1": "type arrayName[size];",
-        "option_2": "arrayName[type][size];",
-        "option_3": "type arrayName[] = {values};",
-        "option_4": "arrayName[type] = {values};",
-        "answer": "type arrayName[size];"
+        "question": "Which of the following is not a valid variable name in C?",
+        "option_1": "1var",
+        "option_2": "var1",
+        "option_3": "_var",
+        "option_4": "var_1",
+        "answer": "1var"
     },
     {
-        "question": "What is the purpose of the 'scanf' function in C?",
-        "option_1": "To read formatted input from the console",
-        "option_2": "To write formatted output to the console",
-        "option_3": "To allocate memory",
-        "option_4": "To define a new variable",
-        "answer": "To read formatted input from the console"
+        "question": "Which of the following is the correct way to access a member of a structure?",
+        "option_1": "structVar.memberName",
+        "option_2": "structVar->memberName",
+        "option_3": "structVar.memberName()",
+        "option_4": "structVar::memberName",
+        "answer": "structVar.memberName"
     },
     {
-        "question": "How do you define a function in C?",
-        "option_1": "returnType functionName(parameters) { // body }",
-        "option_2": "function returnType functionName(parameters) { // body }",
-        "option_3": "functionName(parameters) { // body }",
-        "option_4": "define functionName(parameters) { // body }",
-        "answer": "returnType functionName(parameters) { // body }"
+        "question": "What is the result of the expression '5 == 5' in C?",
+        "option_1": "1 (true)",
+        "option_2": "0 (false)",
+        "option_3": "Error",
+        "option_4": "5",
+        "answer": "1 (true)"
     },
     {
-        "question": "What is the purpose of the 'malloc' function in C?",
-        "option_1": "To allocate memory dynamically",
-        "option_2": "To free allocated memory",
-        "option_3": "To print to the console",
-        "option_4": "To read from a file",
-        "answer": "To allocate memory dynamically"
+        "question": "Which function is used to copy a string in C?",
+        "option_1": "strcpy()",
+        "option_2": "copy()",
+        "option_3": "strcopy()",
+        "option_4": "clone()",
+        "answer": "strcpy()"
     },
     {
-        "question": "What is the result of '5 / 2' in C when both operands are integers?",
-        "option_1": "2",
-        "option_2": "2.5",
-        "option_3": "2.0",
+        "question": "Which statement correctly compares two integers?",
+        "option_1": "if (a == b)",
+        "option_2": "if a == b",
+        "option_3": "if (a = b)",
+        "option_4": "if (a === b)",
+        "answer": "if (a == b)"
+    },
+    {
+        "question": "Which of the following will cause a segmentation fault in C?",
+        "option_1": "Accessing an invalid memory location.",
+        "option_2": "Using a null pointer.",
+        "option_3": "Array index out of bounds.",
+        "option_4": "All of the above.",
+        "answer": "All of the above."
+    },
+    {
+        "question": "What does the 'sizeof(int)' function return?",
+        "option_1": "The number of bytes used by an integer.",
+        "option_2": "The maximum value of an integer.",
+        "option_3": "The minimum value of an integer.",
+        "option_4": "The size of a string.",
+        "answer": "The number of bytes used by an integer."
+    },
+    {
+        "question": "What is the default return value of a function in C if no return value is specified?",
+        "option_1": "Undefined behavior",
+        "option_2": "0",
+        "option_3": "NULL",
         "option_4": "Error",
-        "answer": "2"
+        "answer": "Undefined behavior"
     },
     {
-        "question": "How do you include a header file in C?",
-        "option_1": "#include <headerFile.h>",
-        "option_2": "import headerFile;",
-        "option_3": "require 'headerFile.h';",
-        "option_4": "include headerFile;",
-        "answer": "#include <headerFile.h>"
+        "question": "What is the correct syntax for declaring a function that takes two integer arguments and returns an integer?",
+        "option_1": "int functionName(int a, int b);",
+        "option_2": "function int functionName(int a, int b);",
+        "option_3": "int functionName(int a, b);",
+        "option_4": "functionName(int a, int b): int;",
+        "answer": "int functionName(int a, int b);"
     },
     {
-        "question": "What is the purpose of the 'struct' keyword in C?",
-        "option_1": "To define a structure or user-defined data type",
-        "option_2": "To declare a new variable",
-        "option_3": "To create a function",
-        "option_4": "To allocate memory",
-        "answer": "To define a structure or user-defined data type"
+        "question": "Which of the following is a valid way to use the 'return' statement?",
+        "option_1": "return 0;",
+        "option_2": "return;",
+        "option_3": "return (a + b);",
+        "option_4": "All of the above.",
+        "answer": "All of the above."
     },
     {
-        "question": "How do you access a member of a struct in C?",
-        "option_1": "using the dot operator (.)",
-        "option_2": "using the arrow operator (->)",
-        "option_3": "using the square brackets ([]))",
-        "option_4": "using the asterisk (*)",
-        "answer": "using the dot operator (.)"
+        "question": "Which library function is used to convert a string to an integer?",
+        "option_1": "atoi()",
+        "option_2": "strtol()",
+        "option_3": "convert()",
+        "option_4": "stringToInt()",
+        "answer": "atoi()"
     },
     {
-        "question": "What does the 'sizeof' operator do in C?",
-        "option_1": "Returns the size of a variable or data type in bytes",
-        "option_2": "Returns the length of an array",
-        "option_3": "Defines a new data type",
-        "option_4": "Allocates memory dynamically",
-        "answer": "Returns the size of a variable or data type in bytes"
+        "question": "What is the result of '5 & 3' in C?",
+        "option_1": "1",
+        "option_2": "3",
+        "option_3": "5",
+        "option_4": "7",
+        "answer": "1"
     },
     {
-        "question": "What is a pointer in C?",
-        "option_1": "A variable that stores the address of another variable",
-        "option_2": "A type of variable that holds multiple values",
-        "option_3": "A constant value",
-        "option_4": "A function that returns a value",
-        "answer": "A variable that stores the address of another variable"
+        "question": "Which of the following is not a valid control structure in C?",
+        "option_1": "if-else",
+        "option_2": "for loop",
+        "option_3": "switch-case",
+        "option_4": "case-switch",
+        "answer": "case-switch"
+    },
+    {
+        "question": "Which keyword is used to define a generic type in C?",
+        "option_1": "void",
+        "option_2": "generic",
+        "option_3": "type",
+        "option_4": "any",
+        "answer": "void"
+    },
+    {
+        "question": "What is the maximum size of an array in C?",
+        "option_1": "Depends on the system's memory.",
+        "option_2": "Depends on the data type.",
+        "option_3": "1024 elements.",
+        "option_4": "No limit.",
+        "answer": "Depends on the system's memory."
+    },
+    {
+        "question": "Which of the following is the correct syntax for a do-while loop?",
+        "option_1": "do { // code } while (condition);",
+        "option_2": "do while (condition) { // code };",
+        "option_3": "while (condition) { // code } do;",
+        "option_4": "do { // code } until (condition);",
+        "answer": "do { // code } while (condition);"
+    },
+    {
+        "question": "What is the output of 'printf(\"%d\", 4 * 5);' in C?",
+        "option_1": "20",
+        "option_2": "45",
+        "option_3": "Error",
+        "option_4": "4 * 5",
+        "answer": "20"
+    },
+    {
+        "question": "Which of the following data types can hold decimal values in C?",
+        "option_1": "float",
+        "option_2": "int",
+        "option_3": "char",
+        "option_4": "double",
+        "answer": "float"
+    },
+    {
+        "question": "Which keyword is used to declare a macro in C?",
+        "option_1": "#define",
+        "option_2": "macro",
+        "option_3": "const",
+        "option_4": "define",
+        "answer": "#define"
+    },
+    {
+        "question": "What is the purpose of the 'volatile' keyword in C?",
+        "option_1": "To prevent compiler optimization on a variable.",
+        "option_2": "To declare a constant.",
+        "option_3": "To define a function.",
+        "option_4": "To allocate memory.",
+        "answer": "To prevent compiler optimization on a variable."
+    },
+    {
+        "question": "Which of the following is a standard library in C for mathematical operations?",
+        "option_1": "<math.h>",
+        "option_2": "<stdlib.h>",
+        "option_3": "<string.h>",
+        "option_4": "<stdio.h>",
+        "answer": "<math.h>"
+    },
+    {
+        "question": "What is the purpose of the 'extern' keyword in C?",
+        "option_1": "To declare a variable that is defined elsewhere.",
+        "option_2": "To define a constant.",
+        "option_3": "To declare a function.",
+        "option_4": "To create a macro.",
+        "answer": "To declare a variable that is defined elsewhere."
+    },
+    {
+        "question": "What does the 'break' statement do in a switch statement?",
+        "option_1": "Exits the switch statement.",
+        "option_2": "Continues to the next case.",
+        "option_3": "Pauses execution.",
+        "option_4": "Skips the next case.",
+        "answer": "Exits the switch statement."
+    },
+    {
+        "question": "Which of the following is a correct way to declare a function pointer in C?",
+        "option_1": "int (*funcPtr)(int, int);",
+        "option_2": "int funcPtr(int, int);",
+        "option_3": "int funcPtr[];",
+        "option_4": "int *funcPtr();",
+        "answer": "int (*funcPtr)(int, int);"
+    },
+    {
+        "question": "What is the correct way to include a library in C?",
+        "option_1": "#include <library.h>",
+        "option_2": "include <library.h>",
+        "option_3": "import library.h",
+        "option_4": "using library.h",
+        "answer": "#include <library.h>"
+    },
+    {
+        "question": "What does 'NULL' represent in C?",
+        "option_1": "A null pointer.",
+        "option_2": "An undefined variable.",
+        "option_3": "An empty string.",
+        "option_4": "A boolean value.",
+        "answer": "A null pointer."
+    },
+    {
+        "question": "Which of the following is used to handle exceptions in C?",
+        "option_1": "C does not support exceptions.",
+        "option_2": "try-catch blocks",
+        "option_3": "throw statements",
+        "option_4": "error codes",
+        "answer": "C does not support exceptions."
+    },
+    {
+        "question": "What is the purpose of the 'static' keyword in C?",
+        "option_1": "To restrict the scope of a variable to the file.",
+        "option_2": "To create a constant.",
+        "option_3": "To define a function.",
+        "option_4": "To allocate memory.",
+        "answer": "To restrict the scope of a variable to the file."
+    },
+    {
+        "question": "Which of the following can be used to iterate over elements of an array in C?",
+        "option_1": "for loop",
+        "option_2": "while loop",
+        "option_3": "do-while loop",
+        "option_4": "All of the above.",
+        "answer": "All of the above."
+    },
+    {
+        "question": "Which of the following is a correct way to define a recursive function in C?",
+        "option_1": "functionName() { functionName(); }",
+        "option_2": "void functionName() { functionName(); }",
+        "option_3": "int functionName() { return functionName(); }",
+        "option_4": "functionName() { return functionName; }",
+        "answer": "void functionName() { functionName(); }"
+    },
+    {
+        "question": "What is the output of 'printf(\"%d\", 10 % 3);' in C?",
+        "option_1": "1",
+        "option_2": "3",
+        "option_3": "Error",
+        "option_4": "10",
+        "answer": "1"
+    },
+    {
+        "question": "Which of the following is not a valid pointer type in C?",
+        "option_1": "int*",
+        "option_2": "char*",
+        "option_3": "void*",
+        "option_4": "string*",
+        "answer": "string*"
+    },
+    {
+        "question": "What is the effect of the 'const' keyword in C?",
+        "option_1": "It makes a variable read-only.",
+        "option_2": "It allows a variable to change.",
+        "option_3": "It defines a constant value.",
+        "option_4": "It creates a macro.",
+        "answer": "It makes a variable read-only."
+    },
+    {
+        "question": "Which of the following statements is true about local variables in C?",
+        "option_1": "They are only accessible within the function where they are defined.",
+        "option_2": "They retain their value between function calls.",
+        "option_3": "They are accessible throughout the program.",
+        "option_4": "They are initialized to zero by default.",
+        "answer": "They are only accessible within the function where they are defined."
+    },
+    {
+        "question": "Which of the following is the correct way to free allocated memory in C?",
+        "option_1": "free(pointer);",
+        "option_2": "delete pointer;",
+        "option_3": "deallocate(pointer);",
+        "option_4": "remove(pointer);",
+        "answer": "free(pointer);"
     }
 ]

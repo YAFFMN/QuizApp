@@ -1,175 +1,344 @@
-body{
-    background-color: var(--background-color) ;
+body {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif, monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif, monospace;
 }
-:root{
-    --background-color:rgb(1, 43, 77);
-    --main-color: rgb(2, 98, 153);
-    --btnColor: rgba(0, 35, 72, 0.822);
-    --quebackground: rgb(195, 226, 253);
+:root {
+  --background-color: rgb(1, 43, 77);
+  --main-color: rgb(2, 98, 153);
+  --btnColor: rgba(0, 35, 72, 0.822);
+  --quebackground: rgb(195, 226, 253);
 }
-.container{
-    height: 500px;
-    width: 700px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-color: var(--main-color);
-    transform: translate(50%,20%);
+
+.container {
+  height: 600px;
+  width: 800px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--main-color);
+  transform: translateY(3.5%);
 }
-.container h1{
-    font-family: serif;
-    font-size: 50px;
-    color: #ffffff;
+.container h1 {
+  font-family: serif;
+  font-size: 50px;
+  color: #fff;
 }
-#myForm{
-    padding: 20px;
-    margin: 10px;
+#myForm {
+  padding: 20px;
+  margin: 10px;
 }
-#username{
-    background-color: #eff1fa;
-    border: 0px;
-    border-radius: 5px;
-    height: 25px;
-    width: 200px;
-    margin-right: 3px;
-    padding-left: 7px;
+#username {
+  background-color: #eff1fa;
+  border: 0px;
+  border-radius: 5px;
+  height: 25px;
+  width: 200px;
+  margin-right: 3px;
+  padding-left: 7px;
 }
-.STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED{
-    background-color: #d1d7f3;
-    font-weight: bold;
-    font-size: 17px;
-    font-family: serif;
-    color: #152864;
-    border: 0px;
-    height: 100px;
-    width: 100px;
-    border-radius: 3px;
-    margin-bottom: 7px;
-    margin-left: 5px;
+.STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED {
+  background-color: #d1d7f3;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: serif;
+  color: #152864;
+  border: 0px;
+  height: 100px;
+  width: 100px;
+  border-radius: 3px;
+  margin-bottom: 7px;
+  margin-left: 5px;
 }
-.STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED img{
-    width: 65px; 
-    height: 80px;
+.STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED
+  img {
+  width: 65px;
+  height: 80px;
 }
-.choosen-quiz h2{
-    font-family: system-ui;
-    color: #002442;
-    font-size: 30px;
-    margin-bottom: 20px;
+.choosen-quiz h2 {
+  font-family: system-ui;
+  color: #002442;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
-.choosen-quiz{
-    padding: 20px;
-    margin: 10px;
-    animation: choqu;
-    animation-duration: 1s;
-    opacity:1 ;
+.choosen-quiz {
+  padding: 20px;
+  margin: 10px;
+  animation: choqu;
+  animation-duration: 1s;
+  opacity: 1;
 }
 @keyframes choqu {
-    0%{opacity: 0;}
-    100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-.quiz-app .question_area{
-    font-size: 25px;
-    color: #00283e;
-    padding: 15px 7px;
-    width: 100%;
-    background-image: linear-gradient(to top , rgb(113, 191, 236) , rgb(2, 98, 153) ); 
+.quiz-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.quiz-app .answers_area{
-    padding: 20px 15px;
-    font-size: 20px;
-    width: 100%;
-    background-image: linear-gradient(to bottom , rgb(113, 191, 236) 50% , rgb(2, 98, 153) ); 
-    text-align: left;
+.quiz-app .question_area {
+  font-size: 25px;
+  color: #00283e;
+  padding: 15px 7px;
+  width: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgb(113, 191, 236),
+    rgb(2, 98, 153)
+  );
 }
-.submit-button{
-    transform: translate(250%, -150%);
+.quiz-app .answers_area {
+  padding: 40px;
+  font-size: 20px;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(113, 191, 236) 50%,
+    rgb(2, 98, 153)
+  );
+  text-align: left;
 }
-.quiz-app .bullets{
-    display: flex;
-    padding: 20px;
-    font-size: 20px;
-    border-radius: 3px;
-    background-color: #0a334b;
-    color: rgb(224, 40, 40);
+.quiz-app .answers_area .answer {
+  padding: 10px 0;
 }
-.quiz-app .bullets .spans{
-    flex: 1;
-    display: flex;
+.answer input {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
 }
-.quiz-app .bullets .spans span{
-    width: 20px;
-    height: 20px;
-    background-color: #ddd;
-    margin-right: 5px;
-    border-radius: 50%;
+.answer input[type="radio"]:checked + label {
+  color: #152864;
 }
-.quiz-app .bullets .spans span.on{
-    background-color: rgb(6, 150, 102);
+.answer label {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: -1px;
 }
-.quiz-app .results span{
-    font-weight: bold;
+.submit-button {
+  transform: translate(250%, -150%);
+  font-size: 17px;
+  background-color: var(--btnColor);
+  color: #d1d7f3;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 30px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
 }
-.quiz-app .results span.perfect{
-    color: rgb(32, 32, 177);
+.quiz-app .bullets {
+  display: flex;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 3px;
+  background-color: #0a334b;
+  color: rgb(224, 40, 40);
 }
-.quiz-app .results span.good{
-    color: green;
+.quiz-app .bullets .spans {
+  flex: 1;
+  display: flex;
 }
-.quiz-app .results span.bad{
-    color: red;
+.quiz-app .bullets .spans span {
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.quiz-app .bullets .spans span.on {
+  background-color: rgb(6, 150, 102);
+}
+.quiz-app .results span {
+  font-weight: bold;
+}
+.quiz-app .results span.perfect {
+  color: rgb(32, 32, 177);
+}
+.quiz-app .results span.good {
+  color: green;
+}
+.quiz-app .results span.bad {
+  color: red;
 }
 
-.quiz-app .results{
-    font-family:monospace;
-    font-size: 25px;
+.quiz-app .results {
+  font-family: monospace;
+  font-size: 25px;
 }
-#submitBtn, .submit-button{
-    background-color: var(--btnColor);
-    color: #d1d7f3;
-    border: 0px;
-    border-radius: 5px;
-    font-size: 14px;
-    margin-top: 5px;
-    height: 30px;
-    width: 100px;
-    text-align: center;
-    cursor: pointer;
-}
-.quiz-app{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+#submitBtn {
+  background-color: var(--btnColor);
+  color: #d1d7f3;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
 }
 
-.question-info{
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(222, 192, 111);
-    width: 500px;
-    padding: 5px;
-    margin: 20px 0px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.question-info {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(222, 192, 111);
+  width: 500px;
+  padding: 5px;
+  margin: 20px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .question-info .category,
-.question-info .count{
-    padding-bottom: 5px;
-    font-family: Verdana ;
+.question-info .count {
+  padding-bottom: 5px;
+  font-family: Verdana;
 }
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
-
-
+/* Media Screen */
+@media (max-width: 800px) {
+  .container {
+    width: 600px;
+    height: 500px;
+  }
+  .container h1 {
+    font-size: 40px;
+  }
+  #myForm {
+    padding: 15px;
+    margin: 7px;
+  }
+  #submitBtn {
+    width: 80px;
+  }
+  .STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED {
+    height: 50px;
+    width: 50px;
+  }
+  .STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED
+    img {
+    width: 41px;
+    height: 50px;
+  }
+  .choosen-quiz h2 {
+    font-size: 30px;
+  }
+  .question-info {
+    font-size: 18px;
+    margin: 5px;
+  }
+  .quiz-app .question_area {
+    padding: 5px;
+  }
+  .question_area h4 {
+    font-size: 19px;
+  }
+  .quiz-app .answers_area {
+    padding: 0px;
+  }
+  .quiz-app .answers_area .answer {
+    padding: 0px;
+  }
+  .answer input {
+    width: 13px;
+    height: 13px;
+  }
+  .answer label {
+    font-size: 13px;
+  }
+  
+  .quiz-app .bullets .spans span {
+    width: 20px;
+    height: 20px;
+  }
+  .submit-button {
+    transform: translate(0);
+    width: 90px;
+    font-size: 15px;
+  }
+}
+@media (max-width:500px){
+    .container {
+        width: 300px;
+        height: 400px;
+      }
+      .container h1 {
+        font-size: 30px;
+      }
+      #myForm {
+        padding: 10px;
+        margin: 5px;
+      }
+      #submitBtn {
+        width: 80px;
+      }
+      .STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED {
+        height: 50px;
+        width: 50px;
+      }
+      .STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED
+        img {
+        width: 41px;
+        height: 50px;
+      }
+      .choosen-quiz h2 {
+        font-size: 25px;
+      }
+      .question-info {
+        font-size: 14px;
+        margin: 5px;
+      }
+      .quiz-app .question_area {
+        padding: 5px;
+      }
+      .question_area h4 {
+        font-size: 16px;
+      }
+      .quiz-app .answers_area {
+        padding: 0px;
+      }
+      .quiz-app .answers_area .answer {
+        padding: 0px;
+      }
+      .answer input {
+        width: 13px;
+        height: 13px;
+      }
+      .answer label {
+        font-size: 13px;
+      }
+      .quiz-app .bullets .spans {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+      }
+      .quiz-app .bullets .spans span {
+        width: 15px;
+        height: 15px;
+      }
+      .submit-button {
+        transform: translate(0);
+        width: 83px;
+        font-size: 12px;
+      }
+}
