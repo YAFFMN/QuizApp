@@ -34,16 +34,23 @@ body {
   color: #fff;
 }
 #myForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
   margin: 10px;
 }
-#username {
+
+#username,
+#email {
   background-color: #eff1fa;
   border: 0px;
   border-radius: 5px;
   height: 25px;
-  width: 200px;
+  width: 250px;
   margin-right: 3px;
+  margin-top: 5px;
   padding-left: 7px;
 }
 .STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED {
@@ -58,11 +65,17 @@ body {
   border-radius: 3px;
   margin-bottom: 7px;
   margin-left: 5px;
+  transition: 0.5s ease;
 }
 .STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED
   img {
   width: 65px;
   height: 80px;
+  cursor: pointer;
+}
+.STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED:hover{
+  height: 110px;
+  width: 110px;
 }
 .choosen-quiz h2 {
   font-family: system-ui;
@@ -93,25 +106,16 @@ body {
 }
 .quiz-app .question_area {
   font-size: 25px;
-  color: #00283e;
+  color: #152864 ;
   padding: 15px 7px;
   width: 100%;
-  background-image: linear-gradient(
-    to top,
-    rgb(113, 191, 236),
-    rgb(2, 98, 153)
-  );
 }
 .quiz-app .answers_area {
   padding: 40px;
   font-size: 20px;
   width: 100%;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(113, 191, 236) 50%,
-    rgb(2, 98, 153)
-  );
   text-align: left;
+  color: white;
 }
 .quiz-app .answers_area .answer {
   padding: 10px 0;
@@ -121,8 +125,12 @@ body {
   width: 20px;
   height: 20px;
 }
+.answer input[type="radio"]:checked{
+  accent-color: #000a29;
+}
 .answer input[type="radio"]:checked + label {
-  color: #152864;
+  color: #000a29;
+
 }
 .answer label {
   cursor: pointer;
@@ -199,7 +207,7 @@ body {
 .question-info {
   font-size: 20px;
   font-weight: bold;
-  color: rgb(222, 192, 111);
+  color: goldenrod;
   width: 500px;
   padding: 5px;
   margin: 20px 0px 0px;
@@ -213,9 +221,7 @@ body {
   padding-bottom: 5px;
   font-family: Verdana;
 }
-.hide {
-  display: none;
-}
+
 /* Media Screen */
 @media (max-width: 800px) {
   .container {
@@ -267,7 +273,7 @@ body {
   .answer label {
     font-size: 13px;
   }
-  
+
   .quiz-app .bullets .spans span {
     width: 20px;
     height: 20px;
@@ -278,67 +284,70 @@ body {
     font-size: 15px;
   }
 }
-@media (max-width:500px){
-    .container {
-        width: 300px;
-        height: 400px;
-      }
-      .container h1 {
-        font-size: 30px;
-      }
-      #myForm {
-        padding: 10px;
-        margin: 5px;
-      }
-      #submitBtn {
-        width: 80px;
-      }
-      .STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED {
-        height: 50px;
-        width: 50px;
-      }
-      .STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED
-        img {
-        width: 41px;
-        height: 50px;
-      }
-      .choosen-quiz h2 {
-        font-size: 25px;
-      }
-      .question-info {
-        font-size: 14px;
-        margin: 5px;
-      }
-      .quiz-app .question_area {
-        padding: 5px;
-      }
-      .question_area h4 {
-        font-size: 16px;
-      }
-      .quiz-app .answers_area {
-        padding: 0px;
-      }
-      .quiz-app .answers_area .answer {
-        padding: 0px;
-      }
-      .answer input {
-        width: 13px;
-        height: 13px;
-      }
-      .answer label {
-        font-size: 13px;
-      }
-      .quiz-app .bullets .spans {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-      }
-      .quiz-app .bullets .spans span {
-        width: 15px;
-        height: 15px;
-      }
-      .submit-button {
-        transform: translate(0);
-        width: 83px;
-        font-size: 12px;
-      }
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+    height: 400px;
+  }
+  .container h1 {
+    font-size: 30px;
+  }
+  #myForm {
+    padding: 10px;
+    margin: 5px;
+  }
+  #submitBtn {
+    width: 80px;
+  }
+  .STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED {
+    height: 50px;
+    width: 50px;
+  }
+  .STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED
+    img {
+    width: 41px;
+    height: 50px;
+  }
+  .choosen-quiz h2 {
+    font-size: 25px;
+  }
+  .question-info {
+    font-size: 14px;
+    margin: 5px;
+  }
+  .quiz-app .question_area {
+    padding: 5px;
+  }
+  .question_area h4 {
+    font-size: 16px;
+  }
+  .quiz-app .answers_area {
+    padding: 0px;
+  }
+  .quiz-app .answers_area .answer {
+    padding: 0px;
+  }
+  .answer input {
+    width: 13px;
+    height: 13px;
+  }
+  .answer label {
+    font-size: 13px;
+  }
+  .quiz-app .bullets .spans {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .quiz-app .bullets .spans span {
+    width: 15px;
+    height: 15px;
+  }
+  .submit-button {
+    transform: translate(0);
+    width: 83px;
+    font-size: 12px;
+  }
+}
+.hide {
+  display: none;
 }

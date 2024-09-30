@@ -1,5 +1,6 @@
 //constants & variables
 let username;
+let email;
 const submitBtn = document.getElementById("submitBtn");
 const myform = document.getElementById("myForm");
 const chquiz = document.querySelector(".choosen-quiz");
@@ -21,11 +22,12 @@ let countDownInterval;
 //first form
 submitBtn.addEventListener("click", () => {
   username = document.getElementById("username").value;
-  if (!/[A-Za-z]/gi.test(username)) {
+  email = document.getElementById("email").value;
+  if (!/[A-Za-z]/gi.test(username && email) ) {
     alert("Please enter your username");
   } else {
     chquiz.classList.remove(`hide`);
-    myform.classList.add(`hide`);
+    myform.style.display = "none";
   }
 });
 [
@@ -79,6 +81,7 @@ submitBtn.addEventListener("click", () => {
           handleBullets();
           // Show results
           showResults(questionCount);
+
         };
       }
     };
@@ -88,6 +91,16 @@ submitBtn.addEventListener("click", () => {
     quiz_app.classList.remove("hide");
   });
   ////////////////////
+
+
+  function preLoad(){
+    window.addEventListener("beforeunload", function (e) {
+      e.preventDefault();
+      e.returnValue = '';
+      return confirm("The Data Will not be saved");
+    })
+  }
+  preLoad();
 
   function createBullets(num) {
     countSpan.innerHTML = num;
@@ -228,3 +241,4 @@ submitBtn.addEventListener("click", () => {
     }
   }
 });
+
