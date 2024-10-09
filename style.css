@@ -1,31 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Varela Round", sans-serif;
+    scroll-behavior: smooth;
+}
+:root{
+    --primary-color:  hsl(229, 82%, 50%);
+    --secondary-color: #18bce9;
+    --bg-color : #0E1636;
+    --sec-bg-color: #0d1220;
+    --text-color: #fff;
+}
+
 body {
-  background-color: var(--background-color);
+  background-color: var(--bg-color);
+  background-image: url(Img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif, monospace;
-}
-:root {
-  --background-color: rgb(1, 43, 77);
-  --main-color: rgb(2, 98, 153);
-  --btnColor: rgba(0, 35, 72, 0.822);
-  --quebackground: rgb(195, 226, 253);
-}
-
 .container {
   height: 600px;
   width: 800px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: var(--main-color);
+  background-color: var(--sec-bg-color);
   transform: translateY(3.5%);
 }
 .container h1 {
@@ -33,26 +41,55 @@ body {
   font-size: 50px;
   color: #fff;
 }
-#myForm {
+.heading{
+  display: flex;
+  justify-content: space-evenly;
+}
+.heading img{
+  position: relative;
+  bottom: 1px;
+  width: 70px;
+}
+.form-box{
+  background-color: var(--sec-bg-color);
+  width: 400px;
+  height: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 20px;
-  margin: 10px;
+  justify-content: center;
+  border-radius: 10px;
+  transition: 1s ease;
+
+}
+.form-box .input-box{
+  position: relative;
+  margin: 30px 0px;
+  width: 310px;
+  border-bottom: 2px #fff solid;
+}
+.form-box .input-box input{
+  width: 100%;
+  height: 45px;
+  background-color: transparent;
+  padding: 0px 20px 0px 5;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+}
+input::placeholder{
+  color: #fff;
+}
+.input-box i{
+  position: absolute;
+  color: #fff;
+  right: 0;
+  top: 13px;
 }
 
-#username,
-#email {
-  background-color: #eff1fa;
-  border: 0px;
-  border-radius: 5px;
-  height: 25px;
-  width: 250px;
-  margin-right: 3px;
-  margin-top: 5px;
-  padding-left: 7px;
-}
+
+
 .STARTEXAMELEMENTVERYSECRETCLASSTHATNOONECANACCESORPREDICTCAUSEITISSOHARDTOBEPREDICTED {
   background-color: #d1d7f3;
   font-weight: bold;
@@ -79,7 +116,7 @@ body {
 }
 .choosen-quiz h2 {
   font-family: system-ui;
-  color: #002442;
+  color: var(--text-color);
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -106,7 +143,7 @@ body {
 }
 .quiz-app .question_area {
   font-size: 25px;
-  color: #152864 ;
+  color: var(--text-color) ;
   padding: 15px 7px;
   width: 100%;
 }
@@ -126,10 +163,10 @@ body {
   height: 20px;
 }
 .answer input[type="radio"]:checked{
-  accent-color: #000a29;
+  accent-color: var(--secondary-color);
 }
 .answer input[type="radio"]:checked + label {
-  color: #000a29;
+  color: var(--secondary-color);
 
 }
 .answer label {
@@ -142,13 +179,13 @@ body {
 .submit-button {
   transform: translate(250%, -150%);
   font-size: 17px;
-  background-color: var(--btnColor);
+  background-color: var(--primary-color);
   color: #d1d7f3;
   border: 0px;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 5px;
-  height: 30px;
-  width: 120px;
+  height: 40px;
+  width: 130px;
   text-align: center;
   cursor: pointer;
 }
@@ -192,10 +229,10 @@ body {
   font-size: 25px;
 }
 #submitBtn {
-  background-color: var(--btnColor);
+  background-color: var(--primary-color);
   color: #d1d7f3;
   border: 0px;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 14px;
   margin-top: 5px;
   height: 30px;
